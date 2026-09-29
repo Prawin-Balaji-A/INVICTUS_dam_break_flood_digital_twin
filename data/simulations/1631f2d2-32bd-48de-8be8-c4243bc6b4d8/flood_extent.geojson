@@ -1,0 +1,41 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "flood_perimeter",
+      "properties": {
+        "total_area_sqkm": 0.0,
+        "peak_flood_depth_m": 87.0,
+        "peak_flow_velocity_ms": 15.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              70.82072222222222,
+              22.720777777777776
+            ],
+            [
+              70.82072222222222,
+              22.775222222222222
+            ],
+            [
+              70.94927777777778,
+              22.775222222222222
+            ],
+            [
+              70.94927777777778,
+              22.720777777777776
+            ],
+            [
+              70.82072222222222,
+              22.720777777777776
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "f2d24b31-6792-40be-b365-549bd0a287f0",
+  "name": "Scenario 01 \u2014 Overtopping Failure (Froehlich 2008)",
+  "breach_type": "Overtopping",
+  "breach_width_m": 347.56,
+  "breach_depth_m": 165.0,
+  "breach_time_sec": 7843.1,
+  "reservoir_level_m": 165.0,
+  "reservoir_volume_m3": 1996000000.0
+}

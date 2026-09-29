@@ -1,0 +1,10 @@
+{
+  "id": "a7b674c0-226e-43ae-aeba-430e2fde70ce",
+  "name": "Scenario 03 \u2014 Full Breach (Von Thun 1990)",
+  "breach_type": "Overtopping",
+  "breach_width_m": 208.78,
+  "breach_depth_m": 65.23,
+  "breach_time_sec": 3992.1,
+  "reservoir_level_m": 65.23,
+  "reservoir_volume_m3": 2644000000.0
+}

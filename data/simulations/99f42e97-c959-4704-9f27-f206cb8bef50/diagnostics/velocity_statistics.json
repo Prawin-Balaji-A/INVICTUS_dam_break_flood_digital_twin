@@ -1,0 +1,17 @@
+{
+  "min_velocity_ms": 0.47,
+  "mean_velocity_ms": 7.43,
+  "p50_velocity_ms": 7.65,
+  "p90_velocity_ms": 8.89,
+  "p95_velocity_ms": 9.11,
+  "p99_velocity_ms": 9.28,
+  "max_velocity_ms": 9.28,
+  "histogram": {
+    "0-2": 11,
+    "2-4": 148,
+    "4-6": 390,
+    "6-8": 2264,
+    "8-10": 1630,
+    ">10": 0
+  }
+}

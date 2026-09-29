@@ -1,0 +1,6 @@
+{
+  "dem_path": "data/tehri/dem/processed/tehri_dem_30m.tif",
+  "buildings_path": "data/tehri/buildings/tehri_buildings.geojson",
+  "roads_path": "data/tehri/roads/tehri_roads.geojson",
+  "satellite_path": null
+}

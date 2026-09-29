@@ -1,0 +1,110 @@
+{
+  "timestamp": "2026-09-26T05:44:24.864884+00:00",
+  "project": "tehri",
+  "scenario_id": "tehri_baseline_breach",
+  "solver": "2D Manning kinematic/diffusion-wave approximation",
+  "sph_status": "NOT YET COUPLED",
+  "delft3d_status": "EXPORTER ONLY",
+  "dam_config": {
+    "dam_id": "tehri",
+    "scenario_id": "tehri_baseline_breach",
+    "dam_lat": 30.3783,
+    "dam_lon": 78.48,
+    "initial_water_level_m": 830.0,
+    "river_bed_elevation_m": 579.0,
+    "breach_depth_m": 260.5,
+    "breach_bottom_width_m": 335.0,
+    "breach_side_slope_z": 1.0,
+    "breach_formation_time_sec": 3960,
+    "simulation_duration_sec": 28800,
+    "manning_n_channel": 0.045,
+    "manning_n_floodplain": 0.06,
+    "inundation_threshold_m": 0.15
+  },
+  "mass_conservation": {
+    "initial_volume_mcm": 600.0,
+    "final_volume_mcm": 0.0,
+    "released_volume_mcm": 600.0,
+    "discharge_integral_mcm": 599.999999,
+    "numerical_discrepancy_m3": -1.2,
+    "mass_balance_error_pct": 2e-07,
+    "peak_discharge_m3s": 1089996.8,
+    "time_to_peak_min": 39.0,
+    "mass_conservation_pass": true
+  },
+  "hydraulic_summary": {
+    "peak_depth_m": 282.43,
+    "peak_velocity_ms": 201.54,
+    "inundated_area_sqkm": 3.32,
+    "inundated_cells": 4026,
+    "river_stations": 355,
+    "reach_km": 10.68,
+    "upstream_elev_m": 814.0,
+    "downstream_elev_m": 605.5,
+    "mean_slope_m_per_km": 19.6328,
+    "runtime_sec": 0.46
+  },
+  "gis_files": {
+    "maximum_depth": "E:\\dam\\data\\tehri\\simulations\\baseline_breach\\maximum_depth.tif",
+    "maximum_velocity": "E:\\dam\\data\\tehri\\simulations\\baseline_breach\\maximum_velocity.tif",
+    "arrival_time": "E:\\dam\\data\\tehri\\simulations\\baseline_breach\\arrival_time.tif",
+    "inundation_mask": "E:\\dam\\data\\tehri\\simulations\\baseline_breach\\inundation_mask.tif",
+    "flood_extent_geojson": "E:\\dam\\data\\tehri\\simulations\\baseline_breach\\flood_extent.geojson",
+    "flood_extent_kml": "E:\\dam\\data\\tehri\\simulations\\baseline_breach\\flood_extent.kml",
+    "flood_extent_shp": "E:\\dam\\data\\tehri\\simulations\\baseline_breach\\flood_extent.shp"
+  },
+  "sensitivity": [
+    {
+      "dt_sec": 60.0,
+      "peak_discharge_m3s": 1089996.8,
+      "time_to_peak_min": 39.0,
+      "released_volume_mcm": 600.0,
+      "mass_balance_error_pct": 2e-07,
+      "maximum_depth_m": 282.43,
+      "maximum_velocity_ms": 201.54,
+      "inundated_area_sqkm": 3.32
+    },
+    {
+      "dt_sec": 30.0,
+      "peak_discharge_m3s": 1129382.8,
+      "time_to_peak_min": 39.5,
+      "released_volume_mcm": 600.0,
+      "mass_balance_error_pct": 0.0,
+      "maximum_depth_m": 282.43,
+      "maximum_velocity_ms": 201.27,
+      "inundated_area_sqkm": 3.32
+    },
+    {
+      "dt_sec": 15.0,
+      "peak_discharge_m3s": 1127451.8,
+      "time_to_peak_min": 39.5,
+      "released_volume_mcm": 600.0,
+      "mass_balance_error_pct": 8e-08,
+      "maximum_depth_m": 282.43,
+      "maximum_velocity_ms": 202.44,
+      "inundated_area_sqkm": 3.32
+    }
+  ],
+  "reproducibility": {
+    "run1": {
+      "inundated_area_sqkm": 3.32,
+      "peak_depth_m": 282.43,
+      "peak_velocity_ms": 201.54,
+      "inundation_mask_md5": "9f4f9718d093c3b430a7ce26d5e5ed77"
+    },
+    "run2": {
+      "inundated_area_sqkm": 3.32,
+      "peak_depth_m": 282.43,
+      "peak_velocity_ms": 201.54,
+      "inundation_mask_md5": "9f4f9718d093c3b430a7ce26d5e5ed77"
+    },
+    "mask_bit_exact": true,
+    "area_diff_km2": 0.0,
+    "depth_diff_m": 0.0
+  },
+  "inputs": {
+    "dem": "E:\\dam\\data\\tehri\\dem\\processed\\tehri_dem_30m.tif",
+    "river": "E:\\dam\\data\\tehri\\river\\bhagirathi_river.geojson",
+    "scenario": "E:\\dam\\data\\tehri\\scenarios\\baseline_breach.json"
+  }
+}

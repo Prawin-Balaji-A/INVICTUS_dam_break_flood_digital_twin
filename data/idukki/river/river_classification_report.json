@@ -1,0 +1,25 @@
+{
+  "total_waterway_features": 4734,
+  "classification": {
+    "main_stem_segments": 18,
+    "tributaries_and_streams": 4706,
+    "canals_and_artificial": 10
+  },
+  "main_stem_analysis": {
+    "total_channel_length_km": 81.25,
+    "straight_line_distance_dam_to_outlet_km": 46.29,
+    "upstream_point": [
+      77.0334,
+      9.7854
+    ],
+    "downstream_outlet_point": [
+      76.6637,
+      10.1381
+    ],
+    "outlet_location": "Neriamangalam / Lower Periyar reach",
+    "graph_components": 7,
+    "continuity_assessment": "Continuous downstream river valley corridor traversing through gorge towards Neriamangalam",
+    "distance_to_idukki_arch_dam_m": 428.8,
+    "distance_to_cheruthoni_spillway_m": 677.4
+  }
+}

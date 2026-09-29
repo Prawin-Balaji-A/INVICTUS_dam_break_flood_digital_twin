@@ -1,0 +1,58 @@
+2026-09-26 16:09:54,445 [INFO] ======================================================================
+2026-09-26 16:09:54,445 [INFO] TEHRI DAM — PHASE 1: AUTOMATED GEOGRAPHIC DATA ACQUISITION
+2026-09-26 16:09:54,445 [INFO] ======================================================================
+2026-09-26 16:09:59,854 [INFO] Geocoding 'Tehri Dam, Uttarakhand, India' via Nominatim ...
+2026-09-26 16:10:00,771 [INFO] Geocoded result: Tehri Dam, Alum, Bhagirathipuram, Tehri, Tehri Garhwal, Uttarakhand, India -> lat=30.3761751, lon=78.4803102
+2026-09-26 16:10:00,771 [INFO] This coordinate MUST be visually cross-checked against the preview map in Phase 2 before it is trusted.
+2026-09-26 16:10:00,773 [INFO] Local projected CRS selected: EPSG:32644 (UTM zone, auto-derived from dam longitude)
+2026-09-26 16:10:00,774 [INFO] AOI bounding box (lat/lon): south=30.28574 west=78.37619 north=30.46661 east=78.58444
+2026-09-26 16:10:00,774 [INFO] ----------------------------------------------------------------------
+2026-09-26 16:10:00,774 [INFO] Acquiring DEM (SRTM via AWS open data) ...
+2026-09-26 16:10:00,774 [INFO] Required SRTM tiles for AOI: [(30, 78)]
+2026-09-26 16:10:00,774 [INFO] Using cached DEM tile: tehri_data\raw\dem\N30E078.hgt
+2026-09-26 16:10:00,982 [INFO] DEM mosaic written: tehri_data\raw\dem\srtm_mosaic_wgs84.tif shape=(1, 3601, 3601)
+2026-09-26 16:10:02,795 [WARNING] DEM contains 1308 nodata/void pixels within the AOI. These are NOT filled/fabricated — they remain as nodata.
+2026-09-26 16:10:02,795 [INFO] Final clipped terrain written: tehri_data\terrain\terrain.tif
+2026-09-26 16:10:02,798 [INFO] ----------------------------------------------------------------------
+2026-09-26 16:10:02,798 [INFO] Acquiring OSM vector data (buildings, roads, waterways, water) ...
+2026-09-26 16:10:02,798 [INFO] Querying Overpass endpoint: https://overpass-api.de/api/interpreter
+2026-09-26 16:10:03,753 [WARNING] Overpass endpoint failed (https://overpass-api.de/api/interpreter): 406 Client Error: Not Acceptable for url: https://overpass-api.de/api/interpreter
+2026-09-26 16:10:05,754 [INFO] Querying Overpass endpoint: https://overpass.kumi.systems/api/interpreter
+2026-09-26 16:10:06,749 [WARNING] Overpass endpoint failed (https://overpass.kumi.systems/api/interpreter): 429 Client Error: Too Many Requests for url: https://overpass.kumi.systems/api/interpreter
+2026-09-26 16:10:08,752 [INFO] Querying Overpass endpoint: https://overpass.openstreetmap.fr/api/interpreter
+2026-09-26 16:10:09,710 [WARNING] Overpass endpoint failed (https://overpass.openstreetmap.fr/api/interpreter): 403 Client Error: Forbidden for url: https://overpass.openstreetmap.fr/api/interpreter
+2026-09-26 16:10:11,713 [ERROR] ======================================================================
+2026-09-26 16:10:11,713 [ERROR] MISSING DATA:
+2026-09-26 16:10:11,713 [ERROR]     OpenStreetMap vector data via Overpass API (all mirrors unreachable)
+2026-09-26 16:10:11,713 [ERROR] 
+2026-09-26 16:10:11,713 [ERROR] HOW TO OBTAIN IT:
+2026-09-26 16:10:11,713 [ERROR]     Last error: 403 Client Error: Forbidden for url: https://overpass.openstreetmap.fr/api/interpreter
+2026-09-26 16:10:11,715 [ERROR]             Manually run this query at https://overpass-turbo.eu/ and export as GeoJSON:
+2026-09-26 16:10:11,715 [ERROR]             
+2026-09-26 16:10:11,715 [ERROR]         [out:json][timeout:180];
+2026-09-26 16:10:11,715 [ERROR]         (
+2026-09-26 16:10:11,715 [ERROR]           way["building"](30.28573792670429,78.376185223845,30.466612273295713,78.58443517615501);
+2026-09-26 16:10:11,715 [ERROR]           relation["building"](30.28573792670429,78.376185223845,30.466612273295713,78.58443517615501);
+2026-09-26 16:10:11,716 [ERROR]         );
+2026-09-26 16:10:11,716 [ERROR]         out geom;
+2026-09-26 16:10:11,716 [ERROR]         
+2026-09-26 16:10:11,716 [ERROR]             Save the exported file into: tehri_data\vector
+2026-09-26 16:10:11,716 [ERROR] ======================================================================
+2026-09-26 16:14:03,381 [INFO] ======================================================================
+2026-09-26 16:14:03,381 [INFO] TEHRI DAM — PHASE 1 (idempotent mode)
+2026-09-26 16:14:03,381 [INFO] ======================================================================
+2026-09-26 16:14:03,381 [INFO] Using previously established dam location (no geocoding call made): 30.3761751, 78.4803102
+2026-09-26 16:14:03,382 [INFO] terrain.tif exists: True  -> will REUSE
+2026-09-26 16:14:03,382 [INFO] all 4 vector geojson exist: True  -> will REUSE
+2026-09-26 16:14:03,382 [INFO] Skipping DEM acquisition — reusing existing tehri_data\terrain\terrain.tif
+2026-09-26 16:14:03,382 [INFO] Skipping OSM vector acquisition — reusing existing files in tehri_data\vector
+2026-09-26 16:14:03,382 [INFO] ----------------------------------------------------------------------
+2026-09-26 16:14:03,382 [INFO] Building metadata.json from actual existing files ...
+2026-09-26 16:14:03,544 [INFO] metadata.json written: tehri_data\metadata\metadata.json
+2026-09-26 16:14:03,544 [INFO] ----------------------------------------------------------------------
+2026-09-26 16:14:03,544 [INFO] Generating previews from existing real data ...
+2026-09-26 16:14:04,457 [INFO] ----------------------------------------------------------------------
+2026-09-26 16:14:04,457 [INFO] PHASE 1 COMPLETE (idempotent — no data re-downloaded).
+2026-09-26 16:14:04,457 [INFO] Metadata: tehri_data\metadata\metadata.json
+2026-09-26 16:14:04,458 [INFO] Previews: tehri_data\preview\terrain_preview.png, tehri_data\preview\map_preview.png
+2026-09-26 16:14:04,458 [INFO] ======================================================================

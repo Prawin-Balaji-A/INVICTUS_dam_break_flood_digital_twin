@@ -1,0 +1,93 @@
+[
+  {
+    "time_min": 3.0,
+    "discharge_m3s": 6.8,
+    "max_depth_m": 2.15,
+    "max_velocity_ms": 5.67,
+    "inundated_area_sqkm": 19.54
+  },
+  {
+    "time_min": 6.0,
+    "discharge_m3s": 216.5,
+    "max_depth_m": 2.15,
+    "max_velocity_ms": 5.67,
+    "inundated_area_sqkm": 19.59
+  },
+  {
+    "time_min": 9.0,
+    "discharge_m3s": 1609.0,
+    "max_depth_m": 4.41,
+    "max_velocity_ms": 11.29,
+    "inundated_area_sqkm": 19.89
+  },
+  {
+    "time_min": 12.0,
+    "discharge_m3s": 6575.8,
+    "max_depth_m": 8.86,
+    "max_velocity_ms": 19.82,
+    "inundated_area_sqkm": 20.41
+  },
+  {
+    "time_min": 15.0,
+    "discharge_m3s": 19278.0,
+    "max_depth_m": 15.94,
+    "max_velocity_ms": 30.48,
+    "inundated_area_sqkm": 21.35
+  },
+  {
+    "time_min": 18.0,
+    "discharge_m3s": 45618.3,
+    "max_depth_m": 26.74,
+    "max_velocity_ms": 43.02,
+    "inundated_area_sqkm": 22.42
+  },
+  {
+    "time_min": 21.0,
+    "discharge_m3s": 92762.9,
+    "max_depth_m": 39.99,
+    "max_velocity_ms": 57.14,
+    "inundated_area_sqkm": 23.82
+  },
+  {
+    "time_min": 24.0,
+    "discharge_m3s": 168211.5,
+    "max_depth_m": 56.38,
+    "max_velocity_ms": 72.5,
+    "inundated_area_sqkm": 25.5
+  },
+  {
+    "time_min": 27.0,
+    "discharge_m3s": 278511.4,
+    "max_depth_m": 75.67,
+    "max_velocity_ms": 88.7,
+    "inundated_area_sqkm": 27.38
+  },
+  {
+    "time_min": 30.0,
+    "discharge_m3s": 427806.1,
+    "max_depth_m": 97.37,
+    "max_velocity_ms": 105.31,
+    "inundated_area_sqkm": 29.56
+  },
+  {
+    "time_min": 33.0,
+    "discharge_m3s": 616492.2,
+    "max_depth_m": 120.79,
+    "max_velocity_ms": 121.88,
+    "inundated_area_sqkm": 31.89
+  },
+  {
+    "time_min": 36.0,
+    "discharge_m3s": 840291.3,
+    "max_depth_m": 145.1,
+    "max_velocity_ms": 137.96,
+    "inundated_area_sqkm": 34.19
+  },
+  {
+    "time_min": 39.0,
+    "discharge_m3s": 1089996.8,
+    "max_depth_m": 169.31,
+    "max_velocity_ms": 153.09,
+    "inundated_area_sqkm": 36.47
+  }
+]

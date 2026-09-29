@@ -1,0 +1,16 @@
+[
+  {
+    "id": "machchhu_froehlich_50",
+    "name": "Scenario 01 \u2014 50% Breach (Froehlich 2008)",
+    "breach_formulation": "Froehlich_2008",
+    "breach_type": "Overtopping",
+    "dam_height": 26.0,
+    "dam_length": 1000.0,
+    "dam_crest_elev": 60.0,
+    "reservoir_level": 24.0,
+    "reservoir_volume": 110000000.0,
+    "reservoir_area": 20000000.0,
+    "breach_side_slope": 1.0,
+    "status": "ready"
+  }
+]

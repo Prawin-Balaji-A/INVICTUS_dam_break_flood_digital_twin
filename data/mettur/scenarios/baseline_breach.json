@@ -1,0 +1,163 @@
+{
+  "_scenario_metadata": {
+    "dam_id": "mettur",
+    "dam_name": "Mettur Dam (Stanley Reservoir)",
+    "river": "Cauvery River",
+    "state": "Tamil Nadu",
+    "phase": 5,
+    "scenario_id": "mettur_baseline_breach",
+    "scenario_name": "Mettur Dam — Hypothetical Worst-Case Overtopping Breach (Baseline)",
+    "scenario_type": "overtopping_failure",
+    "scenario_classification": "HYPOTHETICAL EMERGENCY PLANNING SCENARIO — NOT A FORECAST",
+    "solver": "2D Manning kinematic/diffusion-wave approximation",
+    "sph_status": "NOT YET COUPLED",
+    "delft3d_status": "EXPORTER ONLY",
+    "created": "2026-09-23",
+    "phase_4_protocol_applied": true,
+    "notes": [
+      "All SCENARIO ASSUMPTION parameters are explicitly labelled as such.",
+      "No scenario assumption may be silently upgraded to AUTHORITATIVE status.",
+      "Breach volume 500 MCM = 18.9% of total 2644 MCM reservoir capacity.",
+      "Froehlich (2008) breach formation time: tf = 0.0179 * Vw^0.364 * hb^-0.564.",
+      "Conservative factor 0.90 applied to Froehlich tf per Phase 4 methodology.",
+      "Manning n values from Chow (1959) — explicitly labelled SCENARIO ASSUMPTION."
+    ]
+  },
+
+  "dam_location": {
+    "latitude":       { "value": 11.8028, "unit": "degrees North", "classification": "AUTHORITATIVE / MEASURED", "source": "INDIA-WRIS; OSM node 443624561; Google Earth" },
+    "longitude":      { "value": 77.8017, "unit": "degrees East",  "classification": "AUTHORITATIVE / MEASURED", "source": "INDIA-WRIS; OSM node 443624561; Google Earth" }
+  },
+
+  "reservoir_initial_state": {
+    "initial_water_level_m":   { "value": 240.79, "unit": "m MSL",  "classification": "AUTHORITATIVE / MEASURED", "source": "WRD TN Full Reservoir Level (FRL) = 790.0 ft × 0.3048", "notes": "Worst-case scenario: reservoir at FRL" },
+    "total_capacity_mcm":      { "value": 2644.0, "unit": "MCM",    "classification": "AUTHORITATIVE / MEASURED", "source": "CWC Dossier; WRD TN (93.47 TMC)" },
+    "active_breach_volume_mcm":{ "value": 500.0,  "unit": "MCM",    "classification": "SCENARIO ASSUMPTION",       "source": "Phase 5 engineering judgment — 18.9% of total capacity. NOT MEASURED." },
+    "active_breach_volume_m3": { "value": 500000000.0, "unit": "m3", "classification": "SCENARIO ASSUMPTION",     "derivation": "500.0 MCM × 1e6 = 500,000,000 m³" },
+    "surface_area_m2":         { "value": 153000000.0, "unit": "m²", "classification": "AUTHORITATIVE / MEASURED","source": "WRD TN; 153.0 km² × 1e6" },
+    "river_bed_elevation_m":   { "value": 180.77, "unit": "m MSL",  "classification": "DERIVED",                  "derivation": "crest_elev (246.0) − dam_height (65.23) = 180.77 m MSL" }
+  },
+
+  "breach_parameters": {
+    "breach_formulation": {
+      "value": "Froehlich (2008) overtopping + broad-crested weir release + strict mass conservation",
+      "classification": "SCENARIO ASSUMPTION (standard empirical formulation)",
+      "source": "Froehlich, D.C. (2008). Predicting Peak Discharge from Gradually Breached Embankment Dams. J. Hydrologic Engrg. ASCE."
+    },
+    "breach_depth_m": {
+      "value": 65.23,
+      "unit": "m",
+      "classification": "AUTHORITATIVE / MEASURED",
+      "source": "Dam height = breach depth for full overtopping failure. CWC; WRD TN.",
+      "notes": "For gravity masonry dam: complete overtopping failure assumed for worst case"
+    },
+    "breach_bottom_width_m": {
+      "value": 80.0,
+      "unit": "m",
+      "classification": "SCENARIO ASSUMPTION",
+      "source": "Froehlich (2008) regression: Wb = 0.1803 * Ko * Vw^0.32 * Hb^0.19; Ko=1.0 (overtopping); Vw=5e8 m³; Hb=65.23 m → Wb≈75 m. Rounded to 80 m.",
+      "froehlich_formula": "Wb = 0.1803 × Ko × Vw^0.32 × Hb^0.19",
+      "froehlich_Ko": 1.0,
+      "froehlich_Vw_m3": 500000000.0,
+      "froehlich_Hb_m": 65.23,
+      "froehlich_computed_wb_m": 75.4,
+      "applied_value_m": 80.0,
+      "reason_for_rounding": "Rounded to 80 m for consistency with conservative planning range"
+    },
+    "breach_side_slope_z": {
+      "value": 0.5,
+      "unit": "H:V (0.5 = near-vertical, typical gravity masonry breach)",
+      "classification": "SCENARIO ASSUMPTION",
+      "source": "Von Thun and Gillette (1990); NWS BREACH model default for masonry gravity dams",
+      "notes": "Less trapezoidal than an earthfill breach (z=1.0) — gravity masonry fails in near-vertical block"
+    },
+    "breach_formation_time_hr": {
+      "value": 2.10,
+      "unit": "hr",
+      "classification": "SCENARIO ASSUMPTION (Froehlich 2008 empirical + 0.90 conservative factor)",
+      "froehlich_formula": "tf = 0.0179 × Vw^0.364 × hb^-0.564",
+      "froehlich_Vw_m3": 500000000.0,
+      "froehlich_hb_m": 65.23,
+      "froehlich_computed_tf_hr": 2.34,
+      "conservative_factor": 0.90,
+      "applied_tf_hr": 2.10,
+      "applied_tf_sec": 7560,
+      "reason_for_factor": "0.90× conservative factor per Phase 4 Idukki approved methodology: faster breach produces higher peak discharge, more conservative for emergency planning",
+      "notes": "Explicitly classified SCENARIO ASSUMPTION. Not a measured value."
+    },
+    "breach_formation_time_sec": {
+      "value": 7560,
+      "unit": "s",
+      "classification": "SCENARIO ASSUMPTION",
+      "derivation": "2.10 hr × 3600 s/hr = 7560 s"
+    },
+    "weir_coefficient_rectangular": {
+      "value": 1.70,
+      "unit": "m^0.5 / s",
+      "classification": "SCENARIO ASSUMPTION",
+      "source": "Chaudhry (2008) broad-crested weir; USACE HEC-RAS default"
+    },
+    "weir_coefficient_triangular_side": {
+      "value": 1.20,
+      "unit": "dimensionless",
+      "classification": "SCENARIO ASSUMPTION",
+      "source": "Chaudhry (2008) side-slope discharge correction"
+    }
+  },
+
+  "simulation_controls": {
+    "timestep_sec": {
+      "value": 60,
+      "unit": "s",
+      "classification": "SCENARIO ASSUMPTION",
+      "notes": "Baseline dt=60 s. Sensitivity: also run at 30 s and 15 s."
+    },
+    "simulation_duration_hr": {
+      "value": 12.0,
+      "unit": "hr",
+      "classification": "SCENARIO ASSUMPTION",
+      "notes": "12 hr captures full hydrograph recession for 500 MCM active volume"
+    },
+    "simulation_duration_sec": {
+      "value": 43200,
+      "unit": "s",
+      "classification": "SCENARIO ASSUMPTION",
+      "derivation": "12.0 hr × 3600 = 43200 s"
+    },
+    "inundation_threshold_m": {
+      "value": 0.15,
+      "unit": "m",
+      "classification": "SCENARIO ASSUMPTION",
+      "source": "Standard European Flood Directive minimum inundation threshold (JRC, 2017)"
+    },
+    "manning_roughness_n": {
+      "main_channel": {
+        "value": 0.030,
+        "unit": "dimensionless",
+        "classification": "SCENARIO ASSUMPTION",
+        "source": "Chow (1959) Table 5-6 — clean Cauvery main channel, no boulders. Lower than Idukki Periyar gorge (0.035) — wider, less confined.",
+        "chow_category": "Natural stream with clean bottom, no vegetation"
+      },
+      "floodplain": {
+        "value": 0.055,
+        "unit": "dimensionless",
+        "classification": "SCENARIO ASSUMPTION",
+        "source": "Chow (1959) — light brush, trees, agricultural land downstream of Salem"
+      }
+    }
+  },
+
+  "study_domain": {
+    "min_lat": 11.65, "min_lon": 77.65,
+    "max_lat": 11.92, "max_lon": 78.00,
+    "note": "Study domain covers dam (11.8028N 77.8017E) and downstream Cauvery reach to ~22 km east"
+  },
+
+  "dataset_references": {
+    "dem": "data/mettur/dem/processed/mettur_dem_30m.tif",
+    "river": "data/mettur/river/cauvery_river.geojson",
+    "reservoir": "data/mettur/reservoir/stanley_reservoir.geojson",
+    "buildings": "data/mettur/buildings/buildings.geojson",
+    "roads": "data/mettur/roads/roads.geojson"
+  }
+}

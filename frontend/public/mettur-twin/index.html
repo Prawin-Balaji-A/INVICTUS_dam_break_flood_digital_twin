@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mettur Dam — Failure &amp; Flood Simulator</title>
+  <style>
+    :root {
+      --bg: #0b0f19;
+      --panel: rgba(15, 23, 42, 0.92);
+      --panel-solid: #0f172a;
+      --border: rgba(51, 65, 85, 0.7);
+      --text: #f1f5f9;
+      --text-dim: #94a3b8;
+      --accent: #38bdf8;
+      --accent-2: #34d399;
+      --danger: #ef4444;
+      --warn: #f59e0b;
+      --shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+      --radius: 16px;
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    }
+
+    * { box-sizing: border-box; }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      background: var(--bg);
+      color: var(--text);
+      -webkit-font-smoothing: antialiased;
+    }
+
+    #app { position: fixed; inset: 0; }
+
+    canvas#scene { display: block; width: 100%; height: 100%; }
+
+    /* ---------- Left control panel ---------- */
+    #panel {
+      position: fixed;
+      top: 16px;
+      left: 16px;
+      width: 320px;
+      max-height: calc(100vh - 32px);
+      overflow-y: auto;
+      padding: 18px 18px 20px;
+      background: var(--panel);
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      z-index: 10;
+      scrollbar-width: thin;
+      scrollbar-color: var(--accent) transparent;
+    }
+    #panel::-webkit-scrollbar { width: 8px; }
+    #panel::-webkit-scrollbar-thumb { background: rgba(120,160,210,0.3); border-radius: 8px; }
+
+    .panel-title {
+      font-size: 17px;
+      font-weight: 700;
+      letter-spacing: 0.3px;
+      margin: 0 0 2px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .panel-title .dot {
+      width: 9px; height: 9px; border-radius: 50%;
+      background: var(--accent-2);
+      box-shadow: 0 0 10px var(--accent-2);
+    }
+    .panel-sub {
+      font-size: 11.5px;
+      color: var(--text-dim);
+      margin: 0 0 16px;
+      line-height: 1.45;
+    }
+
+    .section { margin-bottom: 16px; }
+    .section-label {
+      font-size: 10.5px;
+      text-transform: uppercase;
+      letter-spacing: 1.2px;
+      color: var(--text-dim);
+      margin-bottom: 8px;
+      font-weight: 600;
+    }
+
+    /* Water level slider + gauge */
+    .gauge-row { display: flex; align-items: center; gap: 12px; }
+    .gauge {
+      position: relative;
+      width: 26px;
+      height: 130px;
+      border-radius: 8px;
+      background: linear-gradient(180deg, #16202e, #0c131c);
+      border: 1px solid var(--border);
+      overflow: hidden;
+      flex-shrink: 0;
+    }
+    .gauge-fill {
+      position: absolute;
+      left: 0; right: 0; bottom: 0;
+      height: 40%;
+      background: linear-gradient(180deg, #4fb8ff, #1c6fd0);
+      transition: height 0.12s linear, background 0.3s;
+    }
+    .gauge-threshold {
+      position: absolute;
+      left: -2px; right: -2px;
+      height: 2px;
+      background: var(--danger);
+      box-shadow: 0 0 6px var(--danger);
+    }
+    .gauge-threshold::after {
+      content: '';
+      position: absolute; right: -4px; top: -3px;
+      border: 4px solid transparent;
+      border-right-color: var(--danger);
+    }
+    .slider-col { flex: 1; }
+    input[type="range"] {
+      -webkit-appearance: none; appearance: none;
+      width: 100%; height: 5px; border-radius: 4px;
+      background: linear-gradient(90deg, var(--accent), #16202e);
+      outline: none; margin: 10px 0;
+    }
+    input[type="range"]::-webkit-slider-thumb {
+      -webkit-appearance: none; appearance: none;
+      width: 18px; height: 18px; border-radius: 50%;
+      background: #eaf4ff; border: 2px solid var(--accent);
+      cursor: pointer; box-shadow: 0 2px 6px rgba(0,0,0,0.5);
+    }
+    input[type="range"]::-moz-range-thumb {
+      width: 16px; height: 16px; border-radius: 50%;
+      background: #eaf4ff; border: 2px solid var(--accent); cursor: pointer;
+    }
+    .readout {
+      display: flex; justify-content: space-between;
+      font-size: 12px; color: var(--text-dim);
+    }
+    .readout b { color: var(--text); font-variant-numeric: tabular-nums; }
+
+    /* Buttons */
+    .btn-row { display: flex; gap: 8px; flex-wrap: wrap; }
+    button.btn {
+      flex: 1;
+      min-width: 84px;
+      padding: 10px 12px;
+      font-size: 12.5px;
+      font-weight: 600;
+      color: var(--text);
+      background: linear-gradient(180deg, #1c2836, #131b26);
+      border: 1px solid var(--border);
+      border-radius: 9px;
+      cursor: pointer;
+      transition: transform 0.08s, border-color 0.2s, background 0.2s, opacity 0.2s;
+      letter-spacing: 0.2px;
+    }
+    button.btn:hover { border-color: var(--accent); transform: translateY(-1px); }
+    button.btn:active { transform: translateY(0); }
+    button.btn:disabled { opacity: 0.4; cursor: not-allowed; transform: none; border-color: var(--border); }
+    button.btn.primary {
+      background: linear-gradient(180deg, #2f88e0, #1c6fd0);
+      border-color: #4fa8ff;
+      color: #fff;
+    }
+    button.btn.primary:hover { background: linear-gradient(180deg, #3f98f0, #2c7fe0); }
+    button.btn.danger {
+      background: linear-gradient(180deg, #b83a2e, #922015);
+      border-color: #ff6a58; color: #fff;
+    }
+    button.btn.danger:hover { background: linear-gradient(180deg, #d24a3a, #a83025); }
+
+    /* Metrics */
+    .metrics { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+    .metric {
+      background: rgba(10,16,24,0.55);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 8px 10px;
+    }
+    .metric .k { font-size: 10px; text-transform: uppercase; letter-spacing: 0.8px; color: var(--text-dim); }
+    .metric .v { font-size: 15px; font-weight: 700; font-variant-numeric: tabular-nums; margin-top: 2px; }
+
+    /* Status pill */
+    #status-pill {
+      display: inline-flex; align-items: center; gap: 7px;
+      font-size: 11.5px; font-weight: 600;
+      padding: 5px 11px; border-radius: 20px;
+      background: rgba(63,169,245,0.14);
+      border: 1px solid rgba(63,169,245,0.4);
+      color: var(--accent);
+    }
+    #status-pill .pdot { width: 7px; height: 7px; border-radius: 50%; background: currentColor; }
+    #status-pill.breach { background: rgba(255,90,72,0.16); border-color: rgba(255,90,72,0.5); color: var(--danger); }
+    #status-pill.spill { background: rgba(46,230,166,0.14); border-color: rgba(46,230,166,0.45); color: var(--accent-2); }
+
+    /* Village list */
+    .village-list { display: flex; flex-direction: column; gap: 6px; }
+    .village-item {
+      display: flex; align-items: center; gap: 9px;
+      padding: 8px 10px;
+      background: rgba(10,16,24,0.5);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      cursor: pointer;
+      transition: border-color 0.15s, background 0.15s;
+      font-size: 12.5px;
+    }
+    .village-item:hover { border-color: var(--accent); background: rgba(63,169,245,0.08); }
+    .village-item .vdot { width: 9px; height: 9px; border-radius: 50%; flex-shrink: 0; }
+    .village-item .vname { flex: 1; font-weight: 600; }
+    .village-item .vstate { font-size: 10px; text-transform: uppercase; letter-spacing: 0.6px; color: var(--text-dim); }
+    .village-item.flooded { border-color: rgba(255,90,72,0.4); }
+    .village-item.flooded .vstate { color: var(--danger); }
+
+    /* ---------- Minimap ---------- */
+    #minimap-wrap {
+      position: fixed;
+      right: 16px;
+      bottom: 16px;
+      width: 240px;
+      background: var(--panel);
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: 10px;
+      z-index: 10;
+    }
+    #minimap-wrap .mm-title {
+      font-size: 10px; text-transform: uppercase; letter-spacing: 1px;
+      color: var(--text-dim); margin-bottom: 7px; font-weight: 600;
+      display: flex; justify-content: space-between;
+    }
+    #minimap { display: block; width: 100%; height: auto; border-radius: 7px; background: #0b1119; }
+
+    /* ---------- Hint / toast ---------- */
+    #hint {
+      position: fixed;
+      top: 16px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: var(--panel);
+      backdrop-filter: blur(10px);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 9px 16px;
+      font-size: 12.5px;
+      color: var(--text-dim);
+      z-index: 10;
+      box-shadow: var(--shadow);
+      pointer-events: none;
+      opacity: 0;
+      transition: opacity 0.4s;
+      max-width: 60vw;
+      text-align: center;
+    }
+    #hint.show { opacity: 1; }
+    #hint b { color: var(--text); }
+
+    /* ---------- Loading ---------- */
+    #loading {
+      position: fixed; inset: 0;
+      display: flex; flex-direction: column; align-items: center; justify-content: center;
+      background: radial-gradient(ellipse at center, #0e141d 0%, #060a0f 100%);
+      z-index: 100;
+      transition: opacity 0.6s;
+      gap: 18px;
+    }
+    #loading.hidden { opacity: 0; pointer-events: none; }
+    #loading .spinner {
+      width: 42px; height: 42px; border-radius: 50%;
+      border: 3px solid rgba(63,169,245,0.2);
+      border-top-color: var(--accent);
+      animation: spin 0.9s linear infinite;
+    }
+    #loading .ltext { font-size: 13px; color: var(--text-dim); letter-spacing: 0.5px; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    /* Focus banner */
+    #focus-banner {
+      position: fixed; bottom: 16px; left: 50%; transform: translateX(-50%) translateY(20px);
+      background: var(--panel); border: 1px solid var(--border);
+      border-radius: 10px; padding: 8px 18px; z-index: 10;
+      font-size: 13px; font-weight: 600; box-shadow: var(--shadow);
+      opacity: 0; transition: opacity 0.3s, transform 0.3s;
+      display: flex; align-items: center; gap: 12px;
+    }
+    #focus-banner.show { opacity: 1; transform: translateX(-50%) translateY(0); }
+    #focus-banner button {
+      background: none; border: 1px solid var(--border); color: var(--accent);
+      border-radius: 7px; padding: 4px 10px; font-size: 11.5px; cursor: pointer; font-weight: 600;
+    }
+    #focus-banner button:hover { border-color: var(--accent); }
+
+    @media (max-width: 720px) {
+      #panel { width: calc(100vw - 32px); max-height: 44vh; }
+      #minimap-wrap { width: 150px; }
+    }
+  </style>
+  <script type="module" crossorigin src="/mettur-twin/assets/index-DPbhceU9.js"></script>
+</head>
+<body>
+  <div id="app">
+    <canvas id="scene"></canvas>
+
+    <!-- Left control panel (built/managed by ui/ControlPanel.ts) -->
+    <div id="panel">
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 2px;">
+        <div class="panel-title"><span class="dot"></span> Mettur Dam Control</div>
+        <button id="panel-toggle" onclick="var p = document.getElementById('panel-body'); if(p.style.display==='none'){p.style.display='block';this.textContent='Hide';}else{p.style.display='none';this.textContent='Show';}" style="background: rgba(30, 41, 59, 0.8); border: 1px solid var(--border); color: var(--text-dim); border-radius: 6px; padding: 2px 8px; font-size: 10.5px; font-weight: 600; cursor: pointer;">Hide</button>
+      </div>
+      <p class="panel-sub">Reservoir &amp; spillway simulator. Raise the water, open the gates, and watch the downstream valley respond.</p>
+
+      <div id="panel-body">
+        <div class="section">
+          <div id="status-pill"><span class="pdot"></span><span id="status-text">Idle</span></div>
+        </div>
+
+        <div class="section">
+          <div class="section-label">Reservoir Level</div>
+          <div class="gauge-row">
+            <div class="gauge">
+              <div class="gauge-fill" id="gauge-fill"></div>
+              <div class="gauge-threshold" id="gauge-threshold"></div>
+            </div>
+            <div class="slider-col">
+              <input type="range" id="level-slider" min="0" max="100" value="55" step="0.5" />
+              <div class="readout"><span>Level</span><b><span id="level-val">55</span>%</b></div>
+              <div class="readout"><span>High-water mark</span><b id="threshold-val">82%</b></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="section">
+          <div class="section-label">Simulation</div>
+          <div class="btn-row" style="margin-bottom:8px;">
+            <button class="btn primary" id="btn-play" style="width: 100%;">▶ Open Spillway Gates</button>
+            <button class="btn danger" id="btn-breach" disabled style="display: none;"></button>
+          </div>
+          <div class="btn-row">
+            <button class="btn" id="btn-overview">Overview</button>
+            <button class="btn" id="btn-reset">↺ Reset</button>
+          </div>
+        </div>
+
+      <div class="section">
+        <div class="section-label">Live Metrics</div>
+        <div class="metrics">
+          <div class="metric"><div class="k">Head</div><div class="v"><span id="m-head">0</span> m</div></div>
+          <div class="metric"><div class="k">Gates</div><div class="v"><span id="m-gates">0</span>%</div></div>
+          <div class="metric"><div class="k">Discharge</div><div class="v"><span id="m-flow">0</span></div></div>
+          <div class="metric"><div class="k">Flooded</div><div class="v"><span id="m-flooded">0</span>/<span id="m-total">0</span></div></div>
+        </div>
+      </div>
+
+      <div class="section" style="margin-bottom:0;">
+        <div class="section-label">Settlements — click to fly</div>
+        <div class="village-list" id="village-list"></div>
+      </div>
+      </div>
+    </div>
+
+    <!-- Minimap (managed by ui/Minimap.ts) -->
+    <div id="minimap-wrap">
+      <div class="mm-title"><span>Flood Map</span><span id="mm-legend">▲ dam</span></div>
+      <canvas id="minimap" width="440" height="440"></canvas>
+    </div>
+
+    <div id="hint"></div>
+
+    <div id="focus-banner">
+      <span id="focus-name">Village</span>
+      <button id="focus-back">← Overview</button>
+    </div>
+
+    <div id="loading">
+      <div class="spinner"></div>
+      <div class="ltext">Loading dam model…</div>
+    </div>
+  </div>
+
+</body>
+</html>

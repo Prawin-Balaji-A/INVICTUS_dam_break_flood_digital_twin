@@ -1,0 +1,34 @@
+{
+  "id": "tehri",
+  "name": "Tehri Dam \u2014 Bhagirathi River",
+  "dam_name": "Tehri Dam",
+  "river_name": "Bhagirathi River",
+  "state": "Uttarakhand",
+  "district": "Tehri Garhwal",
+  "country": "India",
+  "latitude": 30.3783,
+  "longitude": 78.48,
+  "study_domain": {
+    "min_lat": 30.3,
+    "min_lon": 78.4,
+    "max_lat": 30.45,
+    "max_lon": 78.56
+  },
+  "dam_height_m": 260.5,
+  "crest_length_m": 575.0,
+  "crest_elevation_m": 839.5,
+  "full_reservoir_level_m": 830.0,
+  "reservoir_capacity_m3": 3540000000.0,
+  "reservoir_area_m2": 52000000.0,
+  "downstream_bearing_deg": 195.0,
+  "is_demo": false,
+  "data_status": "NOT CONFIGURED",
+  "sources": [
+    {
+      "name": "THDC India Limited",
+      "type": "Hydropower Operator",
+      "url": "https://thdc.co.in",
+      "status": "verified"
+    }
+  ]
+}

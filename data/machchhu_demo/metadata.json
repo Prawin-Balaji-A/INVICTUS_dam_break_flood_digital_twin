@@ -1,0 +1,33 @@
+{
+  "id": "machchhu_demo",
+  "name": "Machchhu Dam-II (Historical Demo)",
+  "dam_name": "Machchhu Dam-II",
+  "river_name": "Machchhu River",
+  "state": "Gujarat",
+  "district": "Morbi",
+  "country": "India",
+  "latitude": 22.775,
+  "longitude": 70.8986,
+  "study_domain": {
+    "min_lat": 22.72,
+    "min_lon": 70.82,
+    "max_lat": 22.86,
+    "max_lon": 70.95
+  },
+  "dam_height_m": 26.0,
+  "crest_length_m": 1000.0,
+  "crest_elevation_m": 60.0,
+  "full_reservoir_level_m": 24.0,
+  "reservoir_capacity_m3": 110000000.0,
+  "reservoir_area_m2": 20000000.0,
+  "downstream_bearing_deg": 345.0,
+  "is_demo": true,
+  "data_status": "DEMO / SAMPLE DATA",
+  "sources": [
+    {
+      "name": "Gujarat State Water Archives",
+      "type": "Historical Case Study",
+      "status": "demo_only"
+    }
+  ]
+}

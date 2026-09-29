@@ -1,0 +1,173 @@
+{
+  "timestamp": "2026-09-23T14:21:24.424206+00:00",
+  "project": "idukki",
+  "study_case": "Idukki Dam \u2014 Periyar River, Kerala",
+  "overall_status": "READY_FOR_REVIEW",
+  "datasets": {
+    "boundary": {
+      "status": "VALID",
+      "boundary_status": "preliminary",
+      "bounds": {
+        "min_lon": 76.75,
+        "min_lat": 9.75,
+        "max_lon": 77.08,
+        "max_lat": 10.08
+      },
+      "dam_enclosed": true
+    },
+    "dem": {
+      "status": "VALID",
+      "source": "Copernicus DEM GLO-30 (Public AWS S3 open bucket, 4-tile mosaic)",
+      "local_path": "E:\\dam\\data\\idukki\\dem\\processed\\idukki_dem_30m.tif",
+      "crs": "EPSG:4326",
+      "dimensions": {
+        "width": 1189,
+        "height": 1189
+      },
+      "resolution_deg": [
+        0.0002777777777777778,
+        0.0002777777777777778
+      ],
+      "resolution_approx_m": 30.8,
+      "nodata_value": -32767.0,
+      "zero_elevation_pixels": 0,
+      "bounds": {
+        "left": 76.74986111111112,
+        "bottom": 9.749861111111112,
+        "right": 77.0801388888889,
+        "top": 10.08013888888889
+      },
+      "min_elevation_m": 17.0,
+      "max_elevation_m": 1921.43,
+      "mean_elevation_m": 598.32,
+      "dam_location_elevation_m": 675.24,
+      "covers_dam": true,
+      "covers_entire_study_area": true,
+      "nan_count": 0,
+      "inf_count": 0,
+      "source_tiles_preserved": [
+        "Copernicus_DSM_COG_10_N09_00_E076_00_DEM.tif",
+        "Copernicus_DSM_COG_10_N09_00_E077_00_DEM.tif",
+        "Copernicus_DSM_COG_10_N10_00_E076_00_DEM.tif",
+        "Copernicus_DSM_COG_10_N10_00_E077_00_DEM.tif"
+      ]
+    },
+    "river": {
+      "status": "VALID",
+      "source": "OpenStreetMap Overpass API (classified waterways)",
+      "local_path": "E:\\dam\\data\\idukki\\river\\periyar_river.geojson",
+      "crs": "EPSG:4326",
+      "feature_count": 4734,
+      "periyar_main_stem_segments": 18,
+      "main_stem_total_length_km": 81.25,
+      "bounds": {
+        "min_lon": 76.1628372,
+        "min_lat": 9.2867093,
+        "max_lon": 77.3160172,
+        "max_lat": 10.1960117
+      },
+      "intersects_study_area": true,
+      "distance_to_dam_m": 428.8
+    },
+    "roads": {
+      "status": "VALID",
+      "source": "OpenStreetMap Overpass API",
+      "local_path": "E:\\dam\\data\\idukki\\roads\\idukki_roads.geojson",
+      "crs": "EPSG:4326",
+      "feature_count": 863,
+      "bounds": {
+        "min_lon": 76.715083,
+        "min_lat": 9.7149659,
+        "max_lon": 77.1177175,
+        "max_lat": 10.096624
+      },
+      "intersects_study_area": true
+    },
+    "buildings": {
+      "status": "VALID",
+      "source": "OpenStreetMap Overpass API",
+      "local_path": "E:\\dam\\data\\idukki\\buildings\\idukki_buildings.geojson",
+      "crs": "EPSG:4326",
+      "feature_count": 516,
+      "bounds": {
+        "min_lon": 76.904644,
+        "min_lat": 9.8179429,
+        "max_lon": 77.0200009,
+        "max_lat": 9.9502347
+      },
+      "intersects_study_area": true
+    },
+    "reservoir": {
+      "status": "VALID",
+      "source": "OpenStreetMap Overpass API",
+      "local_path": "E:\\dam\\data\\idukki\\reservoir\\idukki_reservoir.geojson",
+      "crs": "EPSG:4326",
+      "feature_count": 49,
+      "bounds": {
+        "min_lon": 76.7435628,
+        "min_lat": 9.7517146,
+        "max_lon": 77.0899119,
+        "max_lat": 10.0780882
+      },
+      "intersects_study_area": true
+    },
+    "dam_parameters": {
+      "status": "VALID",
+      "dam_name": "Idukki Arch Dam",
+      "river": "Periyar River",
+      "dam_type": "Concrete Double-Curvature Arch Dam",
+      "dam_height_m": 168.91,
+      "crest_length_m": 365.85,
+      "crest_elevation_m": 735.6,
+      "full_reservoir_level_m": 732.43,
+      "gross_storage_capacity_m3": 1996000000.0,
+      "sources": [
+        {
+          "name": "Central Water Commission (CWC) NRLD",
+          "type": "Dam Registry",
+          "dam_code": "KL09HH0001",
+          "url": "https://cwc.gov.in",
+          "status": "verified"
+        },
+        {
+          "name": "Kerala State Electricity Board (KSEB) Dam Safety Organisation",
+          "type": "Dam Operator Records",
+          "url": "https://kseb.in",
+          "status": "verified"
+        },
+        {
+          "name": "Copernicus DEM GLO-30",
+          "type": "Digital Elevation Model",
+          "url": "https://copernicus-dem-30m.s3.amazonaws.com/",
+          "status": "verified"
+        },
+        {
+          "name": "OpenStreetMap",
+          "type": "Geospatial Vector Network",
+          "url": "https://www.openstreetmap.org",
+          "status": "verified"
+        }
+      ],
+      "provenance_verified": true
+    },
+    "population": {
+      "status": "NOT_CONFIGURED",
+      "source": "Census of India / WorldPop",
+      "notes": "Real raster not downloaded in Phase 3; synthetic population strictly forbidden."
+    },
+    "satellite": {
+      "status": "NOT_CONFIGURED",
+      "source": "Copernicus Sentinel-1 SAR",
+      "notes": "Synthetic satellite imagery strictly forbidden; scheduled for subsequent validation phase."
+    }
+  },
+  "synthetic_data_protection": {
+    "synthetic_dem_fallback": "PASS",
+    "synthetic_river_fallback": "PASS",
+    "synthetic_buildings_fallback": "PASS",
+    "synthetic_satellite_fallback": "PASS",
+    "machchhu_cross_contamination": "PASS",
+    "status": "PASS",
+    "violations": []
+  }
+}

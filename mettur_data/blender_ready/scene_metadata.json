@@ -1,0 +1,20 @@
+{
+  "name": "Mettur Dam Digital Twin",
+  "location": {
+    "latitude": 11.75,
+    "longitude": 77.75
+  },
+  "projected_crs": "EPSG:32643",
+  "source": {
+    "terrain": "SRTM DEM",
+    "vector": "OpenStreetMap via Overpass API"
+  },
+  "files": {
+    "terrain": "terrain_heightmap.f32",
+    "terrain_meta": "terrain_meta.json",
+    "buildings": "buildings.geojson",
+    "roads": "roads.geojson",
+    "waterways": "waterways.geojson",
+    "water": "water.geojson"
+  }
+}

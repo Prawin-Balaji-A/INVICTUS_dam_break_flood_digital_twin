@@ -1,0 +1,404 @@
+[
+  {
+    "id": "idukki",
+    "name": "Idukki Dam",
+    "river": "Periyar",
+    "state": "Kerala",
+    "district": "Idukki",
+    "latitude": 9.8497,
+    "longitude": 76.9744,
+    "type": "Concrete Double Curvature Parabolic Arch",
+    "height_m": 168.91,
+    "length_m": 365.85,
+    "capacity_mcm": 1996.0,
+    "status": "OPERATIONAL",
+    "has_simulation": true,
+    "slug": "idukki",
+    "aliases": [
+      "Idukki Arch Dam",
+      "Idukki Hydroelectric Project"
+    ]
+  },
+  {
+    "id": "mettur",
+    "name": "Mettur Dam",
+    "river": "Cauvery",
+    "state": "Tamil Nadu",
+    "district": "Salem",
+    "latitude": 11.8028,
+    "longitude": 77.8017,
+    "type": "Straight Gravity Masonry",
+    "height_m": 65.23,
+    "length_m": 1615.0,
+    "capacity_mcm": 2644.0,
+    "status": "OPERATIONAL",
+    "has_simulation": true,
+    "slug": "mettur",
+    "aliases": [
+      "Stanley Reservoir",
+      "Mettur Reservoir",
+      "Cauvery Dam"
+    ]
+  },
+  {
+    "id": "hirakud",
+    "name": "Hirakud Dam",
+    "river": "Mahanadi",
+    "state": "Odisha",
+    "district": "Sambalpur",
+    "latitude": 21.57,
+    "longitude": 83.87,
+    "type": "Composite Dam (Masonry, Concrete and Earth)",
+    "height_m": 60.96,
+    "length_m": 4800.0,
+    "capacity_mcm": 5896.0,
+    "status": "OPERATIONAL",
+    "has_simulation": true,
+    "slug": "hirakud",
+    "aliases": [
+      "Hirakud Reservoir",
+      "Mahanadi Dam"
+    ]
+  },
+  {
+    "id": "srisailam",
+    "name": "Srisailam Dam",
+    "river": "Krishna",
+    "state": "Andhra Pradesh",
+    "district": "Kurnool",
+    "latitude": 16.0872,
+    "longitude": 78.8986,
+    "type": "Gravity Concrete",
+    "height_m": 145.1,
+    "length_m": 512.0,
+    "capacity_mcm": 8722.0,
+    "status": "OPERATIONAL",
+    "has_simulation": true,
+    "slug": "srisailam",
+    "aliases": [
+      "Srisailam Hydroelectric Project",
+      "Neelam Sanjiva Reddy Sagar"
+    ]
+  },
+  {
+    "id": "tehri",
+    "name": "Tehri Dam",
+    "river": "Bhagirathi",
+    "state": "Uttarakhand",
+    "district": "Tehri Garhwal",
+    "latitude": 30.3783,
+    "longitude": 78.48,
+    "type": "Earth and Rock-fill Dam",
+    "height_m": 260.5,
+    "length_m": 575.0,
+    "capacity_mcm": 4000.0,
+    "status": "OPERATIONAL",
+    "has_simulation": true,
+    "slug": "tehri",
+    "aliases": [
+      "Tehri Hydro Development Corporation",
+      "Bhagirathi Dam"
+    ]
+  },
+  {
+    "id": "sardar_sarovar",
+    "name": "Sardar Sarovar Dam",
+    "river": "Narmada",
+    "state": "Gujarat",
+    "district": "Narmada",
+    "latitude": 21.829,
+    "longitude": 73.7486,
+    "type": "Concrete Gravity Dam",
+    "height_m": 163.0,
+    "length_m": 1210.0,
+    "capacity_mcm": 9500.0,
+    "status": "OPERATIONAL",
+    "has_simulation": true,
+    "slug": "sardar_sarovar",
+    "aliases": [
+      "Narmada Dam",
+      "Kevadia Dam"
+    ]
+  },
+  {
+    "id": "bhakra",
+    "name": "Bhakra Dam",
+    "river": "Sutlej",
+    "state": "Himachal Pradesh",
+    "district": "Bilaspur",
+    "latitude": 31.4106,
+    "longitude": 76.4356,
+    "type": "Concrete Gravity Dam",
+    "height_m": 226.0,
+    "length_m": 518.0,
+    "capacity_mcm": 9340.0,
+    "status": "OPERATIONAL",
+    "has_simulation": true,
+    "slug": "bhakra",
+    "aliases": [
+      "Bhakra Nangal",
+      "Gobind Sagar Dam"
+    ]
+  },
+  {
+    "id": "nagarjuna_sagar",
+    "name": "Nagarjuna Sagar Dam",
+    "river": "Krishna",
+    "state": "Telangana",
+    "district": "Nalgonda",
+    "latitude": 16.5744,
+    "longitude": 79.3144,
+    "type": "Masonry Dam",
+    "height_m": 124.0,
+    "length_m": 1550.0,
+    "capacity_mcm": 11472.0,
+    "status": "OPERATIONAL",
+    "has_simulation": true,
+    "slug": "nagarjuna_sagar",
+    "aliases": [
+      "Nagarjunasagar",
+      "Krishna Sagar Dam"
+    ]
+  },
+  {
+    "id": "koyna",
+    "name": "Koyna Dam",
+    "river": "Koyna",
+    "state": "Maharashtra",
+    "district": "Satara",
+    "latitude": 17.4,
+    "longitude": 73.75,
+    "type": "Rubble Concrete Dam",
+    "height_m": 103.2,
+    "length_m": 807.2,
+    "capacity_mcm": 2797.0,
+    "status": "OPERATIONAL",
+    "has_simulation": true,
+    "slug": "koyna",
+    "aliases": [
+      "Shivsagar Lake Dam",
+      "Koyna Hydroelectric Project"
+    ]
+  },
+  {
+    "id": "mullaperiyar",
+    "name": "Mullaperiyar Dam",
+    "river": "Periyar",
+    "state": "Kerala",
+    "district": "Idukki",
+    "latitude": 9.5283,
+    "longitude": 77.145,
+    "type": "Gravity Masonry Dam",
+    "height_m": 53.66,
+    "length_m": 365.7,
+    "capacity_mcm": 443.0,
+    "status": "OPERATIONAL",
+    "has_simulation": true,
+    "slug": "mullaperiyar",
+    "aliases": [
+      "Mulla Periyar Dam",
+      "Periyar Lake Dam"
+    ]
+  },
+  {
+    "id": "indirasagar",
+    "name": "Indira Sagar Dam",
+    "river": "Narmada",
+    "state": "Madhya Pradesh",
+    "district": "Khandwa",
+    "latitude": 22.2858,
+    "longitude": 76.4678,
+    "type": "Concrete Gravity Dam",
+    "height_m": 92.0,
+    "length_m": 653.0,
+    "capacity_mcm": 12220.0,
+    "status": "OPERATIONAL",
+    "has_simulation": true,
+    "slug": "indirasagar",
+    "aliases": [
+      "Narmadanagar Dam",
+      "NHDC Indira Sagar"
+    ]
+  },
+  {
+    "id": "rihand",
+    "name": "Rihand Dam",
+    "river": "Rihand",
+    "state": "Uttar Pradesh",
+    "district": "Sonbhadra",
+    "latitude": 24.2053,
+    "longitude": 83.0336,
+    "type": "Concrete Gravity Dam",
+    "height_m": 91.44,
+    "length_m": 934.21,
+    "capacity_mcm": 10608.0,
+    "status": "OPERATIONAL",
+    "has_simulation": true,
+    "slug": "rihand",
+    "aliases": [
+      "Govind Ballabh Pant Sagar",
+      "Pipri Dam"
+    ]
+  },
+  {
+    "id": "krs",
+    "name": "Krishna Raja Sagara Dam",
+    "river": "Cauvery",
+    "state": "Karnataka",
+    "district": "Mandya",
+    "latitude": 12.4286,
+    "longitude": 76.5714,
+    "type": "Gravity Masonry Dam",
+    "height_m": 39.62,
+    "length_m": 2620.0,
+    "capacity_mcm": 1368.0,
+    "status": "OPERATIONAL",
+    "has_simulation": true,
+    "slug": "krs",
+    "aliases": [
+      "KRS Dam",
+      "Kannambadi Dam",
+      "Brindavan Gardens Dam"
+    ]
+  },
+  {
+    "id": "tungabhadra",
+    "name": "Tungabhadra Dam",
+    "river": "Tungabhadra",
+    "state": "Karnataka",
+    "district": "Vijayanagara",
+    "latitude": 15.2608,
+    "longitude": 76.3386,
+    "type": "Composite Dam",
+    "height_m": 49.5,
+    "length_m": 2449.0,
+    "capacity_mcm": 3720.0,
+    "status": "OPERATIONAL",
+    "has_simulation": true,
+    "slug": "tungabhadra",
+    "aliases": [
+      "Pampa Sagar",
+      "TB Dam",
+      "Hospet Dam"
+    ]
+  },
+  {
+    "id": "ukai",
+    "name": "Ukai Dam",
+    "river": "Tapi",
+    "state": "Gujarat",
+    "district": "Tapi",
+    "latitude": 21.2486,
+    "longitude": 73.585,
+    "type": "Earth-cum-Masonry Dam",
+    "height_m": 80.77,
+    "length_m": 4927.0,
+    "capacity_mcm": 8511.0,
+    "status": "OPERATIONAL",
+    "has_simulation": true,
+    "slug": "ukai",
+    "aliases": [
+      "Vallabh Sagar",
+      "Tapi Dam"
+    ]
+  },
+  {
+    "id": "pong",
+    "name": "Pong Dam",
+    "river": "Beas",
+    "state": "Himachal Pradesh",
+    "district": "Kangra",
+    "latitude": 31.9647,
+    "longitude": 75.9483,
+    "type": "Earth-fill Embankment Dam",
+    "height_m": 133.0,
+    "length_m": 1950.0,
+    "capacity_mcm": 8570.0,
+    "status": "OPERATIONAL",
+    "has_simulation": true,
+    "slug": "pong",
+    "aliases": [
+      "Maharana Pratap Sagar",
+      "Beas Dam"
+    ]
+  },
+  {
+    "id": "maithon",
+    "name": "Maithon Dam",
+    "river": "Barakar",
+    "state": "Jharkhand",
+    "district": "Dhanbad",
+    "latitude": 23.785,
+    "longitude": 86.8122,
+    "type": "Composite Dam with Underground Powerhouse",
+    "height_m": 50.3,
+    "length_m": 4789.0,
+    "capacity_mcm": 1357.0,
+    "status": "OPERATIONAL",
+    "has_simulation": true,
+    "slug": "maithon",
+    "aliases": [
+      "DVC Maithon Dam",
+      "Barakar Dam"
+    ]
+  },
+  {
+    "id": "cheruthoni",
+    "name": "Cheruthoni Dam",
+    "river": "Cheruthoni",
+    "state": "Kerala",
+    "district": "Idukki",
+    "latitude": 9.8519,
+    "longitude": 76.9639,
+    "type": "Concrete Gravity Dam",
+    "height_m": 138.2,
+    "length_m": 651.0,
+    "capacity_mcm": 1996.0,
+    "status": "OPERATIONAL",
+    "has_simulation": true,
+    "slug": "cheruthoni",
+    "aliases": [
+      "Cheruthoni Spillway Dam"
+    ]
+  },
+  {
+    "id": "almatti",
+    "name": "Almatti Dam",
+    "river": "Krishna",
+    "state": "Karnataka",
+    "district": "Bijapur",
+    "latitude": 16.3314,
+    "longitude": 75.8872,
+    "type": "Concrete Gravity and Earth Dam",
+    "height_m": 52.25,
+    "length_m": 1565.0,
+    "capacity_mcm": 3440.0,
+    "status": "OPERATIONAL",
+    "has_simulation": true,
+    "slug": "almatti",
+    "aliases": [
+      "Lal Bahadur Shastri Sagar",
+      "Upper Krishna Project"
+    ]
+  },
+  {
+    "id": "jayakwadi",
+    "name": "Jayakwadi Dam",
+    "river": "Godavari",
+    "state": "Maharashtra",
+    "district": "Aurangabad",
+    "latitude": 19.4975,
+    "longitude": 75.385,
+    "type": "Earthen Dam",
+    "height_m": 41.3,
+    "length_m": 10200.0,
+    "capacity_mcm": 2909.0,
+    "status": "OPERATIONAL",
+    "has_simulation": true,
+    "slug": "jayakwadi",
+    "aliases": [
+      "Nath Sagar Reservoir",
+      "Paithan Dam"
+    ]
+  }
+]

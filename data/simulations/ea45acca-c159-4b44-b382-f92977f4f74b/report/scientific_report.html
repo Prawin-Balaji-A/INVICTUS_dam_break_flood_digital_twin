@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dam Break Inundation Study — Technical Report</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Helvetica, Arial, sans-serif;
+            margin: 40px;
+            color: #1e293b;
+            background: #ffffff;
+            line-height: 1.6;
+        }
+        .header {
+            border-bottom: 3px solid #2563eb;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        h1 {
+            color: #0f172a;
+            font-size: 26px;
+            margin-bottom: 5px;
+        }
+        .subtitle {
+            color: #64748b;
+            font-size: 14px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 4px 10px;
+            border-radius: 4px;
+            font-size: 12px;
+            font-weight: 600;
+            background: #f1f5f9;
+            color: #334155;
+            margin-right: 8px;
+        }
+        .badge-warning {
+            background: #fef3c7;
+            color: #b45309;
+        }
+        .badge-success {
+            background: #dcfce7;
+            color: #15803d;
+        }
+        .section {
+            margin-bottom: 35px;
+        }
+        h2 {
+            font-size: 18px;
+            color: #1e3a8a;
+            border-bottom: 1px solid #e2e8f0;
+            padding-bottom: 8px;
+            margin-bottom: 15px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+            font-size: 14px;
+        }
+        th, td {
+            padding: 10px 12px;
+            text-align: left;
+            border: 1px solid #cbd5e1;
+        }
+        th {
+            background: #f8fafc;
+            color: #334155;
+            font-weight: 600;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 15px;
+            margin: 20px 0;
+        }
+        .card {
+            background: #f8fafc;
+            border: 1px solid #e2e8f0;
+            border-radius: 6px;
+            padding: 15px;
+            text-align: center;
+        }
+        .card-val {
+            font-size: 22px;
+            font-weight: 700;
+            color: #0284c7;
+        }
+        .card-lbl {
+            font-size: 12px;
+            color: #64748b;
+            margin-top: 5px;
+        }
+        .alert {
+            background: #eff6ff;
+            border-left: 4px solid #3b82f6;
+            padding: 12px 16px;
+            font-size: 13px;
+            color: #1e40af;
+            margin: 15px 0;
+        }
+        .alert-warning {
+            background: #fffbeb;
+            border-left-color: #f59e0b;
+            color: #92400e;
+        }
+        .footer {
+            margin-top: 50px;
+            border-top: 1px solid #e2e8f0;
+            padding-top: 15px;
+            font-size: 12px;
+            color: #94a3b8;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>DAM BREAK INUNDATION STUDY & FLOOD RISK ASSESSMENT</h1>
+        <div class="subtitle">Generated on 2026-09-24 07:53 UTC | System: Mettur Dam — Cauvery River</div>
+        <div style="margin-top: 10px;">
+            <span class="badge">River: Cauvery River</span>
+            <span class="badge">Dam: N/A</span>
+            <span class="badge badge-warning">Experimental SPH Solver</span>
+            <span class="badge">Experimental / Unvalidated</span>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>1. Executive Summary & Key Results</h2>
+        <div class="grid">
+            <div class="card">
+                <div class="card-val">54.90 m</div>
+                <div class="card-lbl">Peak Flood Depth</div>
+            </div>
+            <div class="card">
+                <div class="card-val">9.28 m/s</div>
+                <div class="card-lbl">Peak Flow Velocity</div>
+            </div>
+            <div class="card">
+                <div class="card-val">4.16 km²</div>
+                <div class="card-lbl">Total Flooded Area</div>
+            </div>
+            <div class="card">
+                <div class="card-val">0 m³/s</div>
+                <div class="card-lbl">Peak Breach Outflow</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>2. Dam & Reservoir Boundary Conditions</h2>
+        <table>
+            <tr><th>Parameter</th><th>Value</th><th>Unit</th><th>Description</th></tr>
+            <tr><td>Dam Name</td><td>N/A</td><td>-</td><td>Primary impoundment structure</td></tr>
+            <tr><td>Dam Coordinates</td><td>11.8000° N, 77.8000° E</td><td>WGS84</td><td>Breach initiation location</td></tr>
+            <tr><td>Dam Structural Height (Hd)</td><td>0.0</td><td>m</td><td>Height above river bed</td></tr>
+            <tr><td>Crest Length (Ld)</td><td>0.0</td><td>m</td><td>Total embankment length</td></tr>
+            <tr><td>Active Storage Volume (Vw)</td><td>0</td><td>m³</td><td>Gross storage before failure</td></tr>
+            <tr><td>Initial Water Depth (Hw)</td><td>240.8</td><td>m</td><td>Head above breach invert</td></tr>
+        </table>
+    </div>
+
+    <div class="section">
+        <h2>3. Breach Hydraulics Formulation</h2>
+        <div class="alert">
+            Breach formulation applied: <strong>Froehlich (2008)</strong>.
+            Formation geometry calculated using empirical regression equations published in peer-reviewed hydraulic engineering literature.
+        </div>
+        <table>
+            <tr><th>Breach Parameter</th><th>Calculated Value</th><th>Unit</th></tr>
+            <tr><td>Average Breach Width (Bavg)</td><td>80.00</td><td>m</td></tr>
+            <tr><td>Breach Bottom Width (Wb)</td><td>80.00</td><td>m</td></tr>
+            <tr><td>Breach Depth (hb)</td><td>0.00</td><td>m</td></tr>
+            <tr><td>Breach Formation Time (tf)</td><td>0.0</td><td>seconds (0.0 min)</td></tr>
+            <tr><td>Breach Side Slope (z)</td><td>1.0</td><td>H:1V</td></tr>
+        </table>
+    </div>
+
+    <div class="section">
+        <h2>4. Infrastructure & Exposure Impact</h2>
+        <table>
+            <tr><th>Asset Category</th><th>Exposed Value</th><th>Risk Stratification</th></tr>
+            <tr><td>Affected Buildings</td><td>0 structures</td><td>Low: 0, Mod: 0, High: 0, Very High: 0</td></tr>
+            <tr><td>Affected Road Network</td><td>1.08 km</td><td>Transportation corridor interruption</td></tr>
+            <tr><td>Population Exposure</td><td>1,747 persons</td><td>Potential evacuation requirement (Non-casualty)</td></tr>
+            <tr><td>Agricultural Cropland</td><td>2.41 km²</td><td>Submerged arable land</td></tr>
+        </table>
+    </div>
+
+    <div class="section">
+        <h2>5. Scientific Limitations & Assumptions</h2>
+        <div class="alert alert-warning">
+            <strong>Scientific Integrity Statement:</strong>
+            <ul>
+                <li>The hydrodynamic solver is classified as an <em>Experimental SPH Solver</em>. Unvalidated results must be considered approximate.</li>
+                <li>Breach parameters represent empirical regression estimates; actual geotechnical failure mechanisms depend on soil gradation and compaction.</li>
+                <li>Population exposure figures reflect spatial intersection of residential footprints and do not account for early warning evacuation.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="footer">
+        Dam Break Inundation Modelling Framework | Automated Technical Report
+    </div>
+</body>
+</html>

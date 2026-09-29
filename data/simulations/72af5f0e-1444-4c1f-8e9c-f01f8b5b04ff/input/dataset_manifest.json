@@ -1,0 +1,6 @@
+{
+  "dem_path": "data/idukki/dem/processed/idukki_dem_30m.tif",
+  "buildings_path": "data/idukki/buildings/idukki_buildings.geojson",
+  "roads_path": "data/idukki/roads/idukki_roads.geojson",
+  "satellite_path": null
+}

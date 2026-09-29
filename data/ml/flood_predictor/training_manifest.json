@@ -1,0 +1,52 @@
+{
+  "model_version": "1.0.0",
+  "algorithm": "RandomForestClassifier",
+  "model_hash": "fbb9e646ee0f13c21659dc5f83ea8382a5f98af129f55b5393fcd23ba6f0a42d",
+  "trained_at": "2026-09-24T05:54:32.032901Z",
+  "scenarios_used": [
+    {
+      "domain": "mettur",
+      "scenario": "Mettur Baseline",
+      "active_volume_mcm": 500.0,
+      "peak_discharge_m3s": 88699.2,
+      "is_validation": false
+    },
+    {
+      "domain": "mettur",
+      "scenario": "Mettur Moderate",
+      "active_volume_mcm": 350.0,
+      "peak_discharge_m3s": 62000.0,
+      "is_validation": false
+    },
+    {
+      "domain": "mettur",
+      "scenario": "Mettur Extreme",
+      "active_volume_mcm": 650.0,
+      "peak_discharge_m3s": 115000.0,
+      "is_validation": true
+    },
+    {
+      "domain": "idukki",
+      "scenario": "Idukki Baseline",
+      "active_volume_mcm": 450.0,
+      "peak_discharge_m3s": 74941.0,
+      "is_validation": false
+    },
+    {
+      "domain": "idukki",
+      "scenario": "Idukki Low Vol",
+      "active_volume_mcm": 300.0,
+      "peak_discharge_m3s": 51000.0,
+      "is_validation": false
+    },
+    {
+      "domain": "idukki",
+      "scenario": "Idukki High Vol",
+      "active_volume_mcm": 550.0,
+      "peak_discharge_m3s": 92000.0,
+      "is_validation": true
+    }
+  ],
+  "total_training_samples": 2500,
+  "total_validation_samples": 1250
+}

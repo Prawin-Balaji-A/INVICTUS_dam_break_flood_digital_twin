@@ -1,0 +1,164 @@
+{
+  "_scenario_metadata": {
+    "dam_id": "tehri",
+    "dam_name": "Tehri Dam",
+    "river": "Bhagirathi River",
+    "state": "Uttarakhand",
+    "phase": 5,
+    "scenario_id": "tehri_baseline_breach",
+    "scenario_name": "Tehri Dam — Hypothetical Worst-Case Overtopping Breach (Baseline)",
+    "scenario_type": "overtopping_failure",
+    "scenario_classification": "HYPOTHETICAL EMERGENCY PLANNING SCENARIO — NOT A FORECAST",
+    "solver": "2D Manning kinematic/diffusion-wave approximation",
+    "sph_status": "NOT YET COUPLED",
+    "delft3d_status": "EXPORTER ONLY",
+    "created": "2026-09-26",
+    "phase_4_protocol_applied": true,
+    "notes": [
+      "All SCENARIO ASSUMPTION parameters are explicitly labelled as such.",
+      "No scenario assumption may be silently upgraded to AUTHORITATIVE status.",
+      "Active breach volume 600 MCM = 16.9% of total 3540 MCM reservoir capacity.",
+      "Froehlich (2008) breach formation time: tf = 0.0179 * Vw^0.364 * hb^-0.564.",
+      "Conservative factor 0.90 applied to Froehlich tf per Phase 4 methodology.",
+      "Tehri is an earth-and-rockfill embankment dam: trapezoidal breach side slope z=1.0.",
+      "Manning n values from Chow (1959) — steep confined Bhagirathi gorge — SCENARIO ASSUMPTION."
+    ]
+  },
+
+  "dam_location": {
+    "latitude":  { "value": 30.3783, "unit": "degrees North", "classification": "AUTHORITATIVE / MEASURED", "source": "THDC India Limited; INDIA-WRIS; OSM" },
+    "longitude": { "value": 78.4800, "unit": "degrees East",  "classification": "AUTHORITATIVE / MEASURED", "source": "THDC India Limited; INDIA-WRIS; OSM" }
+  },
+
+  "reservoir_initial_state": {
+    "initial_water_level_m":    { "value": 830.0, "unit": "m MSL", "classification": "AUTHORITATIVE / MEASURED", "source": "THDC Full Reservoir Level (FRL) = 830.0 m MSL", "notes": "Worst-case scenario: reservoir at FRL" },
+    "total_capacity_mcm":       { "value": 3540.0, "unit": "MCM", "classification": "AUTHORITATIVE / MEASURED", "source": "THDC India Limited; CWC (gross storage 3.54 km³)" },
+    "active_breach_volume_mcm": { "value": 600.0, "unit": "MCM", "classification": "SCENARIO ASSUMPTION", "source": "Phase 5 engineering judgment — 16.9% of total capacity. NOT MEASURED." },
+    "active_breach_volume_m3":  { "value": 600000000.0, "unit": "m3", "classification": "SCENARIO ASSUMPTION", "derivation": "600.0 MCM × 1e6 = 600,000,000 m³" },
+    "surface_area_m2":          { "value": 52000000.0, "unit": "m²", "classification": "AUTHORITATIVE / MEASURED", "source": "THDC; reservoir surface area 52.0 km² × 1e6" },
+    "river_bed_elevation_m":    { "value": 579.0, "unit": "m MSL", "classification": "DERIVED", "derivation": "crest_elev (839.5) − dam_height (260.5) = 579.0 m MSL" }
+  },
+
+  "breach_parameters": {
+    "breach_formulation": {
+      "value": "Froehlich (2008) overtopping + broad-crested weir release + strict mass conservation",
+      "classification": "SCENARIO ASSUMPTION (standard empirical formulation)",
+      "source": "Froehlich, D.C. (2008). Predicting Peak Discharge from Gradually Breached Embankment Dams. J. Hydrologic Engrg. ASCE."
+    },
+    "breach_depth_m": {
+      "value": 260.5,
+      "unit": "m",
+      "classification": "AUTHORITATIVE / MEASURED",
+      "source": "Dam height = breach depth for full overtopping failure. THDC (260.5 m).",
+      "notes": "For embankment dam: complete overtopping failure assumed for worst case"
+    },
+    "breach_bottom_width_m": {
+      "value": 335.0,
+      "unit": "m",
+      "classification": "SCENARIO ASSUMPTION",
+      "source": "Froehlich (2008): Wb = 0.1803 * Ko * Vw^0.32 * Hb^0.19; Ko=1.0 (overtopping); Vw=6e8 m³; Hb=260.5 m → Wb≈334 m.",
+      "froehlich_formula": "Wb = 0.1803 × Ko × Vw^0.32 × Hb^0.19",
+      "froehlich_Ko": 1.0,
+      "froehlich_Vw_m3": 600000000.0,
+      "froehlich_Hb_m": 260.5,
+      "froehlich_computed_wb_m": 334.4,
+      "applied_value_m": 335.0,
+      "reason_for_rounding": "Rounded to 335 m; remains below crest length (575 m)"
+    },
+    "breach_side_slope_z": {
+      "value": 1.0,
+      "unit": "H:V (1.0 = trapezoidal earthfill/rockfill embankment breach)",
+      "classification": "SCENARIO ASSUMPTION",
+      "source": "Von Thun and Gillette (1990); NWS BREACH default for embankment dams",
+      "notes": "Earth-and-rockfill dam fails trapezoidally (z=1.0), unlike near-vertical masonry gravity failure"
+    },
+    "breach_formation_time_hr": {
+      "value": 1.10,
+      "unit": "hr",
+      "classification": "SCENARIO ASSUMPTION (Froehlich 2008 empirical + 0.90 conservative factor)",
+      "froehlich_formula": "tf = 0.0179 × Vw^0.364 × hb^-0.564",
+      "froehlich_Vw_m3": 600000000.0,
+      "froehlich_hb_m": 260.5,
+      "froehlich_computed_tf_hr": 1.22,
+      "conservative_factor": 0.90,
+      "applied_tf_hr": 1.10,
+      "applied_tf_sec": 3960,
+      "reason_for_factor": "0.90× conservative factor per Phase 4 approved methodology: faster breach produces higher peak discharge, more conservative for emergency planning",
+      "notes": "Explicitly classified SCENARIO ASSUMPTION. Not a measured value."
+    },
+    "breach_formation_time_sec": {
+      "value": 3960,
+      "unit": "s",
+      "classification": "SCENARIO ASSUMPTION",
+      "derivation": "1.10 hr × 3600 s/hr = 3960 s"
+    },
+    "weir_coefficient_rectangular": {
+      "value": 1.70,
+      "unit": "m^0.5 / s",
+      "classification": "SCENARIO ASSUMPTION",
+      "source": "Chaudhry (2008) broad-crested weir; USACE HEC-RAS default"
+    },
+    "weir_coefficient_triangular_side": {
+      "value": 1.20,
+      "unit": "dimensionless",
+      "classification": "SCENARIO ASSUMPTION",
+      "source": "Chaudhry (2008) side-slope discharge correction"
+    }
+  },
+
+  "simulation_controls": {
+    "timestep_sec": {
+      "value": 60,
+      "unit": "s",
+      "classification": "SCENARIO ASSUMPTION",
+      "notes": "Baseline dt=60 s. Sensitivity: also run at 30 s and 15 s."
+    },
+    "simulation_duration_hr": {
+      "value": 8.0,
+      "unit": "hr",
+      "classification": "SCENARIO ASSUMPTION",
+      "notes": "8 hr captures the flood wave through the steep Bhagirathi gorge and recession"
+    },
+    "simulation_duration_sec": {
+      "value": 28800,
+      "unit": "s",
+      "classification": "SCENARIO ASSUMPTION",
+      "derivation": "8.0 hr × 3600 = 28800 s"
+    },
+    "inundation_threshold_m": {
+      "value": 0.15,
+      "unit": "m",
+      "classification": "SCENARIO ASSUMPTION",
+      "source": "Standard European Flood Directive minimum inundation threshold (JRC, 2017)"
+    },
+    "manning_roughness_n": {
+      "main_channel": {
+        "value": 0.045,
+        "unit": "dimensionless",
+        "classification": "SCENARIO ASSUMPTION",
+        "source": "Chow (1959) Table 5-6 — steep mountain stream, cobbles and large boulders (Bhagirathi gorge).",
+        "chow_category": "Mountain stream, gravel/cobbles/few boulders"
+      },
+      "floodplain": {
+        "value": 0.060,
+        "unit": "dimensionless",
+        "classification": "SCENARIO ASSUMPTION",
+        "source": "Chow (1959) — steep valley sides with brush and trees"
+      }
+    }
+  },
+
+  "study_domain": {
+    "min_lat": 30.30, "min_lon": 78.40,
+    "max_lat": 30.45, "max_lon": 78.56,
+    "note": "Study domain covers Tehri Dam (30.3783N 78.48E) and the downstream Bhagirathi gorge"
+  },
+
+  "dataset_references": {
+    "dem": "data/tehri/dem/processed/tehri_dem_30m.tif",
+    "river": "data/tehri/river/bhagirathi_river.geojson",
+    "reservoir": "data/tehri/reservoir/tehri_reservoir.geojson",
+    "buildings": "data/tehri/buildings/tehri_buildings.geojson",
+    "roads": "data/tehri/roads/tehri_roads.geojson"
+  }
+}

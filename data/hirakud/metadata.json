@@ -1,0 +1,34 @@
+{
+  "id": "hirakud",
+  "name": "Hirakud Dam \u2014 Mahanadi River",
+  "dam_name": "Hirakud Dam",
+  "river_name": "Mahanadi River",
+  "state": "Odisha",
+  "district": "Sambalpur",
+  "country": "India",
+  "latitude": 21.57,
+  "longitude": 83.87,
+  "study_domain": {
+    "min_lat": 21.48,
+    "min_lon": 83.8,
+    "max_lat": 21.65,
+    "max_lon": 84.0
+  },
+  "dam_height_m": 60.96,
+  "crest_length_m": 4800.0,
+  "crest_elevation_m": 195.68,
+  "full_reservoir_level_m": 192.02,
+  "reservoir_capacity_m3": 5896000000.0,
+  "reservoir_area_m2": 743000000.0,
+  "downstream_bearing_deg": 135.0,
+  "is_demo": false,
+  "data_status": "NOT CONFIGURED",
+  "sources": [
+    {
+      "name": "DoWR Govt of Odisha",
+      "type": "Dam Registry",
+      "url": "https://dowr.odisha.gov.in",
+      "status": "verified"
+    }
+  ]
+}

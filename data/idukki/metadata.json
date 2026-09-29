@@ -1,0 +1,67 @@
+{
+  "id": "idukki",
+  "name": "Idukki Dam — Periyar River",
+  "dam_name": "Idukki Arch Dam",
+  "river_name": "Periyar River",
+  "state": "Kerala",
+  "district": "Idukki",
+  "country": "India",
+  "latitude": 9.85,
+  "longitude": 76.97,
+  "study_domain": {
+    "min_lat": 9.75,
+    "min_lon": 76.75,
+    "max_lat": 10.08,
+    "max_lon": 77.08
+  },
+  "dam_type": "Concrete Double-Curvature Arch Dam",
+  "completion_year": 1973,
+  "commissioning_year": 1976,
+  "dam_height_m": 168.91,
+  "crest_length_m": 365.85,
+  "crest_elevation_m": 735.6,
+  "full_reservoir_level_m": 732.43,
+  "maximum_water_level_m": 732.6,
+  "minimum_drawdown_level_m": 699.52,
+  "reservoir_capacity_m3": 1996000000.0,
+  "live_storage_m3": 1459500000.0,
+  "reservoir_area_m2": 60000000.0,
+  "spillway_type": "Separate spillway at Cheruthoni Dam (5 radial gates)",
+  "downstream_bearing_deg": 315.0,
+  "is_demo": false,
+  "simulation_enabled": true,
+  "data_status": "READY",
+  "dem_path": "data/idukki/dem/processed/idukki_dem_30m.tif",
+  "river_path": "data/idukki/river/periyar_river.geojson",
+  "buildings_path": "data/idukki/buildings/idukki_buildings.geojson",
+  "roads_path": "data/idukki/roads/idukki_roads.geojson",
+  "reservoir_path": "data/idukki/reservoir/idukki_reservoir.geojson",
+  "boundary_path": "data/idukki/boundaries/study_area.geojson",
+  "sources": [
+    {
+      "name": "Central Water Commission (CWC) NRLD",
+      "type": "Dam Registry",
+      "dam_code": "KL09HH0001",
+      "url": "https://cwc.gov.in",
+      "status": "verified"
+    },
+    {
+      "name": "Kerala State Electricity Board (KSEB) Dam Safety Organisation",
+      "type": "Dam Operator Records",
+      "url": "https://kseb.in",
+      "status": "verified"
+    },
+    {
+      "name": "Copernicus DEM GLO-30",
+      "type": "Digital Elevation Model",
+      "url": "https://copernicus-dem-30m.s3.amazonaws.com/",
+      "status": "verified"
+    },
+    {
+      "name": "OpenStreetMap",
+      "type": "Geospatial Vector Network",
+      "url": "https://www.openstreetmap.org",
+      "status": "verified"
+    }
+  ]
+}

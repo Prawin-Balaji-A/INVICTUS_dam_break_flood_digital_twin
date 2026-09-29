@@ -1,0 +1,17 @@
+{
+  "run1": {
+    "inundated_area_sqkm": 101.92,
+    "peak_depth_m": 66.34,
+    "peak_velocity_ms": 71.0,
+    "inundation_mask_md5": "9ae5e17de67b694cc42f52dd8b2d691f"
+  },
+  "run2": {
+    "inundated_area_sqkm": 101.92,
+    "peak_depth_m": 66.34,
+    "peak_velocity_ms": 71.0,
+    "inundation_mask_md5": "9ae5e17de67b694cc42f52dd8b2d691f"
+  },
+  "area_diff_km2": 0.0,
+  "depth_diff_m": 0.0,
+  "mask_bit_exact": true
+}

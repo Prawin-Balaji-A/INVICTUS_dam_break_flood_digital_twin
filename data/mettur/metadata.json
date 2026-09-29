@@ -1,0 +1,90 @@
+{
+  "id": "mettur",
+  "name": "Mettur Dam \u2014 Cauvery River",
+  "dam_name": "Mettur Dam (Stanley Reservoir)",
+  "dam_type": "Straight Gravity Masonry Dam",
+  "river_name": "Cauvery River",
+  "state": "Tamil Nadu",
+  "district": "Salem",
+  "country": "India",
+  "latitude": 11.8028,
+  "longitude": 77.8017,
+  "latitude_classification": "AUTHORITATIVE / MEASURED",
+  "latitude_source": "INDIA-WRIS; OSM node 443624561; Google Earth cross-verified",
+  "longitude_classification": "AUTHORITATIVE / MEASURED",
+  "longitude_source": "INDIA-WRIS; OSM node 443624561; Google Earth cross-verified",
+  "study_domain": {
+    "min_lat": 11.65,
+    "min_lon": 77.65,
+    "max_lat": 11.92,
+    "max_lon": 78.00,
+    "note": "Expanded from initial 0.16-deg box to capture full downstream Cauvery reach"
+  },
+  "dam_height_m": 65.23,
+  "dam_height_m_classification": "AUTHORITATIVE / MEASURED",
+  "dam_height_m_source": "CWC; INDIA-WRIS (214.0 ft x 0.3048 = 65.23 m)",
+  "crest_length_m": 1615.0,
+  "crest_length_m_classification": "AUTHORITATIVE / MEASURED",
+  "crest_length_m_source": "CWC; WRD TN (5300 ft x 0.3048 = 1615.44 m)",
+  "crest_elevation_m": 246.0,
+  "crest_elevation_m_classification": "AUTHORITATIVE / MEASURED",
+  "crest_elevation_m_source": "WRD TN dam design records",
+  "full_reservoir_level_m": 240.79,
+  "full_reservoir_level_m_classification": "AUTHORITATIVE / MEASURED",
+  "full_reservoir_level_m_source": "WRD TN (790.0 ft MSL; GTS Benchmark datum)",
+  "minimum_draw_down_level_m": 214.88,
+  "minimum_draw_down_level_m_classification": "AUTHORITATIVE / MEASURED",
+  "minimum_draw_down_level_m_source": "WRD TN (705.0 ft MSL)",
+  "reservoir_capacity_m3": 2644000000.0,
+  "reservoir_capacity_mcm": 2644.0,
+  "reservoir_capacity_m3_classification": "AUTHORITATIVE / MEASURED",
+  "reservoir_capacity_m3_source": "CWC Dossier; WRD TN (93.47 TMC)",
+  "reservoir_area_m2": 153000000.0,
+  "reservoir_area_km2": 153.0,
+  "reservoir_area_m2_classification": "AUTHORITATIVE / MEASURED",
+  "reservoir_area_m2_source": "WRD TN; Landsat-8 derived (CWC)",
+  "river_bed_elevation_m": 180.77,
+  "river_bed_elevation_m_classification": "DERIVED",
+  "river_bed_elevation_m_derivation": "crest_elevation_m (246.0) - dam_height_m (65.23) = 180.77 m MSL",
+  "downstream_bearing_deg": 130.0,
+  "downstream_bearing_deg_classification": "DERIVED",
+  "downstream_bearing_deg_note": "Indicative only. Simulation uses DEM slope-gradient for actual routing, not this value.",
+  "is_demo": false,
+  "data_status": "CONFIGURED",
+  "simulation_enabled": true,
+  "data_gate_status": "PASS",
+  "data_gate_timestamp": "2026-09-23T15:45:45Z",
+  "sources": [
+    {
+      "name": "Central Water Commission (CWC) — Dam Safety Review",
+      "type": "Official Dam Registry",
+      "provenance": "AUTHORITATIVE",
+      "url": "https://cwc.gov.in"
+    },
+    {
+      "name": "Water Resources Department, Tamil Nadu (WRD TN)",
+      "type": "State Dam Registry",
+      "provenance": "AUTHORITATIVE",
+      "url": "http://www.wrd.tn.gov.in"
+    },
+    {
+      "name": "INDIA-WRIS (Water Resources Information System of India)",
+      "type": "National Water Data Portal",
+      "provenance": "AUTHORITATIVE",
+      "url": "https://indiawris.gov.in"
+    },
+    {
+      "name": "Copernicus DEM GLO-30",
+      "type": "Satellite-derived Digital Elevation Model",
+      "provenance": "AUTHORITATIVE / MEASURED",
+      "url": "https://copernicus-dem-30m.s3.amazonaws.com/",
+      "resolution": "30m (1 arc-second)"
+    },
+    {
+      "name": "OpenStreetMap",
+      "type": "Community-sourced geographic data",
+      "provenance": "AUTHORITATIVE / MEASURED",
+      "url": "https://www.openstreetmap.org"
+    }
+  ]
+}

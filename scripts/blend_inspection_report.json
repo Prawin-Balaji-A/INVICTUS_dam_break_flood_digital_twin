@@ -1,0 +1,5794 @@
+{
+  "scene": {
+    "name": "Scene",
+    "frame_start": 1,
+    "frame_end": 600,
+    "frame_current": 60,
+    "fps": 30,
+    "unit_system": "METRIC",
+    "unit_scale": 1.0,
+    "camera": "CAMERA_01_Aerial_Overview"
+  },
+  "world": {
+    "name": "World",
+    "nodes": [
+      "OUTPUT_WORLD",
+      "BACKGROUND"
+    ]
+  },
+  "collections": {
+    "name": "Scene Collection",
+    "depth": 0,
+    "hide_viewport": false,
+    "objects": [],
+    "children": [
+      {
+        "name": "TEHRI_TERRAIN",
+        "depth": 1,
+        "hide_viewport": false,
+        "objects": [
+          "TEHRI_Terrain"
+        ],
+        "children": []
+      },
+      {
+        "name": "TEHRI_DAM",
+        "depth": 1,
+        "hide_viewport": false,
+        "objects": [
+          "TEHRI_Dam_Main",
+          "TEHRI_DAM_ORIGIN_MARKER",
+          "TEHRI_Dam_Breach_Notch"
+        ],
+        "children": []
+      },
+      {
+        "name": "TEHRI_RESERVOIR",
+        "depth": 1,
+        "hide_viewport": false,
+        "objects": [
+          "TEHRI_Reservoir_00.001"
+        ],
+        "children": []
+      },
+      {
+        "name": "TEHRI_ROADS",
+        "depth": 1,
+        "hide_viewport": false,
+        "objects": [
+          "TEHRI_Road_0000",
+          "TEHRI_Road_0001",
+          "TEHRI_Road_0002",
+          "TEHRI_Road_0003",
+          "TEHRI_Road_0004",
+          "TEHRI_Road_0005",
+          "TEHRI_Road_0006",
+          "TEHRI_Road_0007",
+          "TEHRI_Road_0008",
+          "TEHRI_Road_0009",
+          "TEHRI_Road_0010",
+          "TEHRI_Road_0011",
+          "TEHRI_Road_0012",
+          "TEHRI_Road_0013",
+          "TEHRI_Road_0014",
+          "TEHRI_Road_0015",
+          "TEHRI_Road_0016",
+          "TEHRI_Road_0017",
+          "TEHRI_Road_0018",
+          "TEHRI_Road_0019",
+          "TEHRI_Road_0020",
+          "TEHRI_Road_0021",
+          "TEHRI_Road_0022",
+          "TEHRI_Road_0023",
+          "TEHRI_Road_0024",
+          "TEHRI_Road_0025",
+          "TEHRI_Road_0026",
+          "TEHRI_Road_0027",
+          "TEHRI_Road_0028",
+          "TEHRI_Road_0029",
+          "TEHRI_Road_0030",
+          "TEHRI_Road_0031",
+          "TEHRI_Road_0032",
+          "TEHRI_Road_0033",
+          "TEHRI_Road_0034",
+          "TEHRI_Road_0035",
+          "TEHRI_Road_0036",
+          "TEHRI_Road_0037",
+          "TEHRI_Road_0038",
+          "TEHRI_Road_0039",
+          "TEHRI_Road_0040",
+          "TEHRI_Road_0041",
+          "TEHRI_Road_0042",
+          "TEHRI_Road_0043",
+          "TEHRI_Road_0044",
+          "TEHRI_Road_0045",
+          "TEHRI_Road_0046",
+          "TEHRI_Road_0047",
+          "TEHRI_Road_0048",
+          "TEHRI_Road_0049",
+          "TEHRI_Road_0050",
+          "TEHRI_Road_0051",
+          "TEHRI_Road_0052",
+          "TEHRI_Road_0053",
+          "TEHRI_Road_0054",
+          "TEHRI_Road_0055",
+          "TEHRI_Road_0056",
+          "TEHRI_Road_0057",
+          "TEHRI_Road_0058",
+          "TEHRI_Road_0059",
+          "TEHRI_Road_0060",
+          "TEHRI_Road_0061",
+          "TEHRI_Road_0062",
+          "TEHRI_Road_0063",
+          "TEHRI_Road_0064",
+          "TEHRI_Road_0065",
+          "TEHRI_Road_0066",
+          "TEHRI_Road_0067",
+          "TEHRI_Road_0068",
+          "TEHRI_Road_0069",
+          "TEHRI_Road_0070",
+          "TEHRI_Road_0071",
+          "TEHRI_Road_0072",
+          "TEHRI_Road_0073",
+          "TEHRI_Road_0074",
+          "TEHRI_Road_0075",
+          "TEHRI_Road_0076",
+          "TEHRI_Road_0077",
+          "TEHRI_Road_0078",
+          "TEHRI_Road_0079",
+          "TEHRI_Road_0080",
+          "TEHRI_Road_0081",
+          "TEHRI_Road_0082",
+          "TEHRI_Road_0083",
+          "TEHRI_Road_0084",
+          "TEHRI_Road_0085",
+          "TEHRI_Road_0086",
+          "TEHRI_Road_0087",
+          "TEHRI_Road_0088",
+          "TEHRI_Road_0089",
+          "TEHRI_Road_0090",
+          "TEHRI_Road_0091",
+          "TEHRI_Road_0092",
+          "TEHRI_Road_0093"
+        ],
+        "children": []
+      },
+      {
+        "name": "TEHRI_BUILDINGS",
+        "depth": 1,
+        "hide_viewport": false,
+        "objects": [
+          "TEHRI_Building_0000.001",
+          "TEHRI_Building_0001.001",
+          "TEHRI_Building_0002.001",
+          "TEHRI_Building_0003.001",
+          "TEHRI_Building_0004.001",
+          "TEHRI_Building_0005.001",
+          "TEHRI_Building_0006.001",
+          "TEHRI_Building_0007.001",
+          "TEHRI_Building_0008.001",
+          "TEHRI_Building_0009.001",
+          "TEHRI_Building_0010.001",
+          "TEHRI_Building_0011.001",
+          "TEHRI_Building_0012.001",
+          "TEHRI_Building_0013.001"
+        ],
+        "children": []
+      },
+      {
+        "name": "TEHRI_WATERWAYS",
+        "depth": 1,
+        "hide_viewport": false,
+        "objects": [
+          "TEHRI_Waterway_0000",
+          "TEHRI_Waterway_0001",
+          "TEHRI_Waterway_0002",
+          "TEHRI_Waterway_0003",
+          "TEHRI_Waterway_0004",
+          "TEHRI_Waterway_0005",
+          "TEHRI_Waterway_0006",
+          "TEHRI_Waterway_0007",
+          "TEHRI_Waterway_0008",
+          "TEHRI_Water_01.001",
+          "TEHRI_Water_02.001"
+        ],
+        "children": []
+      },
+      {
+        "name": "TEHRI_FLOOD",
+        "depth": 1,
+        "hide_viewport": false,
+        "objects": [
+          "TEHRI_Flood_01",
+          "TEHRI_Flood_02",
+          "TEHRI_Flood_03",
+          "TEHRI_Flood_04",
+          "TEHRI_Flood_05",
+          "TEHRI_Flood_06",
+          "TEHRI_Road_0001_FloodStrip",
+          "TEHRI_Road_0007_FloodStrip",
+          "TEHRI_Road_0014_FloodStrip",
+          "TEHRI_Road_0022_FloodStrip",
+          "TEHRI_Road_0023_FloodStrip"
+        ],
+        "children": []
+      },
+      {
+        "name": "TEHRI_EFFECTS",
+        "depth": 1,
+        "hide_viewport": false,
+        "objects": [
+          "TEHRI_Flood_Torrent",
+          "TEHRI_Flood_Foam_00",
+          "TEHRI_Flood_Foam_01",
+          "TEHRI_Flood_Foam_02",
+          "TEHRI_Flood_Foam_03",
+          "TEHRI_Splash_Emitter",
+          "TEHRI_Splash_Droplet"
+        ],
+        "children": []
+      },
+      {
+        "name": "TEHRI_LIGHTING",
+        "depth": 1,
+        "hide_viewport": false,
+        "objects": [
+          "TEHRI_Sun",
+          "TEHRI_Fill"
+        ],
+        "children": []
+      },
+      {
+        "name": "TEHRI_CAMERAS",
+        "depth": 1,
+        "hide_viewport": false,
+        "objects": [
+          "CAMERA_01_Aerial_Overview",
+          "CAMERA_02_Dam_CloseUp",
+          "CAMERA_03_Breach",
+          "CAMERA_04_Follow_Downstream",
+          "CAMERA_05_Infrastructure_Aerial",
+          "CAMERA_06_Final_Wide"
+        ],
+        "children": []
+      }
+    ]
+  },
+  "objects": [
+    {
+      "name": "CAMERA_01_Aerial_Overview",
+      "type": "CAMERA",
+      "location": [
+        6138.0,
+        -6138.0,
+        1035.5696
+      ],
+      "rotation_euler_deg": [
+        83.61,
+        -0.0,
+        45.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_CAMERAS"
+      ],
+      "parent": null,
+      "lens_mm": 32.0,
+      "clip_start": 0.10000000149011612,
+      "clip_end": 1000.0,
+      "animation_action": "CAMERA_01_Aerial_OverviewAction",
+      "frame_range": [
+        1.0,
+        120.0
+      ]
+    },
+    {
+      "name": "CAMERA_02_Dam_CloseUp",
+      "type": "CAMERA",
+      "location": [
+        325.2812,
+        216.5126,
+        97.4599
+      ],
+      "rotation_euler_deg": [
+        96.1,
+        0.0,
+        123.65
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_CAMERAS"
+      ],
+      "parent": null,
+      "lens_mm": 32.0,
+      "clip_start": 0.10000000149011612,
+      "clip_end": 1000.0,
+      "animation_action": "CAMERA_02_Dam_CloseUpAction",
+      "frame_range": [
+        120.0,
+        135.0
+      ]
+    },
+    {
+      "name": "CAMERA_03_Breach",
+      "type": "CAMERA",
+      "location": [
+        177.9032,
+        14.806,
+        48.73
+      ],
+      "rotation_euler_deg": [
+        51.12,
+        -0.0,
+        94.76
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_CAMERAS"
+      ],
+      "parent": null,
+      "lens_mm": 32.0,
+      "clip_start": 0.10000000149011612,
+      "clip_end": 1000.0,
+      "animation_action": "CAMERA_03_BreachAction",
+      "frame_range": [
+        136.0,
+        300.0
+      ]
+    },
+    {
+      "name": "CAMERA_04_Follow_Downstream",
+      "type": "CAMERA",
+      "location": [
+        -3063.8806,
+        -2661.0273,
+        312.6
+      ],
+      "rotation_euler_deg": [
+        106.39,
+        0.0,
+        106.95
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_CAMERAS"
+      ],
+      "parent": null,
+      "lens_mm": 32.0,
+      "clip_start": 0.10000000149011612,
+      "clip_end": 1000.0,
+      "animation_action": "CAMERA_04_Follow_DownstreamAction",
+      "frame_range": [
+        301.0,
+        450.0
+      ]
+    },
+    {
+      "name": "CAMERA_05_Infrastructure_Aerial",
+      "type": "CAMERA",
+      "location": [
+        -5743.9282,
+        -3823.2561,
+        651.25
+      ],
+      "rotation_euler_deg": [
+        93.0,
+        0.0,
+        123.65
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_CAMERAS"
+      ],
+      "parent": null,
+      "lens_mm": 32.0,
+      "clip_start": 0.10000000149011612,
+      "clip_end": 1000.0,
+      "animation_action": "CAMERA_05_Infrastructure_AerialAction",
+      "frame_range": [
+        451.0,
+        540.0
+      ]
+    },
+    {
+      "name": "CAMERA_06_Final_Wide",
+      "type": "CAMERA",
+      "location": [
+        0.0,
+        0.0,
+        1563.0
+      ],
+      "rotation_euler_deg": [
+        74.79,
+        -0.0,
+        123.65
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_CAMERAS"
+      ],
+      "parent": null,
+      "lens_mm": 32.0,
+      "clip_start": 0.10000000149011612,
+      "clip_end": 1000.0,
+      "animation_action": "CAMERA_06_Final_WideAction",
+      "frame_range": [
+        541.0,
+        600.0
+      ]
+    },
+    {
+      "name": "TEHRI_Building_0000.001",
+      "type": "MESH",
+      "location": [
+        0.0,
+        0.0,
+        290.9854
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_BUILDINGS"
+      ],
+      "parent": null,
+      "mesh_name": "TEHRI_Building_0000_Curve",
+      "vertices": 16,
+      "polygons": 8,
+      "has_uv": true,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        {
+          "name": "Mat_Building_unknown",
+          "blend_method": "HASHED",
+          "nodes": [
+            {
+              "type": "BSDF_PRINCIPLED",
+              "name": "Principled BSDF",
+              "base_color": [
+                0.5799999833106995,
+                0.5799999833106995,
+                0.5799999833106995,
+                1.0
+              ],
+              "roughness": 0.55,
+              "metallic": 0.0,
+              "alpha": 1.0,
+              "transmission": 0.0
+            },
+            {
+              "type": "OUTPUT_MATERIAL",
+              "name": "Material Output"
+            }
+          ]
+        }
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "TEHRI_Building_0001.001",
+      "type": "MESH",
+      "location": [
+        0.0,
+        0.0,
+        136.9339
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_BUILDINGS"
+      ],
+      "parent": null,
+      "mesh_name": "TEHRI_Building_0001_Curve",
+      "vertices": 48,
+      "polygons": 32,
+      "has_uv": true,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        {
+          "name": "Mat_Building_unknown",
+          "blend_method": "HASHED",
+          "nodes": [
+            {
+              "type": "BSDF_PRINCIPLED",
+              "name": "Principled BSDF",
+              "base_color": [
+                0.5799999833106995,
+                0.5799999833106995,
+                0.5799999833106995,
+                1.0
+              ],
+              "roughness": 0.55,
+              "metallic": 0.0,
+              "alpha": 1.0,
+              "transmission": 0.0
+            },
+            {
+              "type": "OUTPUT_MATERIAL",
+              "name": "Material Output"
+            }
+          ]
+        }
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "TEHRI_Building_0002.001",
+      "type": "MESH",
+      "location": [
+        0.0,
+        0.0,
+        139.4044
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_BUILDINGS"
+      ],
+      "parent": null,
+      "mesh_name": "TEHRI_Building_0002_Curve",
+      "vertices": 48,
+      "polygons": 32,
+      "has_uv": true,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        {
+          "name": "Mat_Building_unknown",
+          "blend_method": "HASHED",
+          "nodes": [
+            {
+              "type": "BSDF_PRINCIPLED",
+              "name": "Principled BSDF",
+              "base_color": [
+                0.5799999833106995,
+                0.5799999833106995,
+                0.5799999833106995,
+                1.0
+              ],
+              "roughness": 0.55,
+              "metallic": 0.0,
+              "alpha": 1.0,
+              "transmission": 0.0
+            },
+            {
+              "type": "OUTPUT_MATERIAL",
+              "name": "Material Output"
+            }
+          ]
+        }
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "TEHRI_Building_0003.001",
+      "type": "MESH",
+      "location": [
+        0.0,
+        0.0,
+        223.6031
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_BUILDINGS"
+      ],
+      "parent": null,
+      "mesh_name": "TEHRI_Building_0003_Curve",
+      "vertices": 16,
+      "polygons": 8,
+      "has_uv": true,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        {
+          "name": "Mat_Building_unknown",
+          "blend_method": "HASHED",
+          "nodes": [
+            {
+              "type": "BSDF_PRINCIPLED",
+              "name": "Principled BSDF",
+              "base_color": [
+                0.5799999833106995,
+                0.5799999833106995,
+                0.5799999833106995,
+                1.0
+              ],
+              "roughness": 0.55,
+              "metallic": 0.0,
+              "alpha": 1.0,
+              "transmission": 0.0
+            },
+            {
+              "type": "OUTPUT_MATERIAL",
+              "name": "Material Output"
+            }
+          ]
+        }
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "TEHRI_Building_0004.001",
+      "type": "MESH",
+      "location": [
+        0.0,
+        0.0,
+        227.1658
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_BUILDINGS"
+      ],
+      "parent": null,
+      "mesh_name": "TEHRI_Building_0004_Curve",
+      "vertices": 16,
+      "polygons": 8,
+      "has_uv": true,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        {
+          "name": "Mat_Building_unknown",
+          "blend_method": "HASHED",
+          "nodes": [
+            {
+              "type": "BSDF_PRINCIPLED",
+              "name": "Principled BSDF",
+              "base_color": [
+                0.5799999833106995,
+                0.5799999833106995,
+                0.5799999833106995,
+                1.0
+              ],
+              "roughness": 0.55,
+              "metallic": 0.0,
+              "alpha": 1.0,
+              "transmission": 0.0
+            },
+            {
+              "type": "OUTPUT_MATERIAL",
+              "name": "Material Output"
+            }
+          ]
+        }
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "TEHRI_Building_0005.001",
+      "type": "MESH",
+      "location": [
+        0.0,
+        0.0,
+        348.8152
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_BUILDINGS"
+      ],
+      "parent": null,
+      "mesh_name": "TEHRI_Building_0005_Curve",
+      "vertices": 32,
+      "polygons": 20,
+      "has_uv": true,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        {
+          "name": "Mat_Building_unknown",
+          "blend_method": "HASHED",
+          "nodes": [
+            {
+              "type": "BSDF_PRINCIPLED",
+              "name": "Principled BSDF",
+              "base_color": [
+                0.5799999833106995,
+                0.5799999833106995,
+                0.5799999833106995,
+                1.0
+              ],
+              "roughness": 0.55,
+              "metallic": 0.0,
+              "alpha": 1.0,
+              "transmission": 0.0
+            },
+            {
+              "type": "OUTPUT_MATERIAL",
+              "name": "Material Output"
+            }
+          ]
+        }
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "TEHRI_Building_0006.001",
+      "type": "MESH",
+      "location": [
+        0.0,
+        0.0,
+        667.8616
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_BUILDINGS"
+      ],
+      "parent": null,
+      "mesh_name": "TEHRI_Building_0006_Curve",
+      "vertices": 16,
+      "polygons": 8,
+      "has_uv": true,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        {
+          "name": "Mat_Building_unknown",
+          "blend_method": "HASHED",
+          "nodes": [
+            {
+              "type": "BSDF_PRINCIPLED",
+              "name": "Principled BSDF",
+              "base_color": [
+                0.5799999833106995,
+                0.5799999833106995,
+                0.5799999833106995,
+                1.0
+              ],
+              "roughness": 0.55,
+              "metallic": 0.0,
+              "alpha": 1.0,
+              "transmission": 0.0
+            },
+            {
+              "type": "OUTPUT_MATERIAL",
+              "name": "Material Output"
+            }
+          ]
+        }
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "TEHRI_Building_0007.001",
+      "type": "MESH",
+      "location": [
+        0.0,
+        0.0,
+        402.4941
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_BUILDINGS"
+      ],
+      "parent": null,
+      "mesh_name": "TEHRI_Building_0007_Curve",
+      "vertices": 24,
+      "polygons": 14,
+      "has_uv": true,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        {
+          "name": "Mat_Building_unknown",
+          "blend_method": "HASHED",
+          "nodes": [
+            {
+              "type": "BSDF_PRINCIPLED",
+              "name": "Principled BSDF",
+              "base_color": [
+                0.5799999833106995,
+                0.5799999833106995,
+                0.5799999833106995,
+                1.0
+              ],
+              "roughness": 0.55,
+              "metallic": 0.0,
+              "alpha": 1.0,
+              "transmission": 0.0
+            },
+            {
+              "type": "OUTPUT_MATERIAL",
+              "name": "Material Output"
+            }
+          ]
+        }
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "TEHRI_Building_0008.001",
+      "type": "MESH",
+      "location": [
+        0.0,
+        0.0,
+        428.1816
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_BUILDINGS"
+      ],
+      "parent": null,
+      "mesh_name": "TEHRI_Building_0008_Curve",
+      "vertices": 16,
+      "polygons": 8,
+      "has_uv": true,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        {
+          "name": "Mat_Building_unknown",
+          "blend_method": "HASHED",
+          "nodes": [
+            {
+              "type": "BSDF_PRINCIPLED",
+              "name": "Principled BSDF",
+              "base_color": [
+                0.5799999833106995,
+                0.5799999833106995,
+                0.5799999833106995,
+                1.0
+              ],
+              "roughness": 0.55,
+              "metallic": 0.0,
+              "alpha": 1.0,
+              "transmission": 0.0
+            },
+            {
+              "type": "OUTPUT_MATERIAL",
+              "name": "Material Output"
+            }
+          ]
+        }
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "TEHRI_Building_0009.001",
+      "type": "MESH",
+      "location": [
+        0.0,
+        0.0,
+        861.748
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_BUILDINGS"
+      ],
+      "parent": null,
+      "mesh_name": "TEHRI_Building_0009_Curve",
+      "vertices": 16,
+      "polygons": 8,
+      "has_uv": true,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        {
+          "name": "Mat_Building_unknown",
+          "blend_method": "HASHED",
+          "nodes": [
+            {
+              "type": "BSDF_PRINCIPLED",
+              "name": "Principled BSDF",
+              "base_color": [
+                0.5799999833106995,
+                0.5799999833106995,
+                0.5799999833106995,
+                1.0
+              ],
+              "roughness": 0.55,
+              "metallic": 0.0,
+              "alpha": 1.0,
+              "transmission": 0.0
+            },
+            {
+              "type": "OUTPUT_MATERIAL",
+              "name": "Material Output"
+            }
+          ]
+        }
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "TEHRI_Building_0010.001",
+      "type": "MESH",
+      "location": [
+        0.0,
+        0.0,
+        858.8329
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_BUILDINGS"
+      ],
+      "parent": null,
+      "mesh_name": "TEHRI_Building_0010_Curve",
+      "vertices": 16,
+      "polygons": 8,
+      "has_uv": true,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        {
+          "name": "Mat_Building_unknown",
+          "blend_method": "HASHED",
+          "nodes": [
+            {
+              "type": "BSDF_PRINCIPLED",
+              "name": "Principled BSDF",
+              "base_color": [
+                0.5799999833106995,
+                0.5799999833106995,
+                0.5799999833106995,
+                1.0
+              ],
+              "roughness": 0.55,
+              "metallic": 0.0,
+              "alpha": 1.0,
+              "transmission": 0.0
+            },
+            {
+              "type": "OUTPUT_MATERIAL",
+              "name": "Material Output"
+            }
+          ]
+        }
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "TEHRI_Building_0011.001",
+      "type": "MESH",
+      "location": [
+        0.0,
+        0.0,
+        862.0413
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_BUILDINGS"
+      ],
+      "parent": null,
+      "mesh_name": "TEHRI_Building_0011_Curve",
+      "vertices": 16,
+      "polygons": 8,
+      "has_uv": true,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        {
+          "name": "Mat_Building_unknown",
+          "blend_method": "HASHED",
+          "nodes": [
+            {
+              "type": "BSDF_PRINCIPLED",
+              "name": "Principled BSDF",
+              "base_color": [
+                0.5799999833106995,
+                0.5799999833106995,
+                0.5799999833106995,
+                1.0
+              ],
+              "roughness": 0.55,
+              "metallic": 0.0,
+              "alpha": 1.0,
+              "transmission": 0.0
+            },
+            {
+              "type": "OUTPUT_MATERIAL",
+              "name": "Material Output"
+            }
+          ]
+        }
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "TEHRI_Building_0012.001",
+      "type": "MESH",
+      "location": [
+        0.0,
+        0.0,
+        883.6111
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_BUILDINGS"
+      ],
+      "parent": null,
+      "mesh_name": "TEHRI_Building_0012_Curve",
+      "vertices": 40,
+      "polygons": 26,
+      "has_uv": true,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        {
+          "name": "Mat_Building_unknown",
+          "blend_method": "HASHED",
+          "nodes": [
+            {
+              "type": "BSDF_PRINCIPLED",
+              "name": "Principled BSDF",
+              "base_color": [
+                0.5799999833106995,
+                0.5799999833106995,
+                0.5799999833106995,
+                1.0
+              ],
+              "roughness": 0.55,
+              "metallic": 0.0,
+              "alpha": 1.0,
+              "transmission": 0.0
+            },
+            {
+              "type": "OUTPUT_MATERIAL",
+              "name": "Material Output"
+            }
+          ]
+        }
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "TEHRI_Building_0013.001",
+      "type": "MESH",
+      "location": [
+        0.0,
+        0.0,
+        882.0675
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_BUILDINGS"
+      ],
+      "parent": null,
+      "mesh_name": "TEHRI_Building_0013_Curve",
+      "vertices": 16,
+      "polygons": 8,
+      "has_uv": true,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        {
+          "name": "Mat_Building_unknown",
+          "blend_method": "HASHED",
+          "nodes": [
+            {
+              "type": "BSDF_PRINCIPLED",
+              "name": "Principled BSDF",
+              "base_color": [
+                0.5799999833106995,
+                0.5799999833106995,
+                0.5799999833106995,
+                1.0
+              ],
+              "roughness": 0.55,
+              "metallic": 0.0,
+              "alpha": 1.0,
+              "transmission": 0.0
+            },
+            {
+              "type": "OUTPUT_MATERIAL",
+              "name": "Material Output"
+            }
+          ]
+        }
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "TEHRI_Dam_Breach_Notch",
+      "type": "MESH",
+      "location": [
+        0.0,
+        -0.0,
+        137.2285
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        -56.35
+      ],
+      "scale": [
+        0.001,
+        0.001,
+        0.001
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_DAM"
+      ],
+      "parent": null,
+      "mesh_name": "Cube.001",
+      "vertices": 8,
+      "polygons": 6,
+      "has_uv": true,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        {
+          "name": "Mat_Breach_Dark",
+          "blend_method": "HASHED",
+          "nodes": [
+            {
+              "type": "BSDF_PRINCIPLED",
+              "name": "Principled BSDF",
+              "base_color": [
+                0.05000000074505806,
+                0.03999999910593033,
+                0.029999999329447746,
+                1.0
+              ],
+              "roughness": 1.0,
+              "metallic": 0.0,
+              "alpha": 1.0,
+              "transmission": 0.0
+            },
+            {
+              "type": "OUTPUT_MATERIAL",
+              "name": "Material Output"
+            }
+          ]
+        }
+      ],
+      "modifiers": [],
+      "animation_action": "TEHRI_Dam_Breach_NotchAction",
+      "frame_range": [
+        1.0,
+        300.0
+      ]
+    },
+    {
+      "name": "TEHRI_Dam_Main",
+      "type": "MESH",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_DAM"
+      ],
+      "parent": null,
+      "mesh_name": "TEHRI_Dam_Main_Mesh",
+      "vertices": 8,
+      "polygons": 5,
+      "has_uv": false,
+      "uv_layers": [],
+      "materials": [
+        {
+          "name": "Mat_Dam_Rockfill",
+          "blend_method": "HASHED",
+          "nodes": [
+            {
+              "type": "BSDF_PRINCIPLED",
+              "name": "Principled BSDF",
+              "base_color": [
+                0.41999998688697815,
+                0.38999998569488525,
+                0.3499999940395355,
+                1.0
+              ],
+              "roughness": 0.95,
+              "metallic": 0.0,
+              "alpha": 1.0,
+              "transmission": 0.0
+            },
+            {
+              "type": "OUTPUT_MATERIAL",
+              "name": "Material Output"
+            },
+            {
+              "type": "TEX_NOISE",
+              "name": "Noise Texture"
+            },
+            {
+              "type": "BUMP",
+              "name": "Bump"
+            }
+          ]
+        },
+        {
+          "name": "Mat_Dam_Crest",
+          "blend_method": "HASHED",
+          "nodes": [
+            {
+              "type": "BSDF_PRINCIPLED",
+              "name": "Principled BSDF",
+              "base_color": [
+                0.5,
+                0.49000000953674316,
+                0.46000000834465027,
+                1.0
+              ],
+              "roughness": 0.75,
+              "metallic": 0.0,
+              "alpha": 1.0,
+              "transmission": 0.0
+            },
+            {
+              "type": "OUTPUT_MATERIAL",
+              "name": "Material Output"
+            }
+          ]
+        }
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "TEHRI_DAM_ORIGIN_MARKER",
+      "type": "EMPTY",
+      "location": [
+        0.0,
+        0.0,
+        -121.2715
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_DAM"
+      ],
+      "parent": null,
+      "empty_display_type": "PLAIN_AXES"
+    },
+    {
+      "name": "TEHRI_Fill",
+      "type": "LIGHT",
+      "location": [
+        -4092.0,
+        4092.0,
+        781.5
+      ],
+      "rotation_euler_deg": [
+        -40.0,
+        0.0,
+        -20.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_LIGHTING"
+      ],
+      "parent": null,
+      "light_type": "AREA",
+      "energy": 5000.0,
+      "color": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "TEHRI_Flood_01",
+      "type": "MESH",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.001,
+        0.001,
+        0.001
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_FLOOD"
+      ],
+      "parent": null,
+      "mesh_name": "TEHRI_Flood_01_Mesh",
+      "vertices": 14,
+      "polygons": 6,
+      "has_uv": false,
+      "uv_layers": [],
+      "materials": [
+        {
+          "name": "Mat_Flood_Water",
+          "blend_method": "BLEND",
+          "nodes": [
+            {
+              "type": "OUTPUT_MATERIAL",
+              "name": "Material Output"
+            },
+            {
+              "type": "BSDF_PRINCIPLED",
+              "name": "Principled BSDF",
+              "base_color": [
+                0.18000000715255737,
+                0.23999999463558197,
+                0.23999999463558197,
+                0.8500000238418579
+              ],
+              "roughness": 0.08,
+              "metallic": 0.0,
+              "alpha": 0.85,
+              "transmission": 0.55
+            },
+            {
+              "type": "TEX_COORD",
+              "name": "Texture Coordinate"
+            },
+            {
+              "type": "MAPPING",
+              "name": "Mapping"
+            },
+            {
+              "type": "TEX_WAVE",
+              "name": "Wave Texture"
+            },
+            {
+              "type": "TEX_NOISE",
+              "name": "Noise Texture"
+            },
+            {
+              "type": "MATH",
+              "name": "Math"
+            },
+            {
+              "type": "BUMP",
+              "name": "Bump"
+            }
+          ]
+        }
+      ],
+      "modifiers": [],
+      "animation_action": "TEHRI_Flood_01Action",
+      "frame_range": [
+        1.0,
+        330.0
+      ]
+    },
+    {
+      "name": "TEHRI_Flood_02",
+      "type": "MESH",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.001,
+        0.001,
+        0.001
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_FLOOD"
+      ],
+      "parent": null,
+      "mesh_name": "TEHRI_Flood_02_Mesh",
+      "vertices": 14,
+      "polygons": 6,
+      "has_uv": false,
+      "uv_layers": [],
+      "materials": [
+        {
+          "name": "Mat_Flood_Water",
+          "blend_method": "BLEND",
+          "nodes": [
+            {
+              "type": "OUTPUT_MATERIAL",
+              "name": "Material Output"
+            },
+            {
+              "type": "BSDF_PRINCIPLED",
+              "name": "Principled BSDF",
+              "base_color": [
+                0.18000000715255737,
+                0.23999999463558197,
+                0.23999999463558197,
+                0.8500000238418579
+              ],
+              "roughness": 0.08,
+              "metallic": 0.0,
+              "alpha": 0.85,
+              "transmission": 0.55
+            },
+            {
+              "type": "TEX_COORD",
+              "name": "Texture Coordinate"
+            },
+            {
+              "type": "MAPPING",
+              "name": "Mapping"
+            },
+            {
+              "type": "TEX_WAVE",
+              "name": "Wave Texture"
+            },
+            {
+              "type": "TEX_NOISE",
+              "name": "Noise Texture"
+            },
+            {
+              "type": "MATH",
+              "name": "Math"
+            },
+            {
+              "type": "BUMP",
+              "name": "Bump"
+            }
+          ]
+        }
+      ],
+      "modifiers": [],
+      "animation_action": "TEHRI_Flood_02Action",
+      "frame_range": [
+        1.0,
+        360.0
+      ]
+    },
+    {
+      "name": "TEHRI_Flood_03",
+      "type": "MESH",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.001,
+        0.001,
+        0.001
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_FLOOD"
+      ],
+      "parent": null,
+      "mesh_name": "TEHRI_Flood_03_Mesh",
+      "vertices": 14,
+      "polygons": 6,
+      "has_uv": false,
+      "uv_layers": [],
+      "materials": [
+        {
+          "name": "Mat_Flood_Water",
+          "blend_method": "BLEND",
+          "nodes": [
+            {
+              "type": "OUTPUT_MATERIAL",
+              "name": "Material Output"
+            },
+            {
+              "type": "BSDF_PRINCIPLED",
+              "name": "Principled BSDF",
+              "base_color": [
+                0.18000000715255737,
+                0.23999999463558197,
+                0.23999999463558197,
+                0.8500000238418579
+              ],
+              "roughness": 0.08,
+              "metallic": 0.0,
+              "alpha": 0.85,
+              "transmission": 0.55
+            },
+            {
+              "type": "TEX_COORD",
+              "name": "Texture Coordinate"
+            },
+            {
+              "type": "MAPPING",
+              "name": "Mapping"
+            },
+            {
+              "type": "TEX_WAVE",
+              "name": "Wave Texture"
+            },
+            {
+              "type": "TEX_NOISE",
+              "name": "Noise Texture"
+            },
+            {
+              "type": "MATH",
+              "name": "Math"
+            },
+            {
+              "type": "BUMP",
+              "name": "Bump"
+            }
+          ]
+        }
+      ],
+      "modifiers": [],
+      "animation_action": "TEHRI_Flood_03Action",
+      "frame_range": [
+        1.0,
+        390.0
+      ]
+    },
+    {
+      "name": "TEHRI_Flood_04",
+      "type": "MESH",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.001,
+        0.001,
+        0.001
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_FLOOD"
+      ],
+      "parent": null,
+      "mesh_name": "TEHRI_Flood_04_Mesh",
+      "vertices": 14,
+      "polygons": 6,
+      "has_uv": false,
+      "uv_layers": [],
+      "materials": [
+        {
+          "name": "Mat_Flood_Water",
+          "blend_method": "BLEND",
+          "nodes": [
+            {
+              "type": "OUTPUT_MATERIAL",
+              "name": "Material Output"
+            },
+            {
+              "type": "BSDF_PRINCIPLED",
+              "name": "Principled BSDF",
+              "base_color": [
+                0.18000000715255737,
+                0.23999999463558197,
+                0.23999999463558197,
+                0.8500000238418579
+              ],
+              "roughness": 0.08,
+              "metallic": 0.0,
+              "alpha": 0.85,
+              "transmission": 0.55
+            },
+            {
+              "type": "TEX_COORD",
+              "name": "Texture Coordinate"
+            },
+            {
+              "type": "MAPPING",
+              "name": "Mapping"
+            },
+            {
+              "type": "TEX_WAVE",
+              "name": "Wave Texture"
+            },
+            {
+              "type": "TEX_NOISE",
+              "name": "Noise Texture"
+            },
+            {
+              "type": "MATH",
+              "name": "Math"
+            },
+            {
+              "type": "BUMP",
+              "name": "Bump"
+            }
+          ]
+        }
+      ],
+      "modifiers": [],
+      "animation_action": "TEHRI_Flood_04Action",
+      "frame_range": [
+        1.0,
+        420.0
+      ]
+    },
+    {
+      "name": "TEHRI_Flood_05",
+      "type": "MESH",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.001,
+        0.001,
+        0.001
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_FLOOD"
+      ],
+      "parent": null,
+      "mesh_name": "TEHRI_Flood_05_Mesh",
+      "vertices": 14,
+      "polygons": 6,
+      "has_uv": false,
+      "uv_layers": [],
+      "materials": [
+        {
+          "name": "Mat_Flood_Water",
+          "blend_method": "BLEND",
+          "nodes": [
+            {
+              "type": "OUTPUT_MATERIAL",
+              "name": "Material Output"
+            },
+            {
+              "type": "BSDF_PRINCIPLED",
+              "name": "Principled BSDF",
+              "base_color": [
+                0.18000000715255737,
+                0.23999999463558197,
+                0.23999999463558197,
+                0.8500000238418579
+              ],
+              "roughness": 0.08,
+              "metallic": 0.0,
+              "alpha": 0.85,
+              "transmission": 0.55
+            },
+            {
+              "type": "TEX_COORD",
+              "name": "Texture Coordinate"
+            },
+            {
+              "type": "MAPPING",
+              "name": "Mapping"
+            },
+            {
+              "type": "TEX_WAVE",
+              "name": "Wave Texture"
+            },
+            {
+              "type": "TEX_NOISE",
+              "name": "Noise Texture"
+            },
+            {
+              "type": "MATH",
+              "name": "Math"
+            },
+            {
+              "type": "BUMP",
+              "name": "Bump"
+            }
+          ]
+        }
+      ],
+      "modifiers": [],
+      "animation_action": "TEHRI_Flood_05Action",
+      "frame_range": [
+        1.0,
+        450.0
+      ]
+    },
+    {
+      "name": "TEHRI_Flood_06",
+      "type": "MESH",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.001,
+        0.001,
+        0.001
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_FLOOD"
+      ],
+      "parent": null,
+      "mesh_name": "TEHRI_Flood_06_Mesh",
+      "vertices": 14,
+      "polygons": 6,
+      "has_uv": false,
+      "uv_layers": [],
+      "materials": [
+        {
+          "name": "Mat_Flood_Water",
+          "blend_method": "BLEND",
+          "nodes": [
+            {
+              "type": "OUTPUT_MATERIAL",
+              "name": "Material Output"
+            },
+            {
+              "type": "BSDF_PRINCIPLED",
+              "name": "Principled BSDF",
+              "base_color": [
+                0.18000000715255737,
+                0.23999999463558197,
+                0.23999999463558197,
+                0.8500000238418579
+              ],
+              "roughness": 0.08,
+              "metallic": 0.0,
+              "alpha": 0.85,
+              "transmission": 0.55
+            },
+            {
+              "type": "TEX_COORD",
+              "name": "Texture Coordinate"
+            },
+            {
+              "type": "MAPPING",
+              "name": "Mapping"
+            },
+            {
+              "type": "TEX_WAVE",
+              "name": "Wave Texture"
+            },
+            {
+              "type": "TEX_NOISE",
+              "name": "Noise Texture"
+            },
+            {
+              "type": "MATH",
+              "name": "Math"
+            },
+            {
+              "type": "BUMP",
+              "name": "Bump"
+            }
+          ]
+        }
+      ],
+      "modifiers": [],
+      "animation_action": "TEHRI_Flood_06Action",
+      "frame_range": [
+        1.0,
+        480.0
+      ]
+    },
+    {
+      "name": "TEHRI_Flood_Foam_00",
+      "type": "MESH",
+      "location": [
+        -8.3245,
+        -5.541,
+        -0.0277
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.001,
+        0.001,
+        0.001
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_EFFECTS"
+      ],
+      "parent": null,
+      "mesh_name": "Icosphere.001",
+      "vertices": 42,
+      "polygons": 80,
+      "has_uv": true,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        {
+          "name": "Mat_Foam",
+          "blend_method": "HASHED",
+          "nodes": [
+            {
+              "type": "BSDF_PRINCIPLED",
+              "name": "Principled BSDF",
+              "base_color": [
+                0.9300000071525574,
+                0.9599999785423279,
+                1.0,
+                1.0
+              ],
+              "roughness": 0.55,
+              "metallic": 0.0,
+              "alpha": 1.0,
+              "transmission": 0.0
+            },
+            {
+              "type": "OUTPUT_MATERIAL",
+              "name": "Material Output"
+            }
+          ]
+        }
+      ],
+      "modifiers": [],
+      "animation_action": "TEHRI_Flood_Foam_00Action",
+      "frame_range": [
+        170.0,
+        195.0
+      ]
+    },
+    {
+      "name": "TEHRI_Flood_Foam_01",
+      "type": "MESH",
+      "location": [
+        -41.6227,
+        -27.7048,
+        -2.3139
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.001,
+        0.001,
+        0.001
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_EFFECTS"
+      ],
+      "parent": null,
+      "mesh_name": "Icosphere.002",
+      "vertices": 42,
+      "polygons": 80,
+      "has_uv": true,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        {
+          "name": "Mat_Foam",
+          "blend_method": "HASHED",
+          "nodes": [
+            {
+              "type": "BSDF_PRINCIPLED",
+              "name": "Principled BSDF",
+              "base_color": [
+                0.9300000071525574,
+                0.9599999785423279,
+                1.0,
+                1.0
+              ],
+              "roughness": 0.55,
+              "metallic": 0.0,
+              "alpha": 1.0,
+              "transmission": 0.0
+            },
+            {
+              "type": "OUTPUT_MATERIAL",
+              "name": "Material Output"
+            }
+          ]
+        }
+      ],
+      "modifiers": [],
+      "animation_action": "TEHRI_Flood_Foam_01Action",
+      "frame_range": [
+        230.0,
+        255.0
+      ]
+    },
+    {
+      "name": "TEHRI_Flood_Foam_02",
+      "type": "MESH",
+      "location": [
+        -2871.9641,
+        -1911.6281,
+        808.0746
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.001,
+        0.001,
+        0.001
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_EFFECTS"
+      ],
+      "parent": null,
+      "mesh_name": "Icosphere.003",
+      "vertices": 42,
+      "polygons": 80,
+      "has_uv": true,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        {
+          "name": "Mat_Foam",
+          "blend_method": "HASHED",
+          "nodes": [
+            {
+              "type": "BSDF_PRINCIPLED",
+              "name": "Principled BSDF",
+              "base_color": [
+                0.9300000071525574,
+                0.9599999785423279,
+                1.0,
+                1.0
+              ],
+              "roughness": 0.55,
+              "metallic": 0.0,
+              "alpha": 1.0,
+              "transmission": 0.0
+            },
+            {
+              "type": "OUTPUT_MATERIAL",
+              "name": "Material Output"
+            }
+          ]
+        }
+      ],
+      "modifiers": [],
+      "animation_action": "TEHRI_Flood_Foam_02Action",
+      "frame_range": [
+        290.0,
+        315.0
+      ]
+    },
+    {
+      "name": "TEHRI_Flood_Foam_03",
+      "type": "MESH",
+      "location": [
+        -5743.9282,
+        -3823.2561,
+        978.4613
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.001,
+        0.001,
+        0.001
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_EFFECTS"
+      ],
+      "parent": null,
+      "mesh_name": "Icosphere.004",
+      "vertices": 42,
+      "polygons": 80,
+      "has_uv": true,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        {
+          "name": "Mat_Foam",
+          "blend_method": "HASHED",
+          "nodes": [
+            {
+              "type": "BSDF_PRINCIPLED",
+              "name": "Principled BSDF",
+              "base_color": [
+                0.9300000071525574,
+                0.9599999785423279,
+                1.0,
+                1.0
+              ],
+              "roughness": 0.55,
+              "metallic": 0.0,
+              "alpha": 1.0,
+              "transmission": 0.0
+            },
+            {
+              "type": "OUTPUT_MATERIAL",
+              "name": "Material Output"
+            }
+          ]
+        }
+      ],
+      "modifiers": [],
+      "animation_action": "TEHRI_Flood_Foam_03Action",
+      "frame_range": [
+        350.0,
+        375.0
+      ]
+    },
+    {
+      "name": "TEHRI_Flood_Torrent",
+      "type": "MESH",
+      "location": [
+        -4.1623,
+        -2.7705,
+        -100.4315
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.001,
+        0.001,
+        0.001
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_EFFECTS"
+      ],
+      "parent": null,
+      "mesh_name": "Icosphere",
+      "vertices": 162,
+      "polygons": 320,
+      "has_uv": true,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        {
+          "name": "Mat_Torrent",
+          "blend_method": "BLEND",
+          "nodes": [
+            {
+              "type": "OUTPUT_MATERIAL",
+              "name": "Material Output"
+            },
+            {
+              "type": "BSDF_PRINCIPLED",
+              "name": "Principled BSDF",
+              "base_color": [
+                0.44999998807907104,
+                0.5,
+                0.5,
+                0.949999988079071
+              ],
+              "roughness": 0.08,
+              "metallic": 0.0,
+              "alpha": 0.95,
+              "transmission": 0.55
+            },
+            {
+              "type": "TEX_COORD",
+              "name": "Texture Coordinate"
+            },
+            {
+              "type": "MAPPING",
+              "name": "Mapping"
+            },
+            {
+              "type": "TEX_WAVE",
+              "name": "Wave Texture"
+            },
+            {
+              "type": "TEX_NOISE",
+              "name": "Noise Texture"
+            },
+            {
+              "type": "MATH",
+              "name": "Math"
+            },
+            {
+              "type": "BUMP",
+              "name": "Bump"
+            }
+          ]
+        }
+      ],
+      "modifiers": [],
+      "animation_action": "TEHRI_Flood_TorrentAction",
+      "frame_range": [
+        1.0,
+        300.0
+      ]
+    },
+    {
+      "name": "TEHRI_Reservoir_00.001",
+      "type": "MESH",
+      "location": [
+        0.0,
+        0.0,
+        129.9285
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_RESERVOIR"
+      ],
+      "parent": null,
+      "mesh_name": "TEHRI_Reservoir_00_Curve",
+      "vertices": 8212,
+      "polygons": 6155,
+      "has_uv": true,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        {
+          "name": "Mat_Reservoir_Water",
+          "blend_method": "BLEND",
+          "nodes": [
+            {
+              "type": "OUTPUT_MATERIAL",
+              "name": "Material Output"
+            },
+            {
+              "type": "BSDF_PRINCIPLED",
+              "name": "Principled BSDF",
+              "base_color": [
+                0.029999999329447746,
+                0.15000000596046448,
+                0.2800000011920929,
+                0.9200000166893005
+              ],
+              "roughness": 0.08,
+              "metallic": 0.0,
+              "alpha": 0.92,
+              "transmission": 0.55
+            },
+            {
+              "type": "TEX_COORD",
+              "name": "Texture Coordinate"
+            },
+            {
+              "type": "MAPPING",
+              "name": "Mapping"
+            },
+            {
+              "type": "TEX_WAVE",
+              "name": "Wave Texture"
+            },
+            {
+              "type": "TEX_NOISE",
+              "name": "Noise Texture"
+            },
+            {
+              "type": "MATH",
+              "name": "Math"
+            },
+            {
+              "type": "BUMP",
+              "name": "Bump"
+            }
+          ]
+        }
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "TEHRI_Road_0000",
+      "type": "CURVE",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_ROADS"
+      ],
+      "parent": null
+    },
+    {
+      "name": "TEHRI_Road_0001",
+      "type": "CURVE",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_ROADS"
+      ],
+      "parent": null
+    },
+    {
+      "name": "TEHRI_Road_0001_FloodStrip",
+      "type": "CURVE",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.001,
+        0.001,
+        0.001
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_FLOOD"
+      ],
+      "parent": null,
+      "animation_action": "TEHRI_Road_0001_FloodStripAction",
+      "frame_range": [
+        444.0,
+        469.0
+      ]
+    },
+    {
+      "name": "TEHRI_Road_0002",
+      "type": "CURVE",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_ROADS"
+      ],
+      "parent": null
+    },
+    {
+      "name": "TEHRI_Road_0003",
+      "type": "CURVE",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_ROADS"
+      ],
+      "parent": null
+    },
+    {
+      "name": "TEHRI_Road_0004",
+      "type": "CURVE",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_ROADS"
+      ],
+      "parent": null
+    },
+    {
+      "name": "TEHRI_Road_0005",
+      "type": "CURVE",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_ROADS"
+      ],
+      "parent": null
+    },
+    {
+      "name": "TEHRI_Road_0006",
+      "type": "CURVE",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_ROADS"
+      ],
+      "parent": null
+    },
+    {
+      "name": "TEHRI_Road_0007",
+      "type": "CURVE",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_ROADS"
+      ],
+      "parent": null
+    },
+    {
+      "name": "TEHRI_Road_0007_FloodStrip",
+      "type": "CURVE",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.001,
+        0.001,
+        0.001
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_FLOOD"
+      ],
+      "parent": null,
+      "animation_action": "TEHRI_Road_0007_FloodStripAction",
+      "frame_range": [
+        461.0,
+        486.0
+      ]
+    },
+    {
+      "name": "TEHRI_Road_0008",
+      "type": "CURVE",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_ROADS"
+      ],
+      "parent": null
+    },
+    {
+      "name": "TEHRI_Road_0009",
+      "type": "CURVE",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_ROADS"
+      ],
+      "parent": null
+    },
+    {
+      "name": "TEHRI_Road_0010",
+      "type": "CURVE",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_ROADS"
+      ],
+      "parent": null
+    },
+    {
+      "name": "TEHRI_Road_0011",
+      "type": "CURVE",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_ROADS"
+      ],
+      "parent": null
+    },
+    {
+      "name": "TEHRI_Road_0012",
+      "type": "CURVE",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_ROADS"
+      ],
+      "parent": null
+    },
+    {
+      "name": "TEHRI_Road_0013",
+      "type": "CURVE",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_ROADS"
+      ],
+      "parent": null
+    },
+    {
+      "name": "TEHRI_Road_0014",
+      "type": "CURVE",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_ROADS"
+      ],
+      "parent": null
+    },
+    {
+      "name": "TEHRI_Road_0014_FloodStrip",
+      "type": "CURVE",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.001,
+        0.001,
+        0.001
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_FLOOD"
+      ],
+      "parent": null,
+      "animation_action": "TEHRI_Road_0014_FloodStripAction",
+      "frame_range": [
+        440.0,
+        465.0
+      ]
+    },
+    {
+      "name": "TEHRI_Road_0015",
+      "type": "CURVE",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_ROADS"
+      ],
+      "parent": null
+    },
+    {
+      "name": "TEHRI_Road_0016",
+      "type": "CURVE",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_ROADS"
+      ],
+      "parent": null
+    },
+    {
+      "name": "TEHRI_Road_0017",
+      "type": "CURVE",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_ROADS"
+      ],
+      "parent": null
+    },
+    {
+      "name": "TEHRI_Road_0018",
+      "type": "CURVE",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_ROADS"
+      ],
+      "parent": null
+    },
+    {
+      "name": "TEHRI_Road_0019",
+      "type": "CURVE",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_ROADS"
+      ],
+      "parent": null
+    },
+    {
+      "name": "TEHRI_Road_0020",
+      "type": "CURVE",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_ROADS"
+      ],
+      "parent": null
+    },
+    {
+      "name": "TEHRI_Road_0021",
+      "type": "CURVE",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_ROADS"
+      ],
+      "parent": null
+    },
+    {
+      "name": "TEHRI_Road_0022",
+      "type": "CURVE",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_ROADS"
+      ],
+      "parent": null
+    },
+    {
+      "name": "TEHRI_Road_0022_FloodStrip",
+      "type": "CURVE",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.001,
+        0.001,
+        0.001
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_FLOOD"
+      ],
+      "parent": null,
+      "animation_action": "TEHRI_Road_0022_FloodStripAction",
+      "frame_range": [
+        446.0,
+        471.0
+      ]
+    },
+    {
+      "name": "TEHRI_Road_0023",
+      "type": "CURVE",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_ROADS"
+      ],
+      "parent": null
+    },
+    {
+      "name": "TEHRI_Road_0023_FloodStrip",
+      "type": "CURVE",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.001,
+        0.001,
+        0.001
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_FLOOD"
+      ],
+      "parent": null,
+      "animation_action": "TEHRI_Road_0023_FloodStripAction",
+      "frame_range": [
+        442.0,
+        467.0
+      ]
+    },
+    {
+      "name": "TEHRI_Road_0024",
+      "type": "CURVE",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_ROADS"
+      ],
+      "parent": null
+    },
+    {
+      "name": "TEHRI_Road_0025",
+      "type": "CURVE",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_ROADS"
+      ],
+      "parent": null
+    },
+    {
+      "name": "TEHRI_Road_0026",
+      "type": "CURVE",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_ROADS"
+      ],
+      "parent": null
+    },
+    {
+      "name": "TEHRI_Road_0027",
+      "type": "CURVE",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_ROADS"
+      ],
+      "parent": null
+    },
+    {
+      "name": "TEHRI_Road_0028",
+      "type": "CURVE",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_ROADS"
+      ],
+      "parent": null
+    },
+    {
+      "name": "TEHRI_Road_0029",
+      "type": "CURVE",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_ROADS"
+      ],
+      "parent": null
+    },
+    {
+      "name": "TEHRI_Road_0030",
+      "type": "CURVE",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_ROADS"
+      ],
+      "parent": null
+    },
+    {
+      "name": "TEHRI_Road_0031",
+      "type": "CURVE",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_ROADS"
+      ],
+      "parent": null
+    },
+    {
+      "name": "TEHRI_Road_0032",
+      "type": "CURVE",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_ROADS"
+      ],
+      "parent": null
+    },
+    {
+      "name": "TEHRI_Road_0033",
+      "type": "CURVE",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_ROADS"
+      ],
+      "parent": null
+    },
+    {
+      "name": "TEHRI_Road_0034",
+      "type": "CURVE",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_ROADS"
+      ],
+      "parent": null
+    },
+    {
+      "name": "TEHRI_Road_0035",
+      "type": "CURVE",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_ROADS"
+      ],
+      "parent": null
+    },
+    {
+      "name": "TEHRI_Road_0036",
+      "type": "CURVE",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_ROADS"
+      ],
+      "parent": null
+    },
+    {
+      "name": "TEHRI_Road_0037",
+      "type": "CURVE",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_ROADS"
+      ],
+      "parent": null
+    },
+    {
+      "name": "TEHRI_Road_0038",
+      "type": "CURVE",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_ROADS"
+      ],
+      "parent": null
+    },
+    {
+      "name": "TEHRI_Road_0039",
+      "type": "CURVE",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_ROADS"
+      ],
+      "parent": null
+    },
+    {
+      "name": "TEHRI_Road_0040",
+      "type": "CURVE",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_ROADS"
+      ],
+      "parent": null
+    },
+    {
+      "name": "TEHRI_Road_0041",
+      "type": "CURVE",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_ROADS"
+      ],
+      "parent": null
+    },
+    {
+      "name": "TEHRI_Road_0042",
+      "type": "CURVE",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_ROADS"
+      ],
+      "parent": null
+    },
+    {
+      "name": "TEHRI_Road_0043",
+      "type": "CURVE",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_ROADS"
+      ],
+      "parent": null
+    },
+    {
+      "name": "TEHRI_Road_0044",
+      "type": "CURVE",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_ROADS"
+      ],
+      "parent": null
+    },
+    {
+      "name": "TEHRI_Road_0045",
+      "type": "CURVE",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_ROADS"
+      ],
+      "parent": null
+    },
+    {
+      "name": "TEHRI_Road_0046",
+      "type": "CURVE",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_ROADS"
+      ],
+      "parent": null
+    },
+    {
+      "name": "TEHRI_Road_0047",
+      "type": "CURVE",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_ROADS"
+      ],
+      "parent": null
+    },
+    {
+      "name": "TEHRI_Road_0048",
+      "type": "CURVE",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_ROADS"
+      ],
+      "parent": null
+    },
+    {
+      "name": "TEHRI_Road_0049",
+      "type": "CURVE",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_ROADS"
+      ],
+      "parent": null
+    },
+    {
+      "name": "TEHRI_Road_0050",
+      "type": "CURVE",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_ROADS"
+      ],
+      "parent": null
+    },
+    {
+      "name": "TEHRI_Road_0051",
+      "type": "CURVE",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_ROADS"
+      ],
+      "parent": null
+    },
+    {
+      "name": "TEHRI_Road_0052",
+      "type": "CURVE",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_ROADS"
+      ],
+      "parent": null
+    },
+    {
+      "name": "TEHRI_Road_0053",
+      "type": "CURVE",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_ROADS"
+      ],
+      "parent": null
+    },
+    {
+      "name": "TEHRI_Road_0054",
+      "type": "CURVE",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_ROADS"
+      ],
+      "parent": null
+    },
+    {
+      "name": "TEHRI_Road_0055",
+      "type": "CURVE",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_ROADS"
+      ],
+      "parent": null
+    },
+    {
+      "name": "TEHRI_Road_0056",
+      "type": "CURVE",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_ROADS"
+      ],
+      "parent": null
+    },
+    {
+      "name": "TEHRI_Road_0057",
+      "type": "CURVE",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_ROADS"
+      ],
+      "parent": null
+    },
+    {
+      "name": "TEHRI_Road_0058",
+      "type": "CURVE",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_ROADS"
+      ],
+      "parent": null
+    },
+    {
+      "name": "TEHRI_Road_0059",
+      "type": "CURVE",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_ROADS"
+      ],
+      "parent": null
+    },
+    {
+      "name": "TEHRI_Road_0060",
+      "type": "CURVE",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_ROADS"
+      ],
+      "parent": null
+    },
+    {
+      "name": "TEHRI_Road_0061",
+      "type": "CURVE",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_ROADS"
+      ],
+      "parent": null
+    },
+    {
+      "name": "TEHRI_Road_0062",
+      "type": "CURVE",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_ROADS"
+      ],
+      "parent": null
+    },
+    {
+      "name": "TEHRI_Road_0063",
+      "type": "CURVE",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_ROADS"
+      ],
+      "parent": null
+    },
+    {
+      "name": "TEHRI_Road_0064",
+      "type": "CURVE",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_ROADS"
+      ],
+      "parent": null
+    },
+    {
+      "name": "TEHRI_Road_0065",
+      "type": "CURVE",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_ROADS"
+      ],
+      "parent": null
+    },
+    {
+      "name": "TEHRI_Road_0066",
+      "type": "CURVE",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_ROADS"
+      ],
+      "parent": null
+    },
+    {
+      "name": "TEHRI_Road_0067",
+      "type": "CURVE",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_ROADS"
+      ],
+      "parent": null
+    },
+    {
+      "name": "TEHRI_Road_0068",
+      "type": "CURVE",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_ROADS"
+      ],
+      "parent": null
+    },
+    {
+      "name": "TEHRI_Road_0069",
+      "type": "CURVE",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_ROADS"
+      ],
+      "parent": null
+    },
+    {
+      "name": "TEHRI_Road_0070",
+      "type": "CURVE",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_ROADS"
+      ],
+      "parent": null
+    },
+    {
+      "name": "TEHRI_Road_0071",
+      "type": "CURVE",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_ROADS"
+      ],
+      "parent": null
+    },
+    {
+      "name": "TEHRI_Road_0072",
+      "type": "CURVE",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_ROADS"
+      ],
+      "parent": null
+    },
+    {
+      "name": "TEHRI_Road_0073",
+      "type": "CURVE",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_ROADS"
+      ],
+      "parent": null
+    },
+    {
+      "name": "TEHRI_Road_0074",
+      "type": "CURVE",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_ROADS"
+      ],
+      "parent": null
+    },
+    {
+      "name": "TEHRI_Road_0075",
+      "type": "CURVE",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_ROADS"
+      ],
+      "parent": null
+    },
+    {
+      "name": "TEHRI_Road_0076",
+      "type": "CURVE",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_ROADS"
+      ],
+      "parent": null
+    },
+    {
+      "name": "TEHRI_Road_0077",
+      "type": "CURVE",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_ROADS"
+      ],
+      "parent": null
+    },
+    {
+      "name": "TEHRI_Road_0078",
+      "type": "CURVE",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_ROADS"
+      ],
+      "parent": null
+    },
+    {
+      "name": "TEHRI_Road_0079",
+      "type": "CURVE",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_ROADS"
+      ],
+      "parent": null
+    },
+    {
+      "name": "TEHRI_Road_0080",
+      "type": "CURVE",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_ROADS"
+      ],
+      "parent": null
+    },
+    {
+      "name": "TEHRI_Road_0081",
+      "type": "CURVE",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_ROADS"
+      ],
+      "parent": null
+    },
+    {
+      "name": "TEHRI_Road_0082",
+      "type": "CURVE",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_ROADS"
+      ],
+      "parent": null
+    },
+    {
+      "name": "TEHRI_Road_0083",
+      "type": "CURVE",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_ROADS"
+      ],
+      "parent": null
+    },
+    {
+      "name": "TEHRI_Road_0084",
+      "type": "CURVE",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_ROADS"
+      ],
+      "parent": null
+    },
+    {
+      "name": "TEHRI_Road_0085",
+      "type": "CURVE",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_ROADS"
+      ],
+      "parent": null
+    },
+    {
+      "name": "TEHRI_Road_0086",
+      "type": "CURVE",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_ROADS"
+      ],
+      "parent": null
+    },
+    {
+      "name": "TEHRI_Road_0087",
+      "type": "CURVE",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_ROADS"
+      ],
+      "parent": null
+    },
+    {
+      "name": "TEHRI_Road_0088",
+      "type": "CURVE",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_ROADS"
+      ],
+      "parent": null
+    },
+    {
+      "name": "TEHRI_Road_0089",
+      "type": "CURVE",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_ROADS"
+      ],
+      "parent": null
+    },
+    {
+      "name": "TEHRI_Road_0090",
+      "type": "CURVE",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_ROADS"
+      ],
+      "parent": null
+    },
+    {
+      "name": "TEHRI_Road_0091",
+      "type": "CURVE",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_ROADS"
+      ],
+      "parent": null
+    },
+    {
+      "name": "TEHRI_Road_0092",
+      "type": "CURVE",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_ROADS"
+      ],
+      "parent": null
+    },
+    {
+      "name": "TEHRI_Road_0093",
+      "type": "CURVE",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_ROADS"
+      ],
+      "parent": null
+    },
+    {
+      "name": "TEHRI_Splash_Droplet",
+      "type": "MESH",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": false,
+      "render_visible": false,
+      "collections": [
+        "TEHRI_EFFECTS"
+      ],
+      "parent": null,
+      "mesh_name": "Icosphere.005",
+      "vertices": 12,
+      "polygons": 20,
+      "has_uv": true,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        {
+          "name": "Mat_Foam",
+          "blend_method": "HASHED",
+          "nodes": [
+            {
+              "type": "BSDF_PRINCIPLED",
+              "name": "Principled BSDF",
+              "base_color": [
+                0.9300000071525574,
+                0.9599999785423279,
+                1.0,
+                1.0
+              ],
+              "roughness": 0.55,
+              "metallic": 0.0,
+              "alpha": 1.0,
+              "transmission": 0.0
+            },
+            {
+              "type": "OUTPUT_MATERIAL",
+              "name": "Material Output"
+            }
+          ]
+        }
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "TEHRI_Splash_Emitter",
+      "type": "MESH",
+      "location": [
+        -4.1623,
+        -2.7705,
+        -95.2215
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": false,
+      "collections": [
+        "TEHRI_EFFECTS"
+      ],
+      "parent": null,
+      "mesh_name": "Plane",
+      "vertices": 4,
+      "polygons": 1,
+      "has_uv": true,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [],
+      "modifiers": [
+        {
+          "name": "Splash",
+          "type": "PARTICLE_SYSTEM"
+        }
+      ],
+      "particle_systems": [
+        "Splash"
+      ]
+    },
+    {
+      "name": "TEHRI_Sun",
+      "type": "LIGHT",
+      "location": [
+        0.0,
+        0.0,
+        1302.5
+      ],
+      "rotation_euler_deg": [
+        55.0,
+        0.0,
+        35.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_LIGHTING"
+      ],
+      "parent": null,
+      "light_type": "SUN",
+      "energy": 3.0,
+      "color": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "TEHRI_Terrain",
+      "type": "MESH",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_TERRAIN"
+      ],
+      "parent": null,
+      "mesh_name": "TEHRI_Terrain_Mesh",
+      "vertices": 111834,
+      "polygons": 111166,
+      "has_uv": false,
+      "uv_layers": [],
+      "materials": [
+        {
+          "name": "Mat_Terrain",
+          "blend_method": "HASHED",
+          "nodes": [
+            {
+              "type": "OUTPUT_MATERIAL",
+              "name": "Material Output"
+            },
+            {
+              "type": "BSDF_PRINCIPLED",
+              "name": "Principled BSDF",
+              "base_color": [
+                0.800000011920929,
+                0.800000011920929,
+                0.800000011920929,
+                1.0
+              ],
+              "roughness": 0.9,
+              "metallic": 0.0,
+              "alpha": 1.0,
+              "transmission": 0.0
+            },
+            {
+              "type": "NEW_GEOMETRY",
+              "name": "Geometry"
+            },
+            {
+              "type": "SEPXYZ",
+              "name": "Separate XYZ"
+            },
+            {
+              "type": "SEPXYZ",
+              "name": "Separate XYZ.001"
+            },
+            {
+              "type": "MAP_RANGE",
+              "name": "Map Range"
+            },
+            {
+              "type": "MAP_RANGE",
+              "name": "Map Range.001"
+            },
+            {
+              "type": "VALTORGB",
+              "name": "Color Ramp"
+            },
+            {
+              "type": "VALTORGB",
+              "name": "Color Ramp.001"
+            },
+            {
+              "type": "MIX_RGB",
+              "name": "Mix (Legacy)"
+            },
+            {
+              "type": "TEX_NOISE",
+              "name": "Noise Texture"
+            },
+            {
+              "type": "BUMP",
+              "name": "Bump"
+            }
+          ]
+        }
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "TEHRI_Water_01.001",
+      "type": "MESH",
+      "location": [
+        0.0,
+        0.0,
+        -105.741
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_WATERWAYS"
+      ],
+      "parent": null,
+      "mesh_name": "TEHRI_Water_01_Curve",
+      "vertices": 4372,
+      "polygons": 3275,
+      "has_uv": true,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        {
+          "name": "Mat_Water_Other",
+          "blend_method": "BLEND",
+          "nodes": [
+            {
+              "type": "OUTPUT_MATERIAL",
+              "name": "Material Output"
+            },
+            {
+              "type": "BSDF_PRINCIPLED",
+              "name": "Principled BSDF",
+              "base_color": [
+                0.05999999865889549,
+                0.2199999988079071,
+                0.30000001192092896,
+                0.8500000238418579
+              ],
+              "roughness": 0.08,
+              "metallic": 0.0,
+              "alpha": 0.85,
+              "transmission": 0.55
+            },
+            {
+              "type": "TEX_COORD",
+              "name": "Texture Coordinate"
+            },
+            {
+              "type": "MAPPING",
+              "name": "Mapping"
+            },
+            {
+              "type": "TEX_WAVE",
+              "name": "Wave Texture"
+            },
+            {
+              "type": "TEX_NOISE",
+              "name": "Noise Texture"
+            },
+            {
+              "type": "MATH",
+              "name": "Math"
+            },
+            {
+              "type": "BUMP",
+              "name": "Bump"
+            }
+          ]
+        }
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "TEHRI_Water_02.001",
+      "type": "MESH",
+      "location": [
+        0.0,
+        0.0,
+        -69.0145
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_WATERWAYS"
+      ],
+      "parent": null,
+      "mesh_name": "TEHRI_Water_02_Curve",
+      "vertices": 28,
+      "polygons": 17,
+      "has_uv": true,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        {
+          "name": "Mat_Water_Other",
+          "blend_method": "BLEND",
+          "nodes": [
+            {
+              "type": "OUTPUT_MATERIAL",
+              "name": "Material Output"
+            },
+            {
+              "type": "BSDF_PRINCIPLED",
+              "name": "Principled BSDF",
+              "base_color": [
+                0.05999999865889549,
+                0.2199999988079071,
+                0.30000001192092896,
+                0.8500000238418579
+              ],
+              "roughness": 0.08,
+              "metallic": 0.0,
+              "alpha": 0.85,
+              "transmission": 0.55
+            },
+            {
+              "type": "TEX_COORD",
+              "name": "Texture Coordinate"
+            },
+            {
+              "type": "MAPPING",
+              "name": "Mapping"
+            },
+            {
+              "type": "TEX_WAVE",
+              "name": "Wave Texture"
+            },
+            {
+              "type": "TEX_NOISE",
+              "name": "Noise Texture"
+            },
+            {
+              "type": "MATH",
+              "name": "Math"
+            },
+            {
+              "type": "BUMP",
+              "name": "Bump"
+            }
+          ]
+        }
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "TEHRI_Waterway_0000",
+      "type": "CURVE",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_WATERWAYS"
+      ],
+      "parent": null
+    },
+    {
+      "name": "TEHRI_Waterway_0001",
+      "type": "CURVE",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_WATERWAYS"
+      ],
+      "parent": null
+    },
+    {
+      "name": "TEHRI_Waterway_0002",
+      "type": "CURVE",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_WATERWAYS"
+      ],
+      "parent": null
+    },
+    {
+      "name": "TEHRI_Waterway_0003",
+      "type": "CURVE",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_WATERWAYS"
+      ],
+      "parent": null
+    },
+    {
+      "name": "TEHRI_Waterway_0004",
+      "type": "CURVE",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_WATERWAYS"
+      ],
+      "parent": null
+    },
+    {
+      "name": "TEHRI_Waterway_0005",
+      "type": "CURVE",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_WATERWAYS"
+      ],
+      "parent": null
+    },
+    {
+      "name": "TEHRI_Waterway_0006",
+      "type": "CURVE",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_WATERWAYS"
+      ],
+      "parent": null
+    },
+    {
+      "name": "TEHRI_Waterway_0007",
+      "type": "CURVE",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_WATERWAYS"
+      ],
+      "parent": null
+    },
+    {
+      "name": "TEHRI_Waterway_0008",
+      "type": "CURVE",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "visible": true,
+      "render_visible": true,
+      "collections": [
+        "TEHRI_WATERWAYS"
+      ],
+      "parent": null
+    }
+  ],
+  "actions": [
+    {
+      "name": "CAMERA_01_Aerial_OverviewAction",
+      "frame_range": [
+        1.0,
+        120.0
+      ],
+      "layers": 1,
+      "fcurves": "N/A"
+    },
+    {
+      "name": "CAMERA_02_Dam_CloseUpAction",
+      "frame_range": [
+        120.0,
+        135.0
+      ],
+      "layers": 1,
+      "fcurves": "N/A"
+    },
+    {
+      "name": "CAMERA_03_BreachAction",
+      "frame_range": [
+        136.0,
+        300.0
+      ],
+      "layers": 1,
+      "fcurves": "N/A"
+    },
+    {
+      "name": "CAMERA_04_Follow_DownstreamAction",
+      "frame_range": [
+        301.0,
+        450.0
+      ],
+      "layers": 1,
+      "fcurves": "N/A"
+    },
+    {
+      "name": "CAMERA_05_Infrastructure_AerialAction",
+      "frame_range": [
+        451.0,
+        540.0
+      ],
+      "layers": 1,
+      "fcurves": "N/A"
+    },
+    {
+      "name": "CAMERA_06_Final_WideAction",
+      "frame_range": [
+        541.0,
+        600.0
+      ],
+      "layers": 1,
+      "fcurves": "N/A"
+    },
+    {
+      "name": "TEHRI_Dam_Breach_NotchAction",
+      "frame_range": [
+        1.0,
+        300.0
+      ],
+      "layers": 1,
+      "fcurves": "N/A"
+    },
+    {
+      "name": "TEHRI_Flood_01Action",
+      "frame_range": [
+        1.0,
+        330.0
+      ],
+      "layers": 1,
+      "fcurves": "N/A"
+    },
+    {
+      "name": "TEHRI_Flood_02Action",
+      "frame_range": [
+        1.0,
+        360.0
+      ],
+      "layers": 1,
+      "fcurves": "N/A"
+    },
+    {
+      "name": "TEHRI_Flood_03Action",
+      "frame_range": [
+        1.0,
+        390.0
+      ],
+      "layers": 1,
+      "fcurves": "N/A"
+    },
+    {
+      "name": "TEHRI_Flood_04Action",
+      "frame_range": [
+        1.0,
+        420.0
+      ],
+      "layers": 1,
+      "fcurves": "N/A"
+    },
+    {
+      "name": "TEHRI_Flood_05Action",
+      "frame_range": [
+        1.0,
+        450.0
+      ],
+      "layers": 1,
+      "fcurves": "N/A"
+    },
+    {
+      "name": "TEHRI_Flood_06Action",
+      "frame_range": [
+        1.0,
+        480.0
+      ],
+      "layers": 1,
+      "fcurves": "N/A"
+    },
+    {
+      "name": "TEHRI_Flood_Foam_00Action",
+      "frame_range": [
+        170.0,
+        195.0
+      ],
+      "layers": 1,
+      "fcurves": "N/A"
+    },
+    {
+      "name": "TEHRI_Flood_Foam_01Action",
+      "frame_range": [
+        230.0,
+        255.0
+      ],
+      "layers": 1,
+      "fcurves": "N/A"
+    },
+    {
+      "name": "TEHRI_Flood_Foam_02Action",
+      "frame_range": [
+        290.0,
+        315.0
+      ],
+      "layers": 1,
+      "fcurves": "N/A"
+    },
+    {
+      "name": "TEHRI_Flood_Foam_03Action",
+      "frame_range": [
+        350.0,
+        375.0
+      ],
+      "layers": 1,
+      "fcurves": "N/A"
+    },
+    {
+      "name": "TEHRI_Flood_TorrentAction",
+      "frame_range": [
+        1.0,
+        300.0
+      ],
+      "layers": 1,
+      "fcurves": "N/A"
+    },
+    {
+      "name": "TEHRI_Road_0001_FloodStripAction",
+      "frame_range": [
+        444.0,
+        469.0
+      ],
+      "layers": 1,
+      "fcurves": "N/A"
+    },
+    {
+      "name": "TEHRI_Road_0007_FloodStripAction",
+      "frame_range": [
+        461.0,
+        486.0
+      ],
+      "layers": 1,
+      "fcurves": "N/A"
+    },
+    {
+      "name": "TEHRI_Road_0014_FloodStripAction",
+      "frame_range": [
+        440.0,
+        465.0
+      ],
+      "layers": 1,
+      "fcurves": "N/A"
+    },
+    {
+      "name": "TEHRI_Road_0022_FloodStripAction",
+      "frame_range": [
+        446.0,
+        471.0
+      ],
+      "layers": 1,
+      "fcurves": "N/A"
+    },
+    {
+      "name": "TEHRI_Road_0023_FloodStripAction",
+      "frame_range": [
+        442.0,
+        467.0
+      ],
+      "layers": 1,
+      "fcurves": "N/A"
+    }
+  ],
+  "images": [
+    {
+      "name": "Render Result",
+      "filepath": "",
+      "packed": false,
+      "size": [
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Viewer Node",
+      "filepath": "",
+      "packed": false,
+      "size": [
+        256,
+        256
+      ]
+    }
+  ],
+  "summary": {
+    "total_objects": 150,
+    "total_meshes": 33,
+    "total_materials": 14,
+    "total_actions": 23,
+    "total_images": 2
+  }
+}

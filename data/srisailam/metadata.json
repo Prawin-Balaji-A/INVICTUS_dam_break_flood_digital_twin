@@ -1,0 +1,34 @@
+{
+  "id": "srisailam",
+  "name": "Srisailam Dam \u2014 Krishna River",
+  "dam_name": "Srisailam Dam",
+  "river_name": "Krishna River",
+  "state": "Andhra Pradesh / Telangana",
+  "district": "Nandyal",
+  "country": "India",
+  "latitude": 16.0878,
+  "longitude": 78.8988,
+  "study_domain": {
+    "min_lat": 16.0,
+    "min_lon": 78.82,
+    "max_lat": 16.16,
+    "max_lon": 79.0
+  },
+  "dam_height_m": 145.1,
+  "crest_length_m": 512.0,
+  "crest_elevation_m": 275.0,
+  "full_reservoir_level_m": 269.75,
+  "reservoir_capacity_m3": 8722000000.0,
+  "reservoir_area_m2": 616000000.0,
+  "downstream_bearing_deg": 65.0,
+  "is_demo": false,
+  "data_status": "NOT CONFIGURED",
+  "sources": [
+    {
+      "name": "Krishna River Management Board",
+      "type": "River Authority",
+      "url": "http://krmb.gov.in",
+      "status": "verified"
+    }
+  ]
+}

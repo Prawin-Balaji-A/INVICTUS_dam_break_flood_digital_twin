@@ -1,0 +1,10 @@
+{
+  "id": "210a626c-8992-4d47-96df-ef5cd69accbe",
+  "name": "Scenario \u2014 Custom Manual Simulation",
+  "breach_type": "Overtopping",
+  "breach_width_m": 140.0,
+  "breach_depth_m": 65.23,
+  "breach_time_sec": 2700.0,
+  "reservoir_level_m": 65.23,
+  "reservoir_volume_m3": 2644000000.0
+}

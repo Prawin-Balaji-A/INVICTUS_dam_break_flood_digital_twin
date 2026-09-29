@@ -1,0 +1,119 @@
+{
+  "timestamp": "2026-09-23T16:06:37.267956+00:00",
+  "project": "mettur",
+  "phase": 5,
+  "scenario_id": "mettur_baseline_breach",
+  "solver": "2D Manning kinematic/diffusion-wave approximation",
+  "sph_status": "NOT YET COUPLED",
+  "delft3d_status": "EXPORTER ONLY",
+  "dam_config": {
+    "dam_id": "mettur",
+    "scenario_id": "mettur_baseline_breach",
+    "dam_lat": 11.8028,
+    "dam_lon": 77.8017,
+    "initial_water_level_m": 240.79,
+    "river_bed_elevation_m": 180.77,
+    "breach_depth_m": 65.23,
+    "breach_bottom_width_m": 80.0,
+    "breach_side_slope_z": 0.5,
+    "breach_formation_time_sec": 7560,
+    "simulation_duration_sec": 43200,
+    "manning_n_channel": 0.03,
+    "manning_n_floodplain": 0.055,
+    "inundation_threshold_m": 0.15
+  },
+  "mass_conservation": {
+    "initial_volume_mcm": 500.0,
+    "final_volume_mcm": 0.0,
+    "released_volume_mcm": 500.0,
+    "discharge_integral_mcm": 500.000003,
+    "numerical_discrepancy_m3": 2.8,
+    "mass_balance_error_pct": 5.6e-07,
+    "peak_discharge_m3s": 88699.2,
+    "time_to_peak_min": 125.0,
+    "mass_conservation_pass": true
+  },
+  "hydraulic_summary": {
+    "peak_depth_m": 77.36,
+    "peak_velocity_ms": 59.89,
+    "inundated_area_sqkm": 2.14,
+    "inundated_cells": 2286,
+    "river_stations": 228,
+    "reach_km": 6.85,
+    "upstream_elev_m": 204.78,
+    "downstream_elev_m": 192.5,
+    "mean_slope_m_per_km": 1.8037,
+    "runtime_sec": 1.53
+  },
+  "gis_files": {
+    "maximum_depth": "E:\\dam\\data\\mettur\\simulations\\baseline_breach\\maximum_depth.tif",
+    "maximum_velocity": "E:\\dam\\data\\mettur\\simulations\\baseline_breach\\maximum_velocity.tif",
+    "arrival_time": "E:\\dam\\data\\mettur\\simulations\\baseline_breach\\arrival_time.tif",
+    "inundation_mask": "E:\\dam\\data\\mettur\\simulations\\baseline_breach\\inundation_mask.tif",
+    "flood_extent_geojson": "E:\\dam\\data\\mettur\\simulations\\baseline_breach\\flood_extent.geojson",
+    "flood_extent_kml": "E:\\dam\\data\\mettur\\simulations\\baseline_breach\\flood_extent.kml",
+    "flood_extent_shp": "E:\\dam\\data\\mettur\\simulations\\baseline_breach\\flood_extent.shp"
+  },
+  "sensitivity": [
+    {
+      "dt_sec": 60.0,
+      "peak_discharge_m3s": 88699.2,
+      "time_to_peak_min": 125.0,
+      "released_volume_mcm": 500.0,
+      "mass_balance_error_pct": 5.6e-07,
+      "maximum_depth_m": 77.36,
+      "maximum_velocity_ms": 59.89,
+      "inundated_area_sqkm": 2.14
+    },
+    {
+      "dt_sec": 30.0,
+      "peak_discharge_m3s": 88679.1,
+      "time_to_peak_min": 125.0,
+      "released_volume_mcm": 500.0,
+      "mass_balance_error_pct": 2.6e-07,
+      "maximum_depth_m": 77.37,
+      "maximum_velocity_ms": 59.9,
+      "inundated_area_sqkm": 2.14
+    },
+    {
+      "dt_sec": 15.0,
+      "peak_discharge_m3s": 88670.1,
+      "time_to_peak_min": 124.8,
+      "released_volume_mcm": 500.0,
+      "mass_balance_error_pct": 3.8e-07,
+      "maximum_depth_m": 77.36,
+      "maximum_velocity_ms": 59.9,
+      "inundated_area_sqkm": 2.14
+    }
+  ],
+  "reproducibility": {
+    "run1": {
+      "inundated_area_sqkm": 2.14,
+      "peak_depth_m": 77.36,
+      "peak_velocity_ms": 59.89,
+      "inundation_mask_md5": "8b44137fc1591ab17551794127679dfb"
+    },
+    "run2": {
+      "inundated_area_sqkm": 2.14,
+      "peak_depth_m": 77.36,
+      "peak_velocity_ms": 59.89,
+      "inundation_mask_md5": "8b44137fc1591ab17551794127679dfb"
+    },
+    "area_diff_km2": 0.0,
+    "depth_diff_m": 0.0,
+    "mask_bit_exact": true
+  },
+  "cross_dam_generalization": {
+    "engine_path": "E:\\dam\\backend\\app\\hydrodynamics\\routing_engine.py",
+    "idukki_token_violations_in_engine": 0,
+    "violations": [],
+    "idukki_runner_exists": true,
+    "mettur_runner_exists": true,
+    "generalization_clean": true
+  },
+  "inputs": {
+    "dem": "E:\\dam\\data\\mettur\\dem\\processed\\mettur_dem_30m.tif",
+    "river": "E:\\dam\\data\\mettur\\river\\cauvery_river.geojson",
+    "scenario": "E:\\dam\\data\\mettur\\scenarios\\baseline_breach.json"
+  }
+}

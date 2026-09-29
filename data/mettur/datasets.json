@@ -1,0 +1,79 @@
+{
+  "dam_id": "mettur",
+  "data_gate_status": "PASS",
+  "data_gate_timestamp": "2026-09-23T15:45:45Z",
+  "datasets": {
+    "dem": {
+      "status": "VALID",
+      "path": "data/mettur/dem/processed/mettur_dem_30m.tif",
+      "source": "Copernicus DEM GLO-30 — Public AWS S3",
+      "classification": "AUTHORITATIVE / MEASURED",
+      "tiles": [
+        "Copernicus_DSM_COG_10_N11_00_E077_00_DEM.tif",
+        "Copernicus_DSM_COG_10_N11_00_E078_00_DEM.tif"
+      ],
+      "resolution_m": 30.3,
+      "crs": "EPSG:4326",
+      "dimensions": {"rows": 973, "cols": 1261},
+      "bounds": {
+        "min_lon": 77.64986, "min_lat": 11.64986,
+        "max_lon": 78.00014, "max_lat": 11.92014
+      },
+      "nodata_pct": 0.08,
+      "elevation_min_m": 183.5,
+      "elevation_max_m": 1493.6,
+      "dam_inside_dem": true,
+      "coverage_pct": 100.0
+    },
+    "river": {
+      "status": "VALID",
+      "path": "data/mettur/river/cauvery_river.geojson",
+      "source": "OpenStreetMap Waterways — Overpass API",
+      "classification": "AUTHORITATIVE / MEASURED",
+      "feature_count": 20,
+      "main_stem_features": 6,
+      "min_distance_to_dam_km": 0.003,
+      "intersection_length_km": 104.41,
+      "crs": "EPSG:4326"
+    },
+    "reservoir": {
+      "status": "VALID",
+      "path": "data/mettur/reservoir/stanley_reservoir.geojson",
+      "source": "OpenStreetMap natural=water polygons — Overpass API",
+      "classification": "AUTHORITATIVE / MEASURED",
+      "feature_count": 19,
+      "engineering_area_km2": 153.0,
+      "engineering_area_source": "WRD Tamil Nadu (AUTHORITATIVE)",
+      "crs": "EPSG:4326"
+    },
+    "buildings": {
+      "status": "VALID",
+      "path": "data/mettur/buildings/buildings.geojson",
+      "source": "OpenStreetMap Building Footprints — Overpass API",
+      "classification": "AUTHORITATIVE / MEASURED",
+      "feature_count": 386,
+      "crs": "EPSG:4326",
+      "coverage_note": "Incomplete in rural downstream areas — inherent OSM limitation"
+    },
+    "roads": {
+      "status": "VALID",
+      "path": "data/mettur/roads/roads.geojson",
+      "source": "OpenStreetMap Road Network — Overpass API",
+      "classification": "AUTHORITATIVE / MEASURED",
+      "feature_count": 6649,
+      "crs": "EPSG:4326"
+    },
+    "population": {
+      "status": "NOT_CONFIGURED",
+      "path": null,
+      "source": "Census of India / WorldPop",
+      "resolution": "100m",
+      "note": "Not yet downloaded. Synthetic population fallback is strictly prohibited."
+    },
+    "satellite": {
+      "status": "NOT_CONFIGURED",
+      "source": "Copernicus Sentinel-1 SAR",
+      "note": "Live SAR imagery not configured. Synthetic flood polygon fallback strictly prohibited."
+    }
+  }
+}

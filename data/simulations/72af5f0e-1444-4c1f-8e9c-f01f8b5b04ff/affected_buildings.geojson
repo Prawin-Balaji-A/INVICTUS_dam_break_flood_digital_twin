@@ -1,0 +1,666 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 799299935,
+      "properties": {
+        "addr:city": "Thadiyampadu",
+        "addr:postcode": "685602",
+        "addr:street": "Idukki-Neriyamangalam road",
+        "building": "yes",
+        "name": "SRM Residency",
+        "rooms": "35",
+        "tourism": "hotel",
+        "max_flood_depth_m": 39.65,
+        "flood_arrival_min": 42.0,
+        "risk_category": "VERY_HIGH",
+        "is_affected": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.9686713,
+              9.8852797
+            ],
+            [
+              76.9688188,
+              9.8853669
+            ],
+            [
+              76.9689341,
+              9.8851846
+            ],
+            [
+              76.9687866,
+              9.885071
+            ],
+            [
+              76.9686713,
+              9.8852797
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 799305714,
+      "properties": {
+        "addr:city": "Thadiyampadu",
+        "addr:postcode": "685602",
+        "addr:street": "Idukki-Neriyamangalam road",
+        "building": "house",
+        "building:levels": "2",
+        "name": "Puthenpurackal House",
+        "max_flood_depth_m": 30.07,
+        "flood_arrival_min": 63.0,
+        "risk_category": "VERY_HIGH",
+        "is_affected": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.9685517,
+              9.8851897
+            ],
+            [
+              76.9685787,
+              9.8851419
+            ],
+            [
+              76.9686035,
+              9.8851886
+            ],
+            [
+              76.9686024,
+              9.8852086
+            ],
+            [
+              76.9686419,
+              9.8852397
+            ],
+            [
+              76.9686295,
+              9.8852719
+            ],
+            [
+              76.9686148,
+              9.8852842
+            ],
+            [
+              76.9685562,
+              9.8852353
+            ],
+            [
+              76.9685517,
+              9.8851897
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 799306261,
+      "properties": {
+        "addr:city": "Thadiyampadu",
+        "addr:postcode": "685602",
+        "addr:street": "Idukki-Neriyamangalam road",
+        "building": "yes",
+        "name": "Parakkattu",
+        "opening_hours": "Mo-Sa 09:00-20:00",
+        "shop": "supermarket",
+        "max_flood_depth_m": 43.52,
+        "flood_arrival_min": 24.0,
+        "risk_category": "VERY_HIGH",
+        "is_affected": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.9690366,
+              9.8842576
+            ],
+            [
+              76.969208,
+              9.884081
+            ],
+            [
+              76.9693106,
+              9.8842198
+            ],
+            [
+              76.9691494,
+              9.8844042
+            ],
+            [
+              76.9690366,
+              9.8842576
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 799308036,
+      "properties": {
+        "building": "yes",
+        "name": "Planet Automobiles",
+        "max_flood_depth_m": 21.19,
+        "flood_arrival_min": 78.0,
+        "risk_category": "VERY_HIGH",
+        "is_affected": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.9702016,
+              9.8593599
+            ],
+            [
+              76.9702928,
+              9.8593705
+            ],
+            [
+              76.9702847,
+              9.859233
+            ],
+            [
+              76.9701882,
+              9.8592198
+            ],
+            [
+              76.9702016,
+              9.8593599
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 799317624,
+      "properties": {
+        "addr:city": "Thadiyampadu",
+        "addr:postcode": "685602",
+        "addr:street": "Idukki-Neriyamangalam road",
+        "building": "house",
+        "building:levels": "1",
+        "name": "Kanjirathamkunnel",
+        "max_flood_depth_m": 29.0,
+        "flood_arrival_min": 63.0,
+        "risk_category": "VERY_HIGH",
+        "is_affected": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.9683144,
+              9.8846387
+            ],
+            [
+              76.9683304,
+              9.8845256
+            ],
+            [
+              76.9684133,
+              9.8845413
+            ],
+            [
+              76.9684133,
+              9.8847015
+            ],
+            [
+              76.96834,
+              9.8847141
+            ],
+            [
+              76.9683144,
+              9.8846387
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 799587375,
+      "properties": {
+        "addr:city": "Thadiyampadu",
+        "addr:postcode": "685602",
+        "addr:street": "Idukki-Neriyamangalam road",
+        "building": "yes",
+        "max_flood_depth_m": 27.92,
+        "flood_arrival_min": 66.0,
+        "risk_category": "VERY_HIGH",
+        "is_affected": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.9683061,
+              9.8849898
+            ],
+            [
+              76.9684028,
+              9.884844
+            ],
+            [
+              76.96849,
+              9.8849169
+            ],
+            [
+              76.9684578,
+              9.8849617
+            ],
+            [
+              76.9684749,
+              9.8849879
+            ],
+            [
+              76.9684085,
+              9.8850832
+            ],
+            [
+              76.9683705,
+              9.8850589
+            ],
+            [
+              76.9683535,
+              9.8850907
+            ],
+            [
+              76.9683099,
+              9.8850458
+            ],
+            [
+              76.9683288,
+              9.8850159
+            ],
+            [
+              76.9683061,
+              9.8849898
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 799590679,
+      "properties": {
+        "building": "house",
+        "max_flood_depth_m": 29.54,
+        "flood_arrival_min": 63.0,
+        "risk_category": "VERY_HIGH",
+        "is_affected": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.9685757,
+              9.8871803
+            ],
+            [
+              76.9686389,
+              9.8871003
+            ],
+            [
+              76.9687291,
+              9.8871758
+            ],
+            [
+              76.9686501,
+              9.8872514
+            ],
+            [
+              76.9685757,
+              9.8871803
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 799605615,
+      "properties": {
+        "addr:city": "Thadiyampadu",
+        "addr:postcode": "685602",
+        "addr:street": "Mariapuram Thadiyampadu road",
+        "building": "church",
+        "building:levels": "1",
+        "name": "fathima Matha Church , Aadukuzhi",
+        "max_flood_depth_m": 12.67,
+        "flood_arrival_min": 90.0,
+        "risk_category": "VERY_HIGH",
+        "is_affected": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.9699993,
+              9.8779192
+            ],
+            [
+              76.9700154,
+              9.8778952
+            ],
+            [
+              76.9700489,
+              9.8778451
+            ],
+            [
+              76.9700856,
+              9.8777903
+            ],
+            [
+              76.9701215,
+              9.8777368
+            ],
+            [
+              76.9701534,
+              9.8776891
+            ],
+            [
+              76.9701757,
+              9.8776558
+            ],
+            [
+              76.9702073,
+              9.8776747
+            ],
+            [
+              76.97025,
+              9.8777001
+            ],
+            [
+              76.9703009,
+              9.8777305
+            ],
+            [
+              76.970291,
+              9.8777458
+            ],
+            [
+              76.9702615,
+              9.8777916
+            ],
+            [
+              76.9702319,
+              9.8778375
+            ],
+            [
+              76.9702012,
+              9.8778852
+            ],
+            [
+              76.9701643,
+              9.8779423
+            ],
+            [
+              76.9701392,
+              9.8779813
+            ],
+            [
+              76.9701226,
+              9.878007
+            ],
+            [
+              76.9700875,
+              9.877982
+            ],
+            [
+              76.9700424,
+              9.8779499
+            ],
+            [
+              76.9699993,
+              9.8779192
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 799605955,
+      "properties": {
+        "addr:city": "Thadiyampadu",
+        "addr:postcode": "685602",
+        "addr:street": "Mariapuram Thadiyampadu road",
+        "building": "church",
+        "name": "Parish hall",
+        "max_flood_depth_m": 36.56,
+        "flood_arrival_min": 51.0,
+        "risk_category": "VERY_HIGH",
+        "is_affected": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.9704588,
+              9.8784395
+            ],
+            [
+              76.9705233,
+              9.8784993
+            ],
+            [
+              76.9706902,
+              9.8782676
+            ],
+            [
+              76.9706257,
+              9.8782339
+            ],
+            [
+              76.9704588,
+              9.8784395
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 862456055,
+      "properties": {
+        "addr:city": "Thadiyampadu",
+        "addr:postcode": "685602",
+        "addr:street": "Mariapuram_Thadiyampadu road",
+        "building": "kindergarten",
+        "name": "Anganwadi, Madathumkadav",
+        "max_flood_depth_m": 41.09,
+        "flood_arrival_min": 39.0,
+        "risk_category": "VERY_HIGH",
+        "is_affected": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.9721069,
+              9.8800677
+            ],
+            [
+              76.9721202,
+              9.8800612
+            ],
+            [
+              76.9721111,
+              9.8800343
+            ],
+            [
+              76.972092,
+              9.8800441
+            ],
+            [
+              76.9721069,
+              9.8800677
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 899109811,
+      "properties": {
+        "addr:city": "Thadiyampadu",
+        "addr:postcode": "685602",
+        "addr:street": "Mariapuram Thadiyampadu road",
+        "amenity": "internet_cafe",
+        "building": "yes",
+        "internet_access": "yes",
+        "internet_access:fee": "customers",
+        "name": "Akshaya Centre, Madathumkadavu",
+        "operator": "Lenimole Samuel",
+        "operator:type": "government_facility-public",
+        "phone": "+91-9544811886",
+        "ref": "IDK069",
+        "website": "https://www.akshaya.kerala.gov.in/",
+        "max_flood_depth_m": 42.53,
+        "flood_arrival_min": 36.0,
+        "risk_category": "VERY_HIGH",
+        "is_affected": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.9708654,
+              9.8792391
+            ],
+            [
+              76.9709969,
+              9.8793263
+            ],
+            [
+              76.9710934,
+              9.8791546
+            ],
+            [
+              76.9709915,
+              9.8790674
+            ],
+            [
+              76.9709432,
+              9.8791097
+            ],
+            [
+              76.9709164,
+              9.8791784
+            ],
+            [
+              76.9708654,
+              9.8792391
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 938129093,
+      "properties": {
+        "addr:street": "Idukki-Neriyamangalam Road",
+        "amenity": "childcare",
+        "building": "yes",
+        "name": "Anganwady, Kuthirakkallu",
+        "max_flood_depth_m": 23.67,
+        "flood_arrival_min": 3.0,
+        "risk_category": "VERY_HIGH",
+        "is_affected": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.9692227,
+              9.8643952
+            ],
+            [
+              76.9693085,
+              9.8644349
+            ],
+            [
+              76.9693528,
+              9.8643477
+            ],
+            [
+              76.9692696,
+              9.864308
+            ],
+            [
+              76.9692227,
+              9.8643952
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 938131028,
+      "properties": {
+        "building": "yes",
+        "government": "social_services",
+        "max_flood_depth_m": 27.87,
+        "flood_arrival_min": 3.0,
+        "risk_category": "VERY_HIGH",
+        "is_affected": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.9691248,
+              9.8647044
+            ],
+            [
+              76.9691972,
+              9.8647018
+            ],
+            [
+              76.9691824,
+              9.864493
+            ],
+            [
+              76.9691154,
+              9.8644943
+            ],
+            [
+              76.9691248,
+              9.8647044
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

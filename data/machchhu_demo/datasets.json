@@ -1,0 +1,40 @@
+{
+  "dam_id": "machchhu_demo",
+  "datasets": {
+    "dem": {
+      "status": "demo",
+      "path": "data/dem/ab1c93cc-c249-405d-bff1-23db8e347c11_dem.tif",
+      "source": "Sample Topography Grid",
+      "resolution_m": 80.0,
+      "crs": "EPSG:4326"
+    },
+    "river": {
+      "status": "demo",
+      "path": "data/rivers/ab1c93cc-c249-405d-bff1-23db8e347c11_river.geojson",
+      "source": "Sample Waterways",
+      "crs": "EPSG:4326"
+    },
+    "buildings": {
+      "status": "demo",
+      "path": "data/buildings/ab1c93cc-c249-405d-bff1-23db8e347c11_buildings.geojson",
+      "source": "Sample Footprints",
+      "crs": "EPSG:4326"
+    },
+    "roads": {
+      "status": "demo",
+      "path": "data/rivers/ab1c93cc-c249-405d-bff1-23db8e347c11_roads.geojson",
+      "source": "Sample Roads",
+      "crs": "EPSG:4326"
+    },
+    "population": {
+      "status": "demo",
+      "path": null,
+      "source": "Estimated Density",
+      "resolution": "100m"
+    },
+    "satellite": {
+      "status": "not_configured",
+      "source": null
+    }
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 227148563,
+      "properties": {
+        "building": "yes",
+        "max_flood_depth_m": 54.87,
+        "flood_arrival_min": 33.0,
+        "risk_category": "VERY_HIGH",
+        "is_affected": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.4660769,
+              30.3899836
+            ],
+            [
+              78.4661913,
+              30.389967
+            ],
+            [
+              78.4660757,
+              30.3893738
+            ],
+            [
+              78.4659613,
+              30.3893904
+            ],
+            [
+              78.4660769,
+              30.3899836
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 227148564,
+      "properties": {
+        "building": "yes",
+        "max_flood_depth_m": 54.86,
+        "flood_arrival_min": 33.0,
+        "risk_category": "VERY_HIGH",
+        "is_affected": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.4657057,
+              30.3894351
+            ],
+            [
+              78.4658244,
+              30.3900282
+            ],
+            [
+              78.4659368,
+              30.3900115
+            ],
+            [
+              78.4658182,
+              30.3894183
+            ],
+            [
+              78.4657057,
+              30.3894351
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 889144505,
+      "properties": {
+        "building": "yes",
+        "max_flood_depth_m": 108.23,
+        "flood_arrival_min": 27.0,
+        "risk_category": "VERY_HIGH",
+        "is_affected": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.447254,
+              30.4396911
+            ],
+            [
+              78.447349,
+              30.4397457
+            ],
+            [
+              78.4473902,
+              30.4396924
+            ],
+            [
+              78.4472952,
+              30.4396378
+            ],
+            [
+              78.447254,
+              30.4396911
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

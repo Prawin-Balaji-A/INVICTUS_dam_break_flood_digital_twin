@@ -1,0 +1,38 @@
+{
+  "is_consistent": true,
+  "summary": "Simulation passes physical and geometric consistency checks.",
+  "issues": [
+    {
+      "category": "WARNING",
+      "check_name": "Supercritical Velocity Anomaly",
+      "message": "Peak velocity (79.90 m/s) exceeds normal open-channel flood wave bounds.",
+      "observed_value": 79.9,
+      "expected_range": "1.0 m/s to 15.0 m/s"
+    },
+    {
+      "category": "WARNING",
+      "check_name": "Raster vs Vector Area Discrepancy",
+      "message": "Vectorized flood polygon area (14.08 km\u00b2) differs significantly from raster cell count area (9.23 km\u00b2). Ratio: 1.53.",
+      "observed_value": 1.53,
+      "expected_range": "0.75 to 1.25"
+    }
+  ],
+  "diagnostics": {
+    "max_depth_m": 86.26,
+    "max_velocity_ms": 79.9,
+    "inundated_area_sqkm": 9.23,
+    "raster_area_sqkm": 9.23,
+    "polygon_area_sqkm": 14.08,
+    "wet_cell_count": 9796,
+    "pixel_area_m2": 942.09,
+    "dam_height_m": 168.91,
+    "reservoir_level_m": 165.0,
+    "dem_elevation_range_m": [
+      0.0,
+      1841.5
+    ],
+    "affected_buildings": 1,
+    "affected_roads_km": 0.0,
+    "exposed_population": 5
+  }
+}

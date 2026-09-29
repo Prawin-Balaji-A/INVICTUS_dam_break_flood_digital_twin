@@ -1,0 +1,23 @@
+{
+  "is_consistent": true,
+  "summary": "Simulation passes physical and geometric consistency checks.",
+  "issues": [],
+  "diagnostics": {
+    "max_depth_m": 3.32,
+    "max_velocity_ms": 3.73,
+    "inundated_area_sqkm": 13.59,
+    "raster_area_sqkm": 13.59,
+    "polygon_area_sqkm": 13.6,
+    "wet_cell_count": 2118,
+    "pixel_area_m2": 6418.28,
+    "dam_height_m": 26.0,
+    "reservoir_level_m": 24.0,
+    "dem_elevation_range_m": [
+      35.4,
+      99.0
+    ],
+    "affected_buildings": 9,
+    "affected_roads_km": 11.26,
+    "exposed_population": 41
+  }
+}

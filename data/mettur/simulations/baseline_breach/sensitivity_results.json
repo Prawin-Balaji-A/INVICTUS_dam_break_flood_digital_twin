@@ -1,0 +1,32 @@
+[
+  {
+    "dt_sec": 60.0,
+    "peak_discharge_m3s": 88699.2,
+    "time_to_peak_min": 125.0,
+    "released_volume_mcm": 500.0,
+    "mass_balance_error_pct": 5.6e-07,
+    "maximum_depth_m": 66.34,
+    "maximum_velocity_ms": 71.0,
+    "inundated_area_sqkm": 101.92
+  },
+  {
+    "dt_sec": 30.0,
+    "peak_discharge_m3s": 88679.1,
+    "time_to_peak_min": 125.0,
+    "released_volume_mcm": 500.0,
+    "mass_balance_error_pct": 2.6e-07,
+    "maximum_depth_m": 66.34,
+    "maximum_velocity_ms": 71.01,
+    "inundated_area_sqkm": 101.93
+  },
+  {
+    "dt_sec": 15.0,
+    "peak_discharge_m3s": 88670.1,
+    "time_to_peak_min": 124.8,
+    "released_volume_mcm": 500.0,
+    "mass_balance_error_pct": 3.8e-07,
+    "maximum_depth_m": 66.34,
+    "maximum_velocity_ms": 71.01,
+    "inundated_area_sqkm": 101.93
+  }
+]

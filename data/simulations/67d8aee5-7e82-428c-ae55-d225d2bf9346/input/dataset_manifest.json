@@ -1,0 +1,6 @@
+{
+  "dem_path": "data/mettur/dem/processed/mettur_dem_30m.tif",
+  "buildings_path": "data/mettur/buildings/buildings.geojson",
+  "roads_path": "data/mettur/roads/roads.geojson",
+  "satellite_path": null
+}

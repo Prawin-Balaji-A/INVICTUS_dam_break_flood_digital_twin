@@ -1,0 +1,40 @@
+{
+  "dam_id": "srisailam",
+  "datasets": {
+    "dem": {
+      "status": "not_configured",
+      "path": null,
+      "source": "Copernicus DEM GLO-30 / SRTM",
+      "resolution_m": 30.0,
+      "crs": "EPSG:4326"
+    },
+    "river": {
+      "status": "not_configured",
+      "path": null,
+      "source": "OpenStreetMap Waterways",
+      "crs": "EPSG:4326"
+    },
+    "buildings": {
+      "status": "not_configured",
+      "path": null,
+      "source": "OpenStreetMap Building Footprints",
+      "crs": "EPSG:4326"
+    },
+    "roads": {
+      "status": "not_configured",
+      "path": null,
+      "source": "OpenStreetMap Road Network",
+      "crs": "EPSG:4326"
+    },
+    "population": {
+      "status": "not_configured",
+      "path": null,
+      "source": "Census of India / WorldPop",
+      "resolution": "100m"
+    },
+    "satellite": {
+      "status": "not_configured",
+      "source": "Copernicus Sentinel-1 SAR"
+    }
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "buildings": {
+    "total_buildings": 516,
+    "affected_buildings": 1,
+    "risk_breakdown": {
+      "low": 0,
+      "moderate": 0,
+      "high": 0,
+      "very_high": 1
+    },
+    "affected_features": [
+      {
+        "type": "Feature",
+        "id": 846435831,
+        "properties": {
+          "building": "yes",
+          "max_flood_depth_m": 18.91,
+          "flood_arrival_min": 88.0,
+          "risk_category": "VERY_HIGH",
+          "is_affected": true
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                76.9638245,
+                9.841749
+              ],
+              [
+                76.9640928,
+                9.8418409
+              ],
+              [
+                76.9641893,
+                9.8415674
+              ],
+              [
+                76.963921,
+                9.8414755
+              ],
+              [
+                76.963888,
+                9.841569
+              ],
+              [
+                76.9639473,
+                9.8415893
+              ],
+              [
+                76.9639197,
+                9.8416675
+              ],
+              [
+                76.9638604,
+                9.8416472
+              ],
+              [
+                76.9638245,
+                9.841749
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "roads": {
+    "total_road_network_km": 1314.29,
+    "total_affected_roads_km": 0.0,
+    "breakdown_by_highway_type_km": {},
+    "affected_segments_count": 0,
+    "affected_features": []
+  },
+  "landuse": {
+    "total_inundated_area_sqkm": 9.23,
+    "classes": [
+      {
+        "class_name": "Agricultural Cropland",
+        "area_sqkm": 5.35,
+        "percentage": 58.0
+      },
+      {
+        "class_name": "Built-up / Settlements",
+        "area_sqkm": 1.48,
+        "percentage": 16.0
+      },
+      {
+        "class_name": "Vegetation & Shrubland",
+        "area_sqkm": 1.11,
+        "percentage": 12.0
+      },
+      {
+        "class_name": "River Channel & Water",
+        "area_sqkm": 0.74,
+        "percentage": 8.0
+      },
+      {
+        "class_name": "Barren & Open Ground",
+        "area_sqkm": 0.55,
+        "percentage": 6.0
+      }
+    ]
+  },
+  "population": {
+    "metric_type": "Population Exposure (Non-Casualty)",
+    "estimated_exposed_population": 5,
+    "direct_building_exposure": 5,
+    "regional_basin_exposure_estimate": 3877,
+    "affected_buildings_considered": 1,
+    "average_household_size": 4.6,
+    "exposure_methodology": "Direct OSM building footprint occupancy (4.6 persons/building)",
+    "definitions": {
+      "population_exposure": "Number of individuals whose physical residences or work places intersect the flood inundation zone.",
+      "population_at_risk": "Exposed individuals subject to life-threatening hydrodynamic conditions (depth > 1.2m, velocity > 2 m/s).",
+      "casualties": "Requires empirical evacuation warning time and building collapse dynamics; strictly NOT inferred here."
+    },
+    "disclaimer": "Population exposure estimates individuals located inside the flooded footprint for emergency evacuation planning. It strictly does NOT infer or predict casualties or fatalities."
+  }
+}

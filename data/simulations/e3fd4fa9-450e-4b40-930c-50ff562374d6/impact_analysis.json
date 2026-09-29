@@ -1,0 +1,352 @@
+{
+  "buildings": {
+    "total_buildings": 386,
+    "affected_buildings": 0,
+    "risk_breakdown": {
+      "low": 0,
+      "moderate": 0,
+      "high": 0,
+      "very_high": 0
+    },
+    "affected_features": []
+  },
+  "roads": {
+    "total_road_network_km": 3446.76,
+    "total_affected_roads_km": 1.08,
+    "breakdown_by_highway_type_km": {
+      "primary": 0.51,
+      "tertiary": 0.08,
+      "unclassified": 0.16,
+      "residential": 0.33
+    },
+    "affected_segments_count": 8,
+    "affected_features": [
+      {
+        "type": "Feature",
+        "id": 31956266,
+        "properties": {
+          "highway": "primary",
+          "name": "Omalur - Mecheri - Perumpalai - Pennagaram Road",
+          "ref": "SH222",
+          "osm_id": 31956266,
+          "affected_length_km": 0.21
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              77.93239129064662,
+              11.900020919110395
+            ],
+            [
+              77.9324922,
+              11.9003384
+            ],
+            [
+              77.932511,
+              11.900571
+            ],
+            [
+              77.9323864,
+              11.9009765
+            ],
+            [
+              77.931885,
+              11.901701
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 946716223,
+        "properties": {
+          "highway": "tertiary",
+          "osm_id": 946716223,
+          "affected_length_km": 0.08
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              77.9307702,
+              11.9033921
+            ],
+            [
+              77.9309647,
+              11.9038973
+            ],
+            [
+              77.93100349069068,
+              11.904027777777777
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 1376637879,
+        "properties": {
+          "highway": "unclassified",
+          "osm_id": 1376637879,
+          "affected_length_km": 0.05
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              77.88541095325395,
+              11.906258570119073
+            ],
+            [
+              77.8854455,
+              11.9063374
+            ],
+            [
+              77.8853425,
+              11.9066398
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 1376637880,
+        "properties": {
+          "highway": "unclassified",
+          "osm_id": 1376637880,
+          "affected_length_km": 0.05
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              77.88347222222224,
+              11.908254935741809
+            ],
+            [
+              77.8835486,
+              11.9084034
+            ],
+            [
+              77.8836945,
+              11.9086218
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 1376637886,
+        "properties": {
+          "highway": "unclassified",
+          "osm_id": 1376637886,
+          "affected_length_km": 0.07
+        },
+        "geometry": {
+          "type": "MultiLineString",
+          "coordinates": [
+            [
+              [
+                77.89194579359628,
+                11.906770720904014
+              ],
+              [
+                77.8920115,
+                11.9067993
+              ],
+              [
+                77.89218507031018,
+                11.906750781177857
+              ]
+            ],
+            [
+              [
+                77.89219480585925,
+                11.906749969882101
+              ],
+              [
+                77.8922862,
+                11.9067825
+              ],
+              [
+                77.8925351,
+                11.9069085
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 1413182838,
+        "properties": {
+          "highway": "primary",
+          "name": "Omalur - Mecheri - Perumpalai - Pennagaram Road",
+          "ref": "SH222",
+          "osm_id": 1413182838,
+          "affected_length_km": 0.17
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              77.9312074,
+              11.9027386
+            ],
+            [
+              77.9307702,
+              11.9033921
+            ],
+            [
+              77.9305154,
+              11.9037687
+            ],
+            [
+              77.93034751181011,
+              11.90395862292121
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 1413182839,
+        "properties": {
+          "bridge": "yes",
+          "highway": "primary",
+          "layer": "1",
+          "name": "Omalur - Mecheri - Perumpalai - Pennagaram Road",
+          "ref": "SH222",
+          "osm_id": 1413182839,
+          "affected_length_km": 0.14
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              77.931885,
+              11.901701
+            ],
+            [
+              77.9312074,
+              11.9027386
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 1413182840,
+        "properties": {
+          "highway": "residential",
+          "source": "maxar",
+          "osm_id": 1413182840,
+          "affected_length_km": 0.33
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              77.92748273432929,
+              11.900295043448503
+            ],
+            [
+              77.9277313,
+              11.9002433
+            ],
+            [
+              77.9278868,
+              11.9002328
+            ],
+            [
+              77.9279566,
+              11.9002696
+            ],
+            [
+              77.9282892,
+              11.9007158
+            ],
+            [
+              77.9284394,
+              11.9006948
+            ],
+            [
+              77.9287022,
+              11.900616
+            ],
+            [
+              77.9289865,
+              11.9004638
+            ],
+            [
+              77.9291689,
+              11.9003903
+            ],
+            [
+              77.9295605,
+              11.9002748
+            ],
+            [
+              77.929641,
+              11.9002328
+            ],
+            [
+              77.9299253,
+              11.9000123
+            ],
+            [
+              77.93006247004107,
+              11.89993774694591
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "landuse": {
+    "total_inundated_area_sqkm": 4.16,
+    "classes": [
+      {
+        "class_name": "Agricultural Cropland",
+        "area_sqkm": 2.41,
+        "percentage": 58.0
+      },
+      {
+        "class_name": "Built-up / Settlements",
+        "area_sqkm": 0.67,
+        "percentage": 16.0
+      },
+      {
+        "class_name": "Vegetation & Shrubland",
+        "area_sqkm": 0.5,
+        "percentage": 12.0
+      },
+      {
+        "class_name": "River Channel & Water",
+        "area_sqkm": 0.33,
+        "percentage": 8.0
+      },
+      {
+        "class_name": "Barren & Open Ground",
+        "area_sqkm": 0.25,
+        "percentage": 6.0
+      }
+    ]
+  },
+  "population": {
+    "metric_type": "Population Exposure (Non-Casualty)",
+    "estimated_exposed_population": 1747,
+    "direct_building_exposure": 0,
+    "regional_basin_exposure_estimate": 1747,
+    "affected_buildings_considered": 0,
+    "average_household_size": 4.6,
+    "exposure_methodology": "Regional spatial area density",
+    "definitions": {
+      "population_exposure": "Number of individuals whose physical residences or work places intersect the flood inundation zone.",
+      "population_at_risk": "Exposed individuals subject to life-threatening hydrodynamic conditions (depth > 1.2m, velocity > 2 m/s).",
+      "casualties": "Requires empirical evacuation warning time and building collapse dynamics; strictly NOT inferred here."
+    },
+    "disclaimer": "Population exposure estimates individuals located inside the flooded footprint for emergency evacuation planning. It strictly does NOT infer or predict casualties or fatalities."
+  }
+}

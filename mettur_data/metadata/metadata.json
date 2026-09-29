@@ -1,0 +1,33 @@
+{
+  "project": "Mettur Dam Digital Twin",
+  "location": {
+    "latitude": 11.80346,
+    "longitude": 77.80627
+  },
+  "aoi": {
+    "south": 11.71346,
+    "west": 77.71627,
+    "north": 11.89346,
+    "east": 77.89627
+  },
+  "crs": "EPSG:32643",
+  "data_sources": {
+    "terrain": "SRTM",
+    "buildings": "OpenStreetMap",
+    "roads": "OpenStreetMap",
+    "waterways": "OpenStreetMap",
+    "water_bodies": "OpenStreetMap",
+    "dam": "OpenStreetMap"
+  },
+  "files": {
+    "terrain": "E:\\dam\\mettur_data\\terrain\\terrain.tif",
+    "osm": "E:\\dam\\mettur_data\\vector\\mettur.osm"
+  },
+  "notes": [
+    "Building geometry comes from OSM.",
+    "Road geometry comes from OSM.",
+    "Water geometry comes from OSM.",
+    "Terrain elevation comes from SRTM.",
+    "No synthetic building locations are generated."
+  ]
+}

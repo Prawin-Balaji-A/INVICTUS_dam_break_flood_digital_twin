@@ -1,0 +1,49 @@
+{
+  "timestamp": "2026-09-23T15:06:11.550053+00:00",
+  "project": "idukki",
+  "scenario_id": "baseline_breach",
+  "scenario_name": "Idukki Dam \u2014 Hypothetical Overtopping Dam-Break Baseline",
+  "scenario_type": "HYPOTHETICAL DAM-BREAK",
+  "solver": "2D Manning kinematic/diffusion-wave approximation",
+  "sph_status": "NOT YET COUPLED",
+  "delft3d_status": "EXPORTER ONLY",
+  "runtime_seconds": 3.74,
+  "inputs": {
+    "dem": "E:\\dam\\data\\idukki\\dem\\processed\\idukki_dem_30m.tif",
+    "river": "E:\\dam\\data\\idukki\\river\\periyar_river.geojson",
+    "boundary": "E:\\dam\\data\\idukki\\boundaries\\study_area.geojson",
+    "scenario": "E:\\dam\\data\\idukki\\scenarios\\baseline_breach.json"
+  },
+  "breach_summary": {
+    "formulation": "Froehlich_2008",
+    "bottom_width_m": 115.0,
+    "formation_time_hr": 2.15,
+    "peak_discharge_m3s": 74941.0,
+    "time_to_peak_min": 126.0,
+    "initial_volume_mcm": 450.0,
+    "final_storage_mcm": 0.0,
+    "released_volume_mcm": 450.0,
+    "discharge_integral_mcm": 450.000002,
+    "numerical_discrepancy_m3": 1.8,
+    "mass_balance_error_pct": 4e-07
+  },
+  "hydraulic_summary": {
+    "manning_channel_n": 0.035,
+    "manning_floodplain_n": 0.055,
+    "maximum_water_depth_m": 60.89,
+    "maximum_flow_velocity_ms": 42.73,
+    "mean_water_depth_m": 17.59,
+    "mean_flow_velocity_ms": 9.08,
+    "inundated_area_sqkm": 10.99,
+    "inundated_cells_count": 11665
+  },
+  "outputs": {
+    "depth_tif": "E:\\dam\\data\\idukki\\simulations\\baseline_breach\\maximum_depth.tif",
+    "vel_tif": "E:\\dam\\data\\idukki\\simulations\\baseline_breach\\maximum_velocity.tif",
+    "arr_tif": "E:\\dam\\data\\idukki\\simulations\\baseline_breach\\arrival_time.tif",
+    "mask_tif": "E:\\dam\\data\\idukki\\simulations\\baseline_breach\\inundation_mask.tif",
+    "geojson": "E:\\dam\\data\\idukki\\simulations\\baseline_breach\\flood_extent.geojson",
+    "kml": "E:\\dam\\data\\idukki\\simulations\\baseline_breach\\flood_extent.kml",
+    "timesteps": "E:\\dam\\data\\idukki\\simulations\\baseline_breach\\timesteps.json"
+  }
+}

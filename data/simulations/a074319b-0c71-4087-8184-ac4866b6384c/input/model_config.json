@@ -1,0 +1,6 @@
+{
+  "engine_name": "Experimental SPH Solver",
+  "manning_roughness": 0.035,
+  "inundation_threshold_m": 0.05,
+  "spatial_crs": "EPSG:4326 (metric lat/lon converted)"
+}

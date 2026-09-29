@@ -1,0 +1,6 @@
+{
+  "dem_path": "data\\dem\\ab1c93cc-c249-405d-bff1-23db8e347c11_dem.tif",
+  "buildings_path": "data\\buildings\\ab1c93cc-c249-405d-bff1-23db8e347c11_buildings.geojson",
+  "roads_path": "data\\rivers\\ab1c93cc-c249-405d-bff1-23db8e347c11_roads.geojson",
+  "satellite_path": null
+}

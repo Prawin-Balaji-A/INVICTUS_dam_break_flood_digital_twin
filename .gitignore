@@ -1,0 +1,50 @@
+# Node dependencies and builds
+**/node_modules/
+**/dist/
+dist/
+dist-ssr/
+build/
+*.egg-info/
+.npm/
+
+# Python caches and virtual environments
+**/__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+ENV/
+.pytest_cache/
+.coverage
+
+# Temporary files, backups, and scratch scripts
+scratch/
+tmp/
+temp/
+*.log
+*.tmp
+*.bak
+*.BACKUP
+*.blend@*
+.claude/
+.gemini/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Raw uncompressed Copernicus DEM tiles (reconstructible via prepare scripts)
+data/**/dem/source/
+data/**/simulations/test_*
+data/**/qa_plots/
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo

@@ -1,0 +1,138 @@
+@import "tailwindcss";
+@source "../src";
+@import "maplibre-gl/dist/maplibre-gl.css";
+
+:root {
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  color-scheme: dark;
+}
+
+html.light {
+  color-scheme: light;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-sans);
+  background-color: #0b0f19;
+  color: #f3f4f6;
+  overflow-x: hidden;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+html.light body {
+  background-color: #f8fafc;
+  color: #0f172a;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0f172a;
+}
+
+html.light ::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #334155;
+  border-radius: 3px;
+}
+
+html.light ::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #475569;
+}
+
+html.light ::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* --------------------------------------------------------------------------
+   Light Mode Theme Adaptation for High-Contrast Modern Interface
+   -------------------------------------------------------------------------- */
+html.light .bg-slate-950 {
+  background-color: #ffffff !important;
+}
+
+html.light .bg-slate-900 {
+  background-color: #f8fafc !important;
+}
+
+html.light .bg-slate-900\/95,
+html.light .bg-slate-900\/98,
+html.light .bg-slate-900\/90 {
+  background-color: rgba(255, 255, 255, 0.94) !important;
+}
+
+html.light .bg-slate-800 {
+  background-color: #f1f5f9 !important;
+}
+
+html.light .bg-slate-800\/80,
+html.light .bg-slate-800\/70,
+html.light .bg-slate-800\/60,
+html.light .bg-slate-800\/50 {
+  background-color: rgba(241, 245, 249, 0.85) !important;
+}
+
+html.light .border-slate-900,
+html.light .border-slate-800,
+html.light .border-slate-800\/80,
+html.light .border-slate-700,
+html.light .border-slate-700\/80 {
+  border-color: #e2e8f0 !important;
+}
+
+html.light .text-white {
+  color: #0f172a !important;
+}
+
+html.light .text-slate-100 {
+  color: #1e293b !important;
+}
+
+html.light .text-slate-200,
+html.light .text-slate-300 {
+  color: #334155 !important;
+}
+
+html.light .text-slate-400 {
+  color: #64748b !important;
+}
+
+html.light .text-slate-500 {
+  color: #94a3b8 !important;
+}
+
+html.light .hover\:bg-slate-800:hover {
+  background-color: #e2e8f0 !important;
+}
+
+html.light .hover\:bg-slate-800\/60:hover {
+  background-color: rgba(226, 232, 240, 0.7) !important;
+}
+
+html.light .hover\:text-white:hover {
+  color: #020617 !important;
+}
+
+html.light .shadow-2xl {
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.08), 0 8px 10px -6px rgba(0, 0, 0, 0.04) !important;
+}
+

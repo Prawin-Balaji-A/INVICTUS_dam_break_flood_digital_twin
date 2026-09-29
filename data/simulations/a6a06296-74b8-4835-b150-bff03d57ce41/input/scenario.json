@@ -1,0 +1,10 @@
+{
+  "id": "f0c99174-432f-44ed-adca-a176822e4c64",
+  "name": "Scenario 04 \u2014 River Blockage & Landslide Lake Outburst (Rishi Ganga 2021 Analog)",
+  "breach_type": "Landslide Dam Burst",
+  "breach_width_m": 95.0,
+  "breach_depth_m": 180.0,
+  "breach_time_sec": 1800.0,
+  "reservoir_level_m": 255.0,
+  "reservoir_volume_m3": 350000000.0
+}

@@ -1,0 +1,55 @@
+{
+  "dam_name": "TEHRI",
+  "generation_date_utc": "2026-09-26T10:44:39.762706Z",
+  "dam_lat": 30.3761751,
+  "dam_lon": 78.4803102,
+  "dam_location_source": "OpenStreetMap Nominatim geocoding (established in a prior successful run of this script; reused here for idempotency)",
+  "source_crs": "EPSG:4326",
+  "projected_crs": "EPSG:32644",
+  "dem_source": {
+    "provider": "AWS elevation-tiles-prod (SRTM, skadi format)",
+    "base_url": "https://s3.amazonaws.com/elevation-tiles-prod/skadi",
+    "file_path": "tehri_data\\terrain\\terrain.tif",
+    "note": "Reused existing file; not re-downloaded this run."
+  },
+  "osm_source": {
+    "provider": "OpenStreetMap",
+    "raw_osm_file": "tehri_data\\vector\\tehri.osm",
+    "buildings_path": "tehri_data\\vector\\buildings.geojson",
+    "roads_path": "tehri_data\\vector\\roads.geojson",
+    "waterways_path": "tehri_data\\vector\\waterways.geojson",
+    "water_path": "tehri_data\\vector\\water.geojson",
+    "note": "Reused existing files; not re-downloaded this run (Overpass endpoints were unavailable: 406/429/403)."
+  },
+  "coordinate_transformation": "WGS84 lon/lat -> EPSG:32644 (pyproj) -> local meters via subtraction of dam projected origin (E=257865.118, N=3363163.187)",
+  "terrain_native_pixel_size_m": [
+    30.0,
+    30.0
+  ],
+  "terrain_mesh_resolution": [
+    342,
+    327
+  ],
+  "terrain_nodata_fill_method": "scipy_nearest_neighbor_fill",
+  "buildings_total_in_aoi": 14,
+  "buildings_included_in_scene": 14,
+  "roads_total_in_aoi": 94,
+  "roads_included_in_scene": 94,
+  "waterways_total_in_aoi": 9,
+  "water_polygons_total_in_aoi": 3,
+  "reservoir_identified_from_real_geometry": true,
+  "dam_axis_derivation_method": "derived_from_nearest_waterway_segment(dist=74m)",
+  "known_dam_reference_dimensions": {
+    "source": "THDC India official published specifications (as supplied by user)",
+    "dam_type": "Earth and Rockfill Dam",
+    "height_m": 260.5,
+    "top_length_m": 575,
+    "top_level_m": 839.5,
+    "frl_m": 830,
+    "upstream_slope": "1:2.5",
+    "downstream_slope": "1:2",
+    "river": "Bhagirathi",
+    "note": "Used verbatim in Phase 3 dam reconstruction; not re-derived from geographic data."
+  },
+  "disclaimer": "Visualization based on real OSM/DEM geographic data and reconstructed dam geometry using THDC-published reference dimensions. Building heights not present in OSM are estimated (see per-building height_source field). This is NOT a validated hydraulic or engineering-survey reconstruction."
+}

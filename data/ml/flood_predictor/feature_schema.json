@@ -1,0 +1,27 @@
+{
+  "features": [
+    "elevation_m",
+    "rel_elev_river_m",
+    "slope_deg",
+    "dist_to_river_m",
+    "dist_to_dam_km",
+    "active_volume_mcm",
+    "peak_discharge_m3s",
+    "dam_height_m",
+    "manning_n",
+    "downstream_slope"
+  ],
+  "feature_count": 10,
+  "feature_importances": {
+    "elevation_m": 0.1098,
+    "rel_elev_river_m": 0.304,
+    "slope_deg": 0.099,
+    "dist_to_river_m": 0.2411,
+    "dist_to_dam_km": 0.1293,
+    "active_volume_mcm": 0.0471,
+    "peak_discharge_m3s": 0.0426,
+    "dam_height_m": 0.0055,
+    "manning_n": 0.012,
+    "downstream_slope": 0.0093
+  }
+}

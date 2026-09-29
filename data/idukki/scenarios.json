@@ -1,0 +1,44 @@
+[
+  {
+    "id": "idukki_froehlich_overtopping",
+    "name": "Scenario 01 \u2014 Overtopping Failure (Froehlich 2008)",
+    "breach_formulation": "Froehlich_2008",
+    "breach_type": "Overtopping",
+    "dam_height": 168.91,
+    "dam_length": 365.85,
+    "dam_crest_elev": 735.6,
+    "reservoir_level": 165.0,
+    "reservoir_volume": 1996000000.0,
+    "reservoir_area": 60000000.0,
+    "breach_side_slope": 1.0,
+    "status": "awaiting_verified_dam_inputs"
+  },
+  {
+    "id": "idukki_macdonald_piping",
+    "name": "Scenario 02 \u2014 Piping Failure (MacDonald 1984)",
+    "breach_formulation": "MacDonald_1984",
+    "breach_type": "Piping",
+    "dam_height": 168.91,
+    "dam_length": 365.85,
+    "dam_crest_elev": 735.6,
+    "reservoir_level": 165.0,
+    "reservoir_volume": 1996000000.0,
+    "reservoir_area": 60000000.0,
+    "breach_side_slope": 0.5,
+    "status": "awaiting_verified_dam_inputs"
+  },
+  {
+    "id": "idukki_vonthun_full",
+    "name": "Scenario 03 \u2014 Full Breach (Von Thun 1990)",
+    "breach_formulation": "VonThun_1990",
+    "breach_type": "Overtopping",
+    "dam_height": 168.91,
+    "dam_length": 365.85,
+    "dam_crest_elev": 735.6,
+    "reservoir_level": 168.91,
+    "reservoir_volume": 1996000000.0,
+    "reservoir_area": 60000000.0,
+    "breach_side_slope": 1.0,
+    "status": "awaiting_verified_dam_inputs"
+  }
+]

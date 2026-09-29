@@ -1,0 +1,111 @@
+{
+  "dam_id": "idukki",
+  "project_name": "Idukki Dam — Periyar River",
+  "state": "Kerala",
+  "country": "India",
+  "updated_at": "2026-09-23T14:20:00Z",
+  "datasets": {
+    "dem": {
+      "status": "READY",
+      "source": "Copernicus DEM GLO-30 (European Space Agency / AWS Open Data)",
+      "source_url": "https://copernicus-dem-30m.s3.amazonaws.com/",
+      "local_path": "data/idukki/dem/processed/idukki_dem_30m.tif",
+      "source_tiles": [
+        "data/idukki/dem/source/Copernicus_DSM_COG_10_N09_00_E076_00_DEM.tif",
+        "data/idukki/dem/source/Copernicus_DSM_COG_10_N10_00_E076_00_DEM.tif",
+        "data/idukki/dem/source/Copernicus_DSM_COG_10_N09_00_E077_00_DEM.tif",
+        "data/idukki/dem/source/Copernicus_DSM_COG_10_N10_00_E077_00_DEM.tif"
+      ],
+      "crs": "EPSG:4326",
+      "resolution": "0.0002778 deg (~30.8m)",
+      "dimensions": [1189, 1189],
+      "bounds": [76.749861, 9.749861, 77.080139, 10.080139],
+      "nodata_value": -32767.0,
+      "zero_elevation_pixels": 0,
+      "valid_pixels_pct": 99.92,
+      "min_elevation_m": 17.0,
+      "max_elevation_m": 1921.43,
+      "mean_elevation_m": 598.32,
+      "study_area_coverage_pct": 100.0,
+      "coverage": "100.0% coverage of study domain [76.75, 9.75, 77.08, 10.08] (1,321.35 km²). Covers Idukki Arch Dam, Cheruthoni, Kulamavu, full reservoir basin, and ~46 km downstream Periyar gorge towards Neriamangalam.",
+      "validated_at": "2026-09-23T14:20:00Z",
+      "notes": "Authentic Copernicus DEM GLO-30 4-tile mosaic clipped to exact study boundary with zero missing or zero-fill pixels. Unmodified source tiles preserved in source directory."
+    },
+    "river": {
+      "status": "READY",
+      "source": "OpenStreetMap Waterways via Overpass API",
+      "source_url": "https://overpass-api.de/api/interpreter",
+      "local_path": "data/idukki/river/periyar_river.geojson",
+      "crs": "EPSG:4326",
+      "feature_count": 4734,
+      "classification": {
+        "main_stem_segments": 18,
+        "main_stem_total_length_km": 81.25,
+        "tributaries_and_streams": 4706,
+        "canals_and_artificial": 10
+      },
+      "coverage": "Full Periyar river network. Main stem forms 81.25 km downstream channel flowing northwest through gorge to Neriamangalam (~46.3 km straight-line distance).",
+      "validated_at": "2026-09-23T14:20:00Z",
+      "notes": "Classified vector geometry. Determines downstream hydraulic flow path based on genuine topography and natural drainage."
+    },
+    "buildings": {
+      "status": "READY",
+      "source": "OpenStreetMap Building Footprints via Overpass API",
+      "source_url": "https://overpass-api.de/api/interpreter",
+      "local_path": "data/idukki/buildings/idukki_buildings.geojson",
+      "crs": "EPSG:4326",
+      "feature_count": 516,
+      "coverage": "Building footprints in downstream settlement corridor (Cheruthoni, Painavu, Karimban)",
+      "validated_at": "2026-09-23T14:20:00Z",
+      "notes": "Genuine building polygon geometries extracted from OSM. No synthetic building grid."
+    },
+    "roads": {
+      "status": "READY",
+      "source": "OpenStreetMap Road Network via Overpass API",
+      "source_url": "https://overpass-api.de/api/interpreter",
+      "local_path": "data/idukki/roads/idukki_roads.geojson",
+      "crs": "EPSG:4326",
+      "feature_count": 863,
+      "coverage": "Arterial, trunk, primary, secondary, and tertiary road network connecting Idukki downstream settlements",
+      "validated_at": "2026-09-23T14:20:00Z",
+      "notes": "Genuine road infrastructure lines extracted from OSM. No artificial road grid."
+    },
+    "reservoir": {
+      "status": "READY",
+      "source": "OpenStreetMap Natural Water & Reservoir via Overpass API",
+      "source_url": "https://overpass-api.de/api/interpreter",
+      "local_path": "data/idukki/reservoir/idukki_reservoir.geojson",
+      "crs": "EPSG:4326",
+      "feature_count": 49,
+      "mapped_water_surface_km2": 6.49,
+      "coverage": "Idukki Reservoir and Cheruthoni waterbody polygons",
+      "validated_at": "2026-09-23T14:20:00Z",
+      "notes": "Genuine reservoir waterbody boundaries extracted from OSM."
+    },
+    "boundary": {
+      "status": "READY",
+      "boundary_status": "preliminary",
+      "source": "Periyar Valley Geographic Delineation",
+      "local_path": "data/idukki/boundaries/study_area.geojson",
+      "crs": "EPSG:4326",
+      "bounds": [76.75, 9.75, 77.08, 10.08],
+      "area_km2": 1321.35,
+      "validated_at": "2026-09-23T14:20:00Z",
+      "notes": "Preliminary study area boundary enclosing Idukki Dam, Cheruthoni, Kulamavu, reservoir, and downstream Periyar gorge towards Neriamangalam."
+    },
+    "population": {
+      "status": "NOT_CONFIGURED",
+      "source": "WorldPop / Census of India",
+      "source_url": "https://hub.worldpop.org/",
+      "local_path": null,
+      "notes": "High-resolution population raster not ingested in Phase 3. Synthetic population fallback strictly prohibited by project integrity rules."
+    },
+    "satellite": {
+      "status": "NOT_CONFIGURED",
+      "source": "Copernicus Sentinel-1 SAR / Sentinel-2 MSI",
+      "source_url": "https://dataspace.copernicus.eu/",
+      "local_path": null,
+      "notes": "Satellite flood extent rasters not ingested in Phase 3. Synthetic flood polygons or fake IoU/F1 scores strictly prohibited; reserved for subsequent hydrodynamic validation phase."
+    }
+  }
+}

@@ -1,0 +1,383 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "bldg-5",
+      "properties": {
+        "building_id": "bldg-5",
+        "building": "yes",
+        "height": 5.4,
+        "building:levels": 2,
+        "type": "residential",
+        "max_flood_depth_m": 2.44,
+        "flood_arrival_min": 46.0,
+        "risk_category": "VERY_HIGH",
+        "is_affected": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              70.89621584319171,
+              22.749176767655708
+            ],
+            [
+              70.89704955891055,
+              22.749176767655708
+            ],
+            [
+              70.89704955891055,
+              22.750069857130345
+            ],
+            [
+              70.89621584319171,
+              22.750069857130345
+            ],
+            [
+              70.89621584319171,
+              22.749176767655708
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bldg-7",
+      "properties": {
+        "building_id": "bldg-7",
+        "building": "yes",
+        "height": 16.5,
+        "building:levels": 5,
+        "type": "commercial",
+        "max_flood_depth_m": 2.58,
+        "flood_arrival_min": 40.0,
+        "risk_category": "VERY_HIGH",
+        "is_affected": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              70.89585864396057,
+              22.752419147638072
+            ],
+            [
+              70.89651068523494,
+              22.752419147638072
+            ],
+            [
+              70.89651068523494,
+              22.753778256067875
+            ],
+            [
+              70.89585864396057,
+              22.753778256067875
+            ],
+            [
+              70.89585864396057,
+              22.752419147638072
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bldg-10",
+      "properties": {
+        "building_id": "bldg-10",
+        "building": "yes",
+        "height": 3.8,
+        "building:levels": 1,
+        "type": "residential",
+        "max_flood_depth_m": 2.02,
+        "flood_arrival_min": 74.0,
+        "risk_category": "VERY_HIGH",
+        "is_affected": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              70.90139429036435,
+              22.768392956410278
+            ],
+            [
+              70.90241034478129,
+              22.768392956410278
+            ],
+            [
+              70.90241034478129,
+              22.76943032463375
+            ],
+            [
+              70.90139429036435,
+              22.76943032463375
+            ],
+            [
+              70.90139429036435,
+              22.768392956410278
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bldg-14",
+      "properties": {
+        "building_id": "bldg-14",
+        "building": "yes",
+        "height": 20.3,
+        "building:levels": 6,
+        "type": "commercial",
+        "max_flood_depth_m": 2.52,
+        "flood_arrival_min": 40.0,
+        "risk_category": "VERY_HIGH",
+        "is_affected": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              70.88881951385616,
+              22.7494536929397
+            ],
+            [
+              70.89006127144077,
+              22.7494536929397
+            ],
+            [
+              70.89006127144077,
+              22.750113333454646
+            ],
+            [
+              70.88881951385616,
+              22.750113333454646
+            ],
+            [
+              70.88881951385616,
+              22.7494536929397
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bldg-35",
+      "properties": {
+        "building_id": "bldg-35",
+        "building": "yes",
+        "height": 7.1,
+        "building:levels": 2,
+        "type": "residential",
+        "max_flood_depth_m": 1.21,
+        "flood_arrival_min": 92.0,
+        "risk_category": "HIGH",
+        "is_affected": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              70.90296185640828,
+              22.73546723852984
+            ],
+            [
+              70.90397153085492,
+              22.73546723852984
+            ],
+            [
+              70.90397153085492,
+              22.73624843515
+            ],
+            [
+              70.90296185640828,
+              22.73624843515
+            ],
+            [
+              70.90296185640828,
+              22.73546723852984
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bldg-41",
+      "properties": {
+        "building_id": "bldg-41",
+        "building": "yes",
+        "height": 6.7,
+        "building:levels": 2,
+        "type": "residential",
+        "max_flood_depth_m": 2.02,
+        "flood_arrival_min": 64.0,
+        "risk_category": "VERY_HIGH",
+        "is_affected": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              70.89940663971441,
+              22.742764254404033
+            ],
+            [
+              70.9001359426857,
+              22.742764254404033
+            ],
+            [
+              70.9001359426857,
+              22.744083097754856
+            ],
+            [
+              70.89940663971441,
+              22.744083097754856
+            ],
+            [
+              70.89940663971441,
+              22.742764254404033
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bldg-72",
+      "properties": {
+        "building_id": "bldg-72",
+        "building": "yes",
+        "height": 6.4,
+        "building:levels": 2,
+        "type": "residential",
+        "max_flood_depth_m": 1.85,
+        "flood_arrival_min": 70.0,
+        "risk_category": "HIGH",
+        "is_affected": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              70.89927729470095,
+              22.73629317468409
+            ],
+            [
+              70.90034591516597,
+              22.73629317468409
+            ],
+            [
+              70.90034591516597,
+              22.737645358877227
+            ],
+            [
+              70.89927729470095,
+              22.737645358877227
+            ],
+            [
+              70.89927729470095,
+              22.73629317468409
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bldg-88",
+      "properties": {
+        "building_id": "bldg-88",
+        "building": "yes",
+        "height": 3.3,
+        "building:levels": 1,
+        "type": "residential",
+        "max_flood_depth_m": 0.63,
+        "flood_arrival_min": 112.0,
+        "risk_category": "MODERATE",
+        "is_affected": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              70.90527204564803,
+              22.741566959821924
+            ],
+            [
+              70.90652953369546,
+              22.741566959821924
+            ],
+            [
+              70.90652953369546,
+              22.742731953603652
+            ],
+            [
+              70.90527204564803,
+              22.742731953603652
+            ],
+            [
+              70.90527204564803,
+              22.741566959821924
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bldg-113",
+      "properties": {
+        "building_id": "bldg-113",
+        "building": "yes",
+        "height": 4.7,
+        "building:levels": 1,
+        "type": "residential",
+        "max_flood_depth_m": 0.84,
+        "flood_arrival_min": 106.0,
+        "risk_category": "MODERATE",
+        "is_affected": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              70.90586974729209,
+              22.75754616822273
+            ],
+            [
+              70.90657884447256,
+              22.75754616822273
+            ],
+            [
+              70.90657884447256,
+              22.758157803955264
+            ],
+            [
+              70.90586974729209,
+              22.758157803955264
+            ],
+            [
+              70.90586974729209,
+              22.75754616822273
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

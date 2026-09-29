@@ -1,0 +1,18 @@
+{
+  "origin_note": "Dam is placed at local (0,0). All other layers are already local-meter coordinates relative to this same origin.",
+  "dam_base_elevation_m": 700.2715258225659,
+  "dam_axis_angle_deg": 123.64841049525788,
+  "dam_axis_method": "derived_from_nearest_waterway_segment(dist=74m)",
+  "reference_dimensions": {
+    "source": "THDC India official published specifications (as supplied by user)",
+    "dam_type": "Earth and Rockfill Dam",
+    "height_m": 260.5,
+    "top_length_m": 575,
+    "top_level_m": 839.5,
+    "frl_m": 830,
+    "upstream_slope": "1:2.5",
+    "downstream_slope": "1:2",
+    "river": "Bhagirathi",
+    "note": "Used verbatim in Phase 3 dam reconstruction; not re-derived from geographic data."
+  }
+}

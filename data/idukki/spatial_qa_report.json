@@ -1,0 +1,57 @@
+{
+  "dem_coverage": {
+    "dem_bounds": [
+      76.74986111111112,
+      9.749861111111112,
+      77.0801388888889,
+      10.08013888888889
+    ],
+    "study_bounds": [
+      76.75,
+      9.75,
+      77.08,
+      10.08
+    ],
+    "study_area_km2": 1321.35,
+    "intersection_area_km2": 1321.35,
+    "percentage_covered": 100.0,
+    "uncovered_area_km2": 0.0,
+    "full_coverage": true,
+    "covers_dam": true,
+    "covers_downstream_corridor": true
+  },
+  "dem_nodata_inspection": {
+    "nodata_value": -32767.0,
+    "min_elevation_m": 17.0,
+    "max_elevation_m": 1921.43,
+    "mean_elevation_m": 598.32,
+    "zero_elevation_pixels": 0,
+    "nodata_pixels": 1189,
+    "nodata_converted_to_zero": false,
+    "valid_pixels_pct": 99.92
+  },
+  "dam_spatial_check": {
+    "idukki_arch_dam_coords": [
+      76.97,
+      9.85
+    ],
+    "inside_dem": true,
+    "inside_study_boundary": true,
+    "elevation_at_dam_m": 675.24,
+    "cheruthoni_dam_coords": [
+      76.96,
+      9.87
+    ],
+    "cheruthoni_inside_dem": true,
+    "cheruthoni_inside_boundary": true,
+    "cheruthoni_elevation_m": 609.82
+  },
+  "reservoir_dam_relationship": {
+    "reservoir_polygons_count": 49,
+    "mapped_water_surface_km2": 6.49,
+    "idukki_dam_distance_to_reservoir_m": 1895.2,
+    "cheruthoni_dam_distance_to_reservoir_m": 3494.6,
+    "reservoir_connects_to_periyar": false,
+    "distance_reservoir_to_periyar_m": 128.0
+  }
+}

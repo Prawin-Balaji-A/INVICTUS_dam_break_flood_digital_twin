@@ -1,0 +1,21 @@
+{
+  "name": "mettur-dam-flood",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Mettur dam failure & flood simulator (Three.js / WebGL)",
+  "scripts": {
+    "dev": "vite --open",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "three": "^0.170.0"
+  },
+  "devDependencies": {
+    "@types/three": "^0.170.0",
+    "typescript": "^5.6.3",
+    "vite": "^6.0.0"
+  }
+}

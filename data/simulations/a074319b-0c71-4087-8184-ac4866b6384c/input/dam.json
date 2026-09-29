@@ -1,0 +1,10 @@
+{
+  "id": "ab1c93cc-c249-405d-bff1-23db8e347c11",
+  "name": "Machchhu Dam-II Flood Digital Twin",
+  "river_name": "Machchhu River",
+  "latitude": 22.775,
+  "longitude": 70.8986,
+  "dam_height_m": 26.0,
+  "crest_elevation_m": 60.0,
+  "reservoir_volume_m3": 110000000.0
+}

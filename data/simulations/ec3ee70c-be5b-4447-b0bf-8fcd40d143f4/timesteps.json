@@ -1,0 +1,842 @@
+[
+  {
+    "time_min": 3.0,
+    "discharge_m3s": 1.8,
+    "max_depth_m": 2.15,
+    "max_velocity_ms": 0.2,
+    "inundated_area_sqkm": 0.03
+  },
+  {
+    "time_min": 6.0,
+    "discharge_m3s": 56.7,
+    "max_depth_m": 2.72,
+    "max_velocity_ms": 0.56,
+    "inundated_area_sqkm": 100.65
+  },
+  {
+    "time_min": 9.0,
+    "discharge_m3s": 411.1,
+    "max_depth_m": 4.37,
+    "max_velocity_ms": 1.24,
+    "inundated_area_sqkm": 101.05
+  },
+  {
+    "time_min": 12.0,
+    "discharge_m3s": 1622.6,
+    "max_depth_m": 7.39,
+    "max_velocity_ms": 2.15,
+    "inundated_area_sqkm": 106.3
+  },
+  {
+    "time_min": 15.0,
+    "discharge_m3s": 4546.9,
+    "max_depth_m": 12.01,
+    "max_velocity_ms": 3.25,
+    "inundated_area_sqkm": 119.37
+  },
+  {
+    "time_min": 18.0,
+    "discharge_m3s": 10175.3,
+    "max_depth_m": 18.23,
+    "max_velocity_ms": 4.48,
+    "inundated_area_sqkm": 155.19
+  },
+  {
+    "time_min": 21.0,
+    "discharge_m3s": 19353.9,
+    "max_depth_m": 25.87,
+    "max_velocity_ms": 5.79,
+    "inundated_area_sqkm": 227.96
+  },
+  {
+    "time_min": 24.0,
+    "discharge_m3s": 32457.3,
+    "max_depth_m": 34.55,
+    "max_velocity_ms": 7.12,
+    "inundated_area_sqkm": 292.24
+  },
+  {
+    "time_min": 27.0,
+    "discharge_m3s": 49121.3,
+    "max_depth_m": 43.73,
+    "max_velocity_ms": 8.41,
+    "inundated_area_sqkm": 353.58
+  },
+  {
+    "time_min": 30.0,
+    "discharge_m3s": 68133.3,
+    "max_depth_m": 52.78,
+    "max_velocity_ms": 9.58,
+    "inundated_area_sqkm": 406.34
+  },
+  {
+    "time_min": 33.0,
+    "discharge_m3s": 87538.9,
+    "max_depth_m": 61.02,
+    "max_velocity_ms": 10.59,
+    "inundated_area_sqkm": 454.07
+  },
+  {
+    "time_min": 36.0,
+    "discharge_m3s": 104959.8,
+    "max_depth_m": 67.23,
+    "max_velocity_ms": 11.32,
+    "inundated_area_sqkm": 476.98
+  },
+  {
+    "time_min": 39.0,
+    "discharge_m3s": 118048.5,
+    "max_depth_m": 67.23,
+    "max_velocity_ms": 11.32,
+    "inundated_area_sqkm": 476.98
+  },
+  {
+    "time_min": 42.0,
+    "discharge_m3s": 124961.1,
+    "max_depth_m": 67.23,
+    "max_velocity_ms": 11.32,
+    "inundated_area_sqkm": 476.98
+  },
+  {
+    "time_min": 45.0,
+    "discharge_m3s": 124726.4,
+    "max_depth_m": 67.23,
+    "max_velocity_ms": 11.32,
+    "inundated_area_sqkm": 476.98
+  },
+  {
+    "time_min": 48.0,
+    "discharge_m3s": 120937.8,
+    "max_depth_m": 67.23,
+    "max_velocity_ms": 11.32,
+    "inundated_area_sqkm": 476.98
+  },
+  {
+    "time_min": 51.0,
+    "discharge_m3s": 117311.6,
+    "max_depth_m": 67.23,
+    "max_velocity_ms": 11.32,
+    "inundated_area_sqkm": 476.98
+  },
+  {
+    "time_min": 54.0,
+    "discharge_m3s": 113838.9,
+    "max_depth_m": 67.23,
+    "max_velocity_ms": 11.32,
+    "inundated_area_sqkm": 476.98
+  },
+  {
+    "time_min": 57.0,
+    "discharge_m3s": 110511.0,
+    "max_depth_m": 67.23,
+    "max_velocity_ms": 11.32,
+    "inundated_area_sqkm": 476.98
+  },
+  {
+    "time_min": 60.0,
+    "discharge_m3s": 107320.1,
+    "max_depth_m": 67.23,
+    "max_velocity_ms": 11.32,
+    "inundated_area_sqkm": 476.98
+  },
+  {
+    "time_min": 63.0,
+    "discharge_m3s": 104259.0,
+    "max_depth_m": 67.23,
+    "max_velocity_ms": 11.32,
+    "inundated_area_sqkm": 476.98
+  },
+  {
+    "time_min": 66.0,
+    "discharge_m3s": 101320.7,
+    "max_depth_m": 67.23,
+    "max_velocity_ms": 11.32,
+    "inundated_area_sqkm": 476.98
+  },
+  {
+    "time_min": 69.0,
+    "discharge_m3s": 98498.8,
+    "max_depth_m": 67.23,
+    "max_velocity_ms": 11.32,
+    "inundated_area_sqkm": 476.98
+  },
+  {
+    "time_min": 72.0,
+    "discharge_m3s": 95787.3,
+    "max_depth_m": 67.23,
+    "max_velocity_ms": 11.32,
+    "inundated_area_sqkm": 476.98
+  },
+  {
+    "time_min": 75.0,
+    "discharge_m3s": 93180.6,
+    "max_depth_m": 67.23,
+    "max_velocity_ms": 11.32,
+    "inundated_area_sqkm": 476.98
+  },
+  {
+    "time_min": 78.0,
+    "discharge_m3s": 90673.4,
+    "max_depth_m": 67.23,
+    "max_velocity_ms": 11.32,
+    "inundated_area_sqkm": 476.98
+  },
+  {
+    "time_min": 81.0,
+    "discharge_m3s": 88260.8,
+    "max_depth_m": 67.23,
+    "max_velocity_ms": 11.32,
+    "inundated_area_sqkm": 476.98
+  },
+  {
+    "time_min": 84.0,
+    "discharge_m3s": 85938.2,
+    "max_depth_m": 67.23,
+    "max_velocity_ms": 11.32,
+    "inundated_area_sqkm": 476.98
+  },
+  {
+    "time_min": 87.0,
+    "discharge_m3s": 83701.2,
+    "max_depth_m": 67.23,
+    "max_velocity_ms": 11.32,
+    "inundated_area_sqkm": 476.98
+  },
+  {
+    "time_min": 90.0,
+    "discharge_m3s": 81545.8,
+    "max_depth_m": 67.23,
+    "max_velocity_ms": 11.32,
+    "inundated_area_sqkm": 476.98
+  },
+  {
+    "time_min": 93.0,
+    "discharge_m3s": 79467.9,
+    "max_depth_m": 67.23,
+    "max_velocity_ms": 11.32,
+    "inundated_area_sqkm": 476.98
+  },
+  {
+    "time_min": 96.0,
+    "discharge_m3s": 77464.1,
+    "max_depth_m": 67.23,
+    "max_velocity_ms": 11.32,
+    "inundated_area_sqkm": 476.98
+  },
+  {
+    "time_min": 99.0,
+    "discharge_m3s": 75530.9,
+    "max_depth_m": 67.23,
+    "max_velocity_ms": 11.32,
+    "inundated_area_sqkm": 476.98
+  },
+  {
+    "time_min": 102.0,
+    "discharge_m3s": 73665.1,
+    "max_depth_m": 67.23,
+    "max_velocity_ms": 11.32,
+    "inundated_area_sqkm": 476.98
+  },
+  {
+    "time_min": 105.0,
+    "discharge_m3s": 71863.6,
+    "max_depth_m": 67.23,
+    "max_velocity_ms": 11.32,
+    "inundated_area_sqkm": 476.98
+  },
+  {
+    "time_min": 108.0,
+    "discharge_m3s": 70123.6,
+    "max_depth_m": 67.23,
+    "max_velocity_ms": 11.32,
+    "inundated_area_sqkm": 476.98
+  },
+  {
+    "time_min": 111.0,
+    "discharge_m3s": 68442.4,
+    "max_depth_m": 67.23,
+    "max_velocity_ms": 11.32,
+    "inundated_area_sqkm": 476.98
+  },
+  {
+    "time_min": 114.0,
+    "discharge_m3s": 66817.3,
+    "max_depth_m": 67.23,
+    "max_velocity_ms": 11.32,
+    "inundated_area_sqkm": 476.98
+  },
+  {
+    "time_min": 117.0,
+    "discharge_m3s": 65245.9,
+    "max_depth_m": 67.23,
+    "max_velocity_ms": 11.32,
+    "inundated_area_sqkm": 476.98
+  },
+  {
+    "time_min": 120.0,
+    "discharge_m3s": 63726.1,
+    "max_depth_m": 67.23,
+    "max_velocity_ms": 11.32,
+    "inundated_area_sqkm": 476.98
+  },
+  {
+    "time_min": 123.0,
+    "discharge_m3s": 62255.4,
+    "max_depth_m": 67.23,
+    "max_velocity_ms": 11.32,
+    "inundated_area_sqkm": 476.98
+  },
+  {
+    "time_min": 126.0,
+    "discharge_m3s": 60832.0,
+    "max_depth_m": 67.23,
+    "max_velocity_ms": 11.32,
+    "inundated_area_sqkm": 476.98
+  },
+  {
+    "time_min": 129.0,
+    "discharge_m3s": 59453.9,
+    "max_depth_m": 67.23,
+    "max_velocity_ms": 11.32,
+    "inundated_area_sqkm": 476.98
+  },
+  {
+    "time_min": 132.0,
+    "discharge_m3s": 58119.1,
+    "max_depth_m": 67.23,
+    "max_velocity_ms": 11.32,
+    "inundated_area_sqkm": 476.98
+  },
+  {
+    "time_min": 135.0,
+    "discharge_m3s": 56825.9,
+    "max_depth_m": 67.23,
+    "max_velocity_ms": 11.32,
+    "inundated_area_sqkm": 476.98
+  },
+  {
+    "time_min": 138.0,
+    "discharge_m3s": 55572.8,
+    "max_depth_m": 67.23,
+    "max_velocity_ms": 11.32,
+    "inundated_area_sqkm": 476.98
+  },
+  {
+    "time_min": 141.0,
+    "discharge_m3s": 54357.9,
+    "max_depth_m": 67.23,
+    "max_velocity_ms": 11.32,
+    "inundated_area_sqkm": 476.98
+  },
+  {
+    "time_min": 144.0,
+    "discharge_m3s": 53179.9,
+    "max_depth_m": 67.23,
+    "max_velocity_ms": 11.32,
+    "inundated_area_sqkm": 476.98
+  },
+  {
+    "time_min": 147.0,
+    "discharge_m3s": 52037.3,
+    "max_depth_m": 67.23,
+    "max_velocity_ms": 11.32,
+    "inundated_area_sqkm": 476.98
+  },
+  {
+    "time_min": 150.0,
+    "discharge_m3s": 50928.7,
+    "max_depth_m": 67.23,
+    "max_velocity_ms": 11.32,
+    "inundated_area_sqkm": 476.98
+  },
+  {
+    "time_min": 153.0,
+    "discharge_m3s": 49852.8,
+    "max_depth_m": 67.23,
+    "max_velocity_ms": 11.32,
+    "inundated_area_sqkm": 476.98
+  },
+  {
+    "time_min": 156.0,
+    "discharge_m3s": 48808.4,
+    "max_depth_m": 67.23,
+    "max_velocity_ms": 11.32,
+    "inundated_area_sqkm": 476.98
+  },
+  {
+    "time_min": 159.0,
+    "discharge_m3s": 47794.3,
+    "max_depth_m": 67.23,
+    "max_velocity_ms": 11.32,
+    "inundated_area_sqkm": 476.98
+  },
+  {
+    "time_min": 162.0,
+    "discharge_m3s": 46809.4,
+    "max_depth_m": 67.23,
+    "max_velocity_ms": 11.32,
+    "inundated_area_sqkm": 476.98
+  },
+  {
+    "time_min": 165.0,
+    "discharge_m3s": 45852.5,
+    "max_depth_m": 67.23,
+    "max_velocity_ms": 11.32,
+    "inundated_area_sqkm": 476.98
+  },
+  {
+    "time_min": 168.0,
+    "discharge_m3s": 44922.6,
+    "max_depth_m": 67.23,
+    "max_velocity_ms": 11.32,
+    "inundated_area_sqkm": 476.98
+  },
+  {
+    "time_min": 171.0,
+    "discharge_m3s": 44018.8,
+    "max_depth_m": 67.23,
+    "max_velocity_ms": 11.32,
+    "inundated_area_sqkm": 476.98
+  },
+  {
+    "time_min": 174.0,
+    "discharge_m3s": 43140.2,
+    "max_depth_m": 67.23,
+    "max_velocity_ms": 11.32,
+    "inundated_area_sqkm": 476.98
+  },
+  {
+    "time_min": 177.0,
+    "discharge_m3s": 42285.8,
+    "max_depth_m": 67.23,
+    "max_velocity_ms": 11.32,
+    "inundated_area_sqkm": 476.98
+  },
+  {
+    "time_min": 180.0,
+    "discharge_m3s": 41454.7,
+    "max_depth_m": 67.23,
+    "max_velocity_ms": 11.32,
+    "inundated_area_sqkm": 476.98
+  },
+  {
+    "time_min": 183.0,
+    "discharge_m3s": 40646.1,
+    "max_depth_m": 67.23,
+    "max_velocity_ms": 11.32,
+    "inundated_area_sqkm": 476.98
+  },
+  {
+    "time_min": 186.0,
+    "discharge_m3s": 39859.3,
+    "max_depth_m": 67.23,
+    "max_velocity_ms": 11.32,
+    "inundated_area_sqkm": 476.98
+  },
+  {
+    "time_min": 189.0,
+    "discharge_m3s": 39093.6,
+    "max_depth_m": 67.23,
+    "max_velocity_ms": 11.32,
+    "inundated_area_sqkm": 476.98
+  },
+  {
+    "time_min": 192.0,
+    "discharge_m3s": 38348.1,
+    "max_depth_m": 67.23,
+    "max_velocity_ms": 11.32,
+    "inundated_area_sqkm": 476.98
+  },
+  {
+    "time_min": 195.0,
+    "discharge_m3s": 37622.2,
+    "max_depth_m": 67.23,
+    "max_velocity_ms": 11.32,
+    "inundated_area_sqkm": 476.98
+  },
+  {
+    "time_min": 198.0,
+    "discharge_m3s": 36915.2,
+    "max_depth_m": 67.23,
+    "max_velocity_ms": 11.32,
+    "inundated_area_sqkm": 476.98
+  },
+  {
+    "time_min": 201.0,
+    "discharge_m3s": 36226.5,
+    "max_depth_m": 67.23,
+    "max_velocity_ms": 11.32,
+    "inundated_area_sqkm": 476.98
+  },
+  {
+    "time_min": 204.0,
+    "discharge_m3s": 35555.5,
+    "max_depth_m": 67.23,
+    "max_velocity_ms": 11.32,
+    "inundated_area_sqkm": 476.98
+  },
+  {
+    "time_min": 207.0,
+    "discharge_m3s": 34901.6,
+    "max_depth_m": 67.23,
+    "max_velocity_ms": 11.32,
+    "inundated_area_sqkm": 476.98
+  },
+  {
+    "time_min": 210.0,
+    "discharge_m3s": 34264.2,
+    "max_depth_m": 67.23,
+    "max_velocity_ms": 11.32,
+    "inundated_area_sqkm": 476.98
+  },
+  {
+    "time_min": 213.0,
+    "discharge_m3s": 33642.9,
+    "max_depth_m": 67.23,
+    "max_velocity_ms": 11.32,
+    "inundated_area_sqkm": 476.98
+  },
+  {
+    "time_min": 216.0,
+    "discharge_m3s": 33037.0,
+    "max_depth_m": 67.23,
+    "max_velocity_ms": 11.32,
+    "inundated_area_sqkm": 476.98
+  },
+  {
+    "time_min": 219.0,
+    "discharge_m3s": 32446.2,
+    "max_depth_m": 67.23,
+    "max_velocity_ms": 11.32,
+    "inundated_area_sqkm": 476.98
+  },
+  {
+    "time_min": 222.0,
+    "discharge_m3s": 31869.8,
+    "max_depth_m": 67.23,
+    "max_velocity_ms": 11.32,
+    "inundated_area_sqkm": 476.98
+  },
+  {
+    "time_min": 225.0,
+    "discharge_m3s": 31307.6,
+    "max_depth_m": 67.23,
+    "max_velocity_ms": 11.32,
+    "inundated_area_sqkm": 476.98
+  },
+  {
+    "time_min": 228.0,
+    "discharge_m3s": 30758.9,
+    "max_depth_m": 67.23,
+    "max_velocity_ms": 11.32,
+    "inundated_area_sqkm": 476.98
+  },
+  {
+    "time_min": 231.0,
+    "discharge_m3s": 30223.5,
+    "max_depth_m": 67.23,
+    "max_velocity_ms": 11.32,
+    "inundated_area_sqkm": 476.98
+  },
+  {
+    "time_min": 234.0,
+    "discharge_m3s": 29700.8,
+    "max_depth_m": 67.23,
+    "max_velocity_ms": 11.32,
+    "inundated_area_sqkm": 476.98
+  },
+  {
+    "time_min": 237.0,
+    "discharge_m3s": 29190.5,
+    "max_depth_m": 67.23,
+    "max_velocity_ms": 11.32,
+    "inundated_area_sqkm": 476.98
+  },
+  {
+    "time_min": 240.0,
+    "discharge_m3s": 28692.3,
+    "max_depth_m": 67.23,
+    "max_velocity_ms": 11.32,
+    "inundated_area_sqkm": 476.98
+  },
+  {
+    "time_min": 243.0,
+    "discharge_m3s": 28205.7,
+    "max_depth_m": 67.23,
+    "max_velocity_ms": 11.32,
+    "inundated_area_sqkm": 476.98
+  },
+  {
+    "time_min": 246.0,
+    "discharge_m3s": 27730.5,
+    "max_depth_m": 67.23,
+    "max_velocity_ms": 11.32,
+    "inundated_area_sqkm": 476.98
+  },
+  {
+    "time_min": 249.0,
+    "discharge_m3s": 27266.2,
+    "max_depth_m": 67.23,
+    "max_velocity_ms": 11.32,
+    "inundated_area_sqkm": 476.98
+  },
+  {
+    "time_min": 252.0,
+    "discharge_m3s": 26812.5,
+    "max_depth_m": 67.23,
+    "max_velocity_ms": 11.32,
+    "inundated_area_sqkm": 476.98
+  },
+  {
+    "time_min": 255.0,
+    "discharge_m3s": 26369.2,
+    "max_depth_m": 67.23,
+    "max_velocity_ms": 11.32,
+    "inundated_area_sqkm": 476.98
+  },
+  {
+    "time_min": 258.0,
+    "discharge_m3s": 25936.0,
+    "max_depth_m": 67.23,
+    "max_velocity_ms": 11.32,
+    "inundated_area_sqkm": 476.98
+  },
+  {
+    "time_min": 261.0,
+    "discharge_m3s": 25512.5,
+    "max_depth_m": 67.23,
+    "max_velocity_ms": 11.32,
+    "inundated_area_sqkm": 476.98
+  },
+  {
+    "time_min": 264.0,
+    "discharge_m3s": 25098.4,
+    "max_depth_m": 67.23,
+    "max_velocity_ms": 11.32,
+    "inundated_area_sqkm": 476.98
+  },
+  {
+    "time_min": 267.0,
+    "discharge_m3s": 24693.6,
+    "max_depth_m": 67.23,
+    "max_velocity_ms": 11.32,
+    "inundated_area_sqkm": 476.98
+  },
+  {
+    "time_min": 270.0,
+    "discharge_m3s": 24297.7,
+    "max_depth_m": 67.23,
+    "max_velocity_ms": 11.32,
+    "inundated_area_sqkm": 476.98
+  },
+  {
+    "time_min": 273.0,
+    "discharge_m3s": 23910.4,
+    "max_depth_m": 67.23,
+    "max_velocity_ms": 11.32,
+    "inundated_area_sqkm": 476.98
+  },
+  {
+    "time_min": 276.0,
+    "discharge_m3s": 23531.6,
+    "max_depth_m": 67.23,
+    "max_velocity_ms": 11.32,
+    "inundated_area_sqkm": 476.98
+  },
+  {
+    "time_min": 279.0,
+    "discharge_m3s": 23161.0,
+    "max_depth_m": 67.23,
+    "max_velocity_ms": 11.32,
+    "inundated_area_sqkm": 476.98
+  },
+  {
+    "time_min": 282.0,
+    "discharge_m3s": 22798.4,
+    "max_depth_m": 67.23,
+    "max_velocity_ms": 11.32,
+    "inundated_area_sqkm": 476.98
+  },
+  {
+    "time_min": 285.0,
+    "discharge_m3s": 22443.6,
+    "max_depth_m": 67.23,
+    "max_velocity_ms": 11.32,
+    "inundated_area_sqkm": 476.98
+  },
+  {
+    "time_min": 288.0,
+    "discharge_m3s": 22096.2,
+    "max_depth_m": 67.23,
+    "max_velocity_ms": 11.32,
+    "inundated_area_sqkm": 476.98
+  },
+  {
+    "time_min": 291.0,
+    "discharge_m3s": 21756.3,
+    "max_depth_m": 67.23,
+    "max_velocity_ms": 11.32,
+    "inundated_area_sqkm": 476.98
+  },
+  {
+    "time_min": 294.0,
+    "discharge_m3s": 21423.5,
+    "max_depth_m": 67.23,
+    "max_velocity_ms": 11.32,
+    "inundated_area_sqkm": 476.98
+  },
+  {
+    "time_min": 297.0,
+    "discharge_m3s": 21097.6,
+    "max_depth_m": 67.23,
+    "max_velocity_ms": 11.32,
+    "inundated_area_sqkm": 476.98
+  },
+  {
+    "time_min": 300.0,
+    "discharge_m3s": 20778.5,
+    "max_depth_m": 67.23,
+    "max_velocity_ms": 11.32,
+    "inundated_area_sqkm": 476.98
+  },
+  {
+    "time_min": 303.0,
+    "discharge_m3s": 20465.9,
+    "max_depth_m": 67.23,
+    "max_velocity_ms": 11.32,
+    "inundated_area_sqkm": 476.98
+  },
+  {
+    "time_min": 306.0,
+    "discharge_m3s": 20159.8,
+    "max_depth_m": 67.23,
+    "max_velocity_ms": 11.32,
+    "inundated_area_sqkm": 476.98
+  },
+  {
+    "time_min": 309.0,
+    "discharge_m3s": 19860.0,
+    "max_depth_m": 67.23,
+    "max_velocity_ms": 11.32,
+    "inundated_area_sqkm": 476.98
+  },
+  {
+    "time_min": 312.0,
+    "discharge_m3s": 19566.2,
+    "max_depth_m": 67.23,
+    "max_velocity_ms": 11.32,
+    "inundated_area_sqkm": 476.98
+  },
+  {
+    "time_min": 315.0,
+    "discharge_m3s": 19278.3,
+    "max_depth_m": 67.23,
+    "max_velocity_ms": 11.32,
+    "inundated_area_sqkm": 476.98
+  },
+  {
+    "time_min": 318.0,
+    "discharge_m3s": 18996.3,
+    "max_depth_m": 67.23,
+    "max_velocity_ms": 11.32,
+    "inundated_area_sqkm": 476.98
+  },
+  {
+    "time_min": 321.0,
+    "discharge_m3s": 18719.8,
+    "max_depth_m": 67.23,
+    "max_velocity_ms": 11.32,
+    "inundated_area_sqkm": 476.98
+  },
+  {
+    "time_min": 324.0,
+    "discharge_m3s": 18448.8,
+    "max_depth_m": 67.23,
+    "max_velocity_ms": 11.32,
+    "inundated_area_sqkm": 476.98
+  },
+  {
+    "time_min": 327.0,
+    "discharge_m3s": 18183.2,
+    "max_depth_m": 67.23,
+    "max_velocity_ms": 11.32,
+    "inundated_area_sqkm": 476.98
+  },
+  {
+    "time_min": 330.0,
+    "discharge_m3s": 17922.8,
+    "max_depth_m": 67.23,
+    "max_velocity_ms": 11.32,
+    "inundated_area_sqkm": 476.98
+  },
+  {
+    "time_min": 333.0,
+    "discharge_m3s": 17667.4,
+    "max_depth_m": 67.23,
+    "max_velocity_ms": 11.32,
+    "inundated_area_sqkm": 476.98
+  },
+  {
+    "time_min": 336.0,
+    "discharge_m3s": 17417.1,
+    "max_depth_m": 67.23,
+    "max_velocity_ms": 11.32,
+    "inundated_area_sqkm": 476.98
+  },
+  {
+    "time_min": 339.0,
+    "discharge_m3s": 17171.5,
+    "max_depth_m": 67.23,
+    "max_velocity_ms": 11.32,
+    "inundated_area_sqkm": 476.98
+  },
+  {
+    "time_min": 342.0,
+    "discharge_m3s": 16930.7,
+    "max_depth_m": 67.23,
+    "max_velocity_ms": 11.32,
+    "inundated_area_sqkm": 476.98
+  },
+  {
+    "time_min": 345.0,
+    "discharge_m3s": 16694.4,
+    "max_depth_m": 67.23,
+    "max_velocity_ms": 11.32,
+    "inundated_area_sqkm": 476.98
+  },
+  {
+    "time_min": 348.0,
+    "discharge_m3s": 16462.7,
+    "max_depth_m": 67.23,
+    "max_velocity_ms": 11.32,
+    "inundated_area_sqkm": 476.98
+  },
+  {
+    "time_min": 351.0,
+    "discharge_m3s": 16235.3,
+    "max_depth_m": 67.23,
+    "max_velocity_ms": 11.32,
+    "inundated_area_sqkm": 476.98
+  },
+  {
+    "time_min": 354.0,
+    "discharge_m3s": 16012.2,
+    "max_depth_m": 67.23,
+    "max_velocity_ms": 11.32,
+    "inundated_area_sqkm": 476.98
+  },
+  {
+    "time_min": 357.0,
+    "discharge_m3s": 15793.2,
+    "max_depth_m": 67.23,
+    "max_velocity_ms": 11.32,
+    "inundated_area_sqkm": 476.98
+  },
+  {
+    "time_min": 360.0,
+    "discharge_m3s": 15578.4,
+    "max_depth_m": 67.23,
+    "max_velocity_ms": 11.32,
+    "inundated_area_sqkm": 476.98
+  }
+]
